@@ -11,7 +11,7 @@ mkdir ~/project/loading
 cd ~/project/loading
 
 # california arrest data from 2005-2014
-ARREST_URL="https://oag.ca.gov/sites/all/files/agweb/pdfs/cjsc/stats/arrest_data_2005-2014.zip" 
+ARREST_URL="https://oag.ca.gov/sites/all/files/agweb/pdfs/cjsc/stats/arrest_data_2005-2014.zip"
 wget "$ARREST_URL" -O arrest_data.zip
 
 # US fire data for last 7 days
@@ -26,6 +26,14 @@ wget "$BRIDGE_URL" -O bridge_data.csv
 ZIP_URL="http://federalgovernmentzipcodes.us/free-zipcode-database.csv"
 wget "$ZIP_URL" -O zip_reference.csv
 
+# leading causes of death file 1999-2013
+DEATH_URL="https://chhs.data.ca.gov/api/views/q4et-a8rk/rows.csv?accessType=DOWNLOAD"
+wget "$DEATH_URL" -O death_data.csv
+
+# landslide data 2014-2015
+LANSDLIDE_URL="https://data.nasa.gov/api/views/9ns5-uuif/rows.csv?accessType=DOWNLOAD"
+wget "$LANSDLIDE_URL" -O landslide_data.csv
+
 # unzip data
 unzip arrest_data.zip
 
@@ -34,6 +42,8 @@ tail -n +2 arrest_data_2005-2014.csv >arrest_data.csv
 tail -n +2 fire_data.csv >fire_data.csv
 tail -n +2 bridge_data.csv >bridge_data.csv
 tail -n +2 zip_reference.csv >zip_reference.csv
+tail -n +2 death_data.csv >death_data.csv
+tail -n +2 landslide_data.csv >lanslide_data.csv
 
 # create hdfs director
 hdfs dfs -mkdir /user/w205/project
@@ -50,6 +60,14 @@ hdfs dfs -put bridge_data.csv /user/w205/project/bridge
 
 hdfs dfs -mkdir /user/w205/project/bridge
 hdfs dfs -put bridge_data.csv /user/w205/project/zip_reference
+
+hdfs dfs -mkdir /user/w205/project/death
+hdfs dfs -put death_data.csv /user/w205/project/death
+
+hdfs dfs -mkdir /user/w205/project/lansdlide
+hdfs dfs -put landslide_data.csv /user/w205/project/lansdlide
+
+
 
 # change directory back to original
 cd $MY_CWD

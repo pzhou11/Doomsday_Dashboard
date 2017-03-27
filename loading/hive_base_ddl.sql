@@ -1,8 +1,8 @@
 DROP TABLE Zip_Code_Reference;
 
-CREATE EXTERNAL TABLE Zip_Code_Reference 
+CREATE EXTERNAL TABLE Zip_Code_Reference
 (
-  RecordNumber string, 
+  RecordNumber string,
   Zipcode string,
   ZipCodeType string,
   City string,
@@ -25,9 +25,9 @@ CREATE EXTERNAL TABLE Zip_Code_Reference
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
-  "separatorChar" = ",", 
+  "separatorChar" = ",",
   "quoteChar" = '"',
-  "escapeChar" = '\\' 
+  "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/project/zip_reference'
@@ -36,9 +36,9 @@ LOCATION '/user/w205/project/zip_reference'
 
 DROP TABLE Arrest_Data;
 
-CREATE EXTERNAL TABLE Arrest_Data 
+CREATE EXTERNAL TABLE Arrest_Data
 (
-  Year string, 
+  Year string,
   Agency string,
   Gender string,
   Race string,
@@ -123,9 +123,9 @@ CREATE EXTERNAL TABLE Arrest_Data
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
-  "separatorChar" = ",", 
+  "separatorChar" = ",",
   "quoteChar" = '"',
-  "escapeChar" = '\\' 
+  "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/project/arrest'
@@ -134,9 +134,9 @@ LOCATION '/user/w205/project/arrest'
 
 DROP TABLE Fire_Data;
 
-CREATE EXTERNAL TABLE Fire_Data 
+CREATE EXTERNAL TABLE Fire_Data
 (
-  Latitude string, 
+  Latitude string,
   Longitude string,
   Brightness_Temp_I4 string,
   Scan string,
@@ -152,9 +152,9 @@ CREATE EXTERNAL TABLE Fire_Data
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
-  "separatorChar" = ",", 
+  "separatorChar" = ",",
   "quoteChar" = '"',
-  "escapeChar" = '\\' 
+  "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/project/fire'
@@ -163,9 +163,9 @@ LOCATION '/user/w205/project/fire'
 
 DROP TABLE Bridge_Data;
 
-CREATE EXTERNAL TABLE Bridge_Data 
+CREATE EXTERNAL TABLE Bridge_Data
 (
-  NBINumber string, 
+  NBINumber string,
   Route string,
   City string,
   County string,
@@ -184,11 +184,82 @@ CREATE EXTERNAL TABLE Bridge_Data
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
-  "separatorChar" = ",", 
+  "separatorChar" = ",",
   "quoteChar" = '"',
-  "escapeChar" = '\\' 
+  "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/project/bridge'
 ;
+
+DROP TABLE Death_Data;
+
+CREATE EXTERNAL TABLE Death_Data
+(
+  year date,
+  ZIP_code string,
+  cause_of_death string,
+  count int,
+  location string
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+  "separatorChar" = ",",
+  "quoteChar" = '"',
+  "escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/project/death'
+;
+
+DROP TABLE Landslide_Data;
+
+CREATE EXTERNAL TABLE Landslide_Data
+(
+  the_geom string,
+  objectid string,
+  id string,
+  date_ date,
+  time_ string,
+  country string,
+  nearest_pl string,
+  hazard_typ string,
+  lanslide_ string,
+  trigger string,
+  strom_name string,
+  fatalities int,
+  injuries int,
+  source_nam string,
+  source_lin string,
+  location_a string,
+  landslide1 string,
+  photos_lin string,
+  cat_src string,
+  cat_id int,
+  near string,
+  distance decimal,
+  state string,
+  city string,
+  population int,
+  countrycod string,
+  continentc string,
+  key_ string,
+  version int,
+  user_id int,
+  tstamp string,
+  changeset_ string,
+  latitude decimal,
+  longitude decimal
+  )
+
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+  "separatorChar" = ",",
+  "quoteChar" = '"',
+  "escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/project/landslide'
+;
+
 
