@@ -1,0 +1,18 @@
+Request criteria provided
+ - Format: CSV
+ - Data type: waterQuality
+ - State: CA
+ - Start Date/Time: 10/01/1992
+ - End Date/Time: 09/30/2014
+
+
+Sample Concentrations
+# This automated data download from the USGS Tracking Water Quality of the Nation's Rivers and Streams website have not received director's approval and as such are provisional and are subject to revision. The data are released on the conditions that neither the USGS nor the United States Government may be held liable for any damages resulting from its use.
+#
+#SITE_QW_ID USGS station identifier for water-quality sampling (Note that opening this file in Excel may cause leading zeros to be dropped from this field unless imported into an open worksheet and changing columns A and B to text)
+#SITE_FLOW_ID USGS or other agency station identifier for streamflow measurement (Note that opening this file in Excel may cause leading zeros to be dropped from this field unless imported into an open worksheet and changing columns A and B to text)
+#CONSTIT Abbreviation indicating constituent type.  Values include NO3+NO2: nitrate plus nitrite as N; TN: total nitrogen as N; TP: total phosphorus as P; SSC: suspended-sediment concentration
+#DATE  Date of sample
+#WY Water year; the 12-month period beginning on October 1 for any given year and lasting through September 30 of the following year. The water year is designated by the calendar year in which it ends.
+#CONCENTRATION Concentration in milligrams per liter
+#REMARK Water-quality remark.  This field is < if data are less than the laboratory reporting level or blank if they are not
