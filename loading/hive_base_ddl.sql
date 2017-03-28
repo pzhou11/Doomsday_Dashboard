@@ -261,5 +261,3 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/project/landslide'
 ;
-
-

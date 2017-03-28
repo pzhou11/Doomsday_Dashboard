@@ -47,7 +47,9 @@ wget "$WATER_QUALITY" -0 water_quality.csv
 EARTHQUAKE="https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php"
 wget "$EARTHQUAKE" -0 earthquake.csv
 
-
+# civil unrest 1946-2005
+CIVIL_UNREST="https://github.com/pzhou11/W205_Project/blob/master/data/civil_unrest.csv"
+wget "$CIVIL_UNREST" -0 civil_unrest.csv
 
 # unzip data
 unzip arrest_data.zip
@@ -58,7 +60,11 @@ tail -n +2 fire_data.csv >fire_data.csv
 tail -n +2 bridge_data.csv >bridge_data.csv
 tail -n +2 zip_reference.csv >zip_reference.csv
 tail -n +2 death_data.csv >death_data.csv
-tail -n +2 landslide_data.csv >lanslide_data.csv
+tail -n +2 landslide_data.csv >landslide_data.csv
+tail -n +2 air_quality.csv >air_quality.csv
+tail -n +10 water_quality.csv >water_quality.csv
+tail -n +2 earthquake.csv >earthquake.csv
+tail -n +2 civil_unrest.csv >civil_unrest.csv
 
 # create hdfs director
 hdfs dfs -mkdir /user/w205/project
@@ -79,9 +85,20 @@ hdfs dfs -put bridge_data.csv /user/w205/project/zip_reference
 hdfs dfs -mkdir /user/w205/project/death
 hdfs dfs -put death_data.csv /user/w205/project/death
 
-hdfs dfs -mkdir /user/w205/project/lansdlide
-hdfs dfs -put landslide_data.csv /user/w205/project/lansdlide
+hdfs dfs -mkdir /user/w205/project/landslide
+hdfs dfs -put landslide_data.csv /user/w205/project/landslide
 
+hdfs dfs -mkdir /user/w205/project/air_quality
+hdfs dfs -put air_quality.csv /user/w205/project/air_quality
+
+hdfs dfs -mkdir /user/w205/project/water_quality
+hdfs dfs -put water_quality.csv /user/w205/project/water_quality
+
+hdfs dfs -mkdir /user/w205/project/earthquake
+hdfs dfs -put earthquake.csv /user/w205/project/earthquake
+
+hdfs dfs -mkdir /user/w205/project/civil_unrest
+hdfs dfs -put civil_unrest.csv /user/w205/project/civil_unrest
 
 
 # change directory back to original
