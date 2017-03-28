@@ -34,6 +34,21 @@ wget "$DEATH_URL" -O death_data.csv
 LANSDLIDE_URL="https://data.nasa.gov/api/views/9ns5-uuif/rows.csv?accessType=DOWNLOAD"
 wget "$LANSDLIDE_URL" -O landslide_data.csv
 
+# air quality data 12/16/2015-2/18/2017
+AIR_QUALITY="https://data.cdc.gov/api/views/cjae-szjv/rows.csv?accessType=DOWNLOAD"
+wget "$AIR_QUALITY" -0 air_quality.csv
+
+# water quality data 10/1/1992-9/30-2014
+WATER_QUALITY="https://github.com/pzhou11/W205_Project/blob/master/data/water_quality.csv"
+wget "$WATER_QUALITY" -0 water_quality.csv
+
+# earthquake data for past 30 days
+# need to confirm updates
+EARTHQUAKE="https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php"
+wget "$EARTHQUAKE" -0 earthquake.csv
+
+
+
 # unzip data
 unzip arrest_data.zip
 
@@ -74,5 +89,3 @@ cd $MY_CWD
 
 # clean exit
 exit
-
-
