@@ -261,3 +261,159 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/project/landslide'
 ;
+
+
+DROP TABLE Air_Quality;
+
+CREATE EXTERNAL TABLE Air_Quality
+(
+ MeasureId string,
+ MeasureName string,
+ MeasureType string,
+ StratificationLevel string,
+ StateFips int,
+ StateName string,
+ CountyFips string,
+ CountyName string,
+ ReportYear int,
+ Value int,
+ Unit string,
+ UnitName string,
+ DataOrigin string,
+ MonitorOnly int
+  )
+
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+  "separatorChar" = ",",
+  "quoteChar" = '"',
+  "escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/project/air_quality'
+;
+
+
+
+DROP TABLE Water_Quality;
+
+CREATE EXTERNAL TABLE Water_Quality
+(
+ SITE_QW_ID int,
+ SITE_FLOW_ID int,
+ CONSTIT string,
+ DATE datetime,
+ WY int,
+ CONCENTRATION float,
+ REMARK string
+  )
+
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+  "separatorChar" = ",",
+  "quoteChar" = '"',
+  "escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/project/water_quality'
+;
+
+
+DROP TABLE Water_Sites;
+
+CREATE EXTERNAL TABLE Water_Sites
+(
+ Station_name string,
+ SITE_QW_ID int,
+ SITE_FLOW_ID int,
+ Site_type string,
+ Drainage int,
+ Water_years int
+  )
+
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+  "separatorChar" = ",",
+  "quoteChar" = '"',
+  "escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/project/water_sites'
+;
+
+
+
+DROP TABLE Earthquake;
+
+CREATE EXTERNAL TABLE Earthquake
+(
+ time datetime,
+ latitude float,
+ longitude float,
+ depth float,
+ mag float,
+ magType string,
+ nst int,
+ gap int,
+ dmin float,
+ rms float,
+ net string,
+ id string,
+ updated datetime,
+ place string,
+ type string,
+ horizontalError float,
+ depthError float,
+ magError float,
+ magNet int,
+ status string,
+ locationSource string,
+ magSource string
+  )
+
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+  "separatorChar" = ",",
+  "quoteChar" = '"',
+  "escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/project/earthquake'
+;
+
+
+DROP TABLE Civil_Unrest;
+
+CREATE EXTERNAL TABLE Civil_Unrest
+(
+ month int,
+ year int,
+ eventid string,
+ country string,
+ day int,
+ N_INJURD int,
+ GP3 string,
+ GP4 string,
+ GP7 float,
+ GP8 float,
+ AD_VIOL int,
+ N_KILLED_P int,
+ N_KILLED_A INT,
+ E_LENGTH INT,
+ N_INJURD_D INT,
+ DAM_PROP INT,
+ arrests int,
+ PER_ATK_E int,
+ STAT_VIOL float,
+ coup int
+  )
+
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+  "separatorChar" = ",",
+  "quoteChar" = '"',
+  "escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/project/civil_unrest’
+;

@@ -1,6 +1,6 @@
 "Table 1.  National Fixed Site Network sites
-[* indicates sites in which loads have inidcates historically been computed as part of the National Stream Quality Accounting Network, Mississippi-Atchafalaya River Basin Subnetwork; USGS, U.S. Geological Survey; --, site in which loads are not yet computed]",,,,,
-Station name,USGS station identification,USGS station identification or other Federal agency responsible for streamflow-data collection (if different) ,Site type,Drainage area in square miles,Years in which water-quality loads are computed (through 2015)1                                    
+[* indicates sites in which loads have inidcates historically been computed as part of the National Stream Quality Accounting Network, Mississippi-Atchafalaya River Basin Subnetwork; USGS, U.S. Geological Survey; --, site in which loads are not yet computed]",Column,Column2,Column3,Column4,Column5
+Station_name,SITE_QW_ID,SITE_FLOW_ID,Site_type,Drainage,Water_years
 "USGS National Water Quality Assessment Program, National Fixed Site Network",,,,,
 "Wild River at Gilead, Maine",01054200,01054200,Reference, 	70 ,--
 "Green River near Colrain, MA",01170100,01170100,Reference, 	41 ,1993-2006; 2013-2015

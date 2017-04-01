@@ -42,6 +42,9 @@ wget "$AIR_QUALITY" -0 air_quality.csv
 WATER_QUALITY="https://github.com/pzhou11/W205_Project/blob/master/data/water_quality.csv"
 wget "$WATER_QUALITY" -0 water_quality.csv
 
+# water monitor locations - for water quality table
+WATER_SITES="https://github.com/pzhou11/W205_Project/blob/master/data/water_sites.csv"
+wget "$WATER_SITES" -0 water_sites.csv
 # earthquake data for past 30 days
 # need to confirm updates
 EARTHQUAKE="https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php"
@@ -65,6 +68,7 @@ tail -n +2 air_quality.csv >air_quality.csv
 tail -n +10 water_quality.csv >water_quality.csv
 tail -n +2 earthquake.csv >earthquake.csv
 tail -n +2 civil_unrest.csv >civil_unrest.csv
+tail -n +2 water_sites.csv >water_sites.csv
 
 # create hdfs director
 hdfs dfs -mkdir /user/w205/project
@@ -93,6 +97,9 @@ hdfs dfs -put air_quality.csv /user/w205/project/air_quality
 
 hdfs dfs -mkdir /user/w205/project/water_quality
 hdfs dfs -put water_quality.csv /user/w205/project/water_quality
+
+hdfs dfs -mkdir /user/w205/project/water_sites
+hdfs dfs -put water_sites.csv /user/w205/project/water_sites
 
 hdfs dfs -mkdir /user/w205/project/earthquake
 hdfs dfs -put earthquake.csv /user/w205/project/earthquake
