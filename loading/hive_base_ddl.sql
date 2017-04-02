@@ -2,8 +2,8 @@ DROP TABLE Zip_Code_Reference;
 
 CREATE EXTERNAL TABLE Zip_Code_Reference
 (
-  RecordNumber string,
-  Zipcode string,
+  RecordNumber int,
+  Zipcode int,
   ZipCodeType string,
   City string,
   State string,
@@ -19,7 +19,7 @@ CREATE EXTERNAL TABLE Zip_Code_Reference
   Location string,
   Decommisioned string,
   TaxReturns string,
-  EstimatedPopulation string,
+  EstimatedPopulation int,
   TotalWages string,
   Notes string
 )
@@ -30,7 +30,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/zip_reference'
+LOCATION '/user/w205/project_staging/zip_reference'
 ;
 
 
@@ -38,7 +38,7 @@ DROP TABLE Arrest_Data;
 
 CREATE EXTERNAL TABLE Arrest_Data
 (
-  Year string,
+  Year date,
   Agency string,
   Gender string,
   Race string,
@@ -128,7 +128,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/arrest'
+LOCATION '/user/w205/project_staging/arrest'
 ;
 
 
@@ -157,7 +157,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/fire'
+LOCATION '/user/w205/project_staging/fire'
 ;
 
 
@@ -189,7 +189,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/bridge'
+LOCATION '/user/w205/project_staging/bridge'
 ;
 
 DROP TABLE Death_Data;
@@ -209,7 +209,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/death'
+LOCATION '/user/w205/project_staging/death'
 ;
 
 DROP TABLE Landslide_Data;
@@ -259,7 +259,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/landslide'
+LOCATION '/user/w205/project_staging/landslide'
 ;
 
 
@@ -290,7 +290,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/air_quality'
+LOCATION '/user/w205/project_staging/air_quality'
 ;
 
 
@@ -302,7 +302,7 @@ CREATE EXTERNAL TABLE Water_Quality
  SITE_QW_ID int,
  SITE_FLOW_ID int,
  CONSTIT string,
- DATE datetime,
+ DATE date,
  WY int,
  CONCENTRATION float,
  REMARK string
@@ -315,7 +315,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/water_quality'
+LOCATION '/user/w205/project_staging/water_quality'
 ;
 
 
@@ -338,7 +338,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/water_sites'
+LOCATION '/user/w205/project_staging/water_sites'
 ;
 
 
@@ -347,7 +347,7 @@ DROP TABLE Earthquake;
 
 CREATE EXTERNAL TABLE Earthquake
 (
- time datetime,
+ time timestamp,
  latitude float,
  longitude float,
  depth float,
@@ -359,7 +359,7 @@ CREATE EXTERNAL TABLE Earthquake
  rms float,
  net string,
  id string,
- updated datetime,
+ updated timestamp,
  place string,
  type string,
  horizontalError float,
@@ -378,7 +378,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/earthquake'
+LOCATION '/user/w205/project_staging/earthquake'
 ;
 
 
@@ -415,5 +415,5 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/civil_unrest’
+LOCATION '/user/w205/project_staging/civil_unrest'
 ;

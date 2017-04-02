@@ -4,11 +4,11 @@
 MY_CWD=$(pwd)
 
 # create staging directories
-mkdir ~/project
-mkdir ~/project/loading
+mkdir ~/project_staging
+mkdir ~/project_staging/loading
 
 # change to staging directory
-cd ~/project/loading
+cd ~/project_staging/loading
 
 # california arrest data from 2005-2014
 ARREST_URL="https://oag.ca.gov/sites/all/files/agweb/pdfs/cjsc/stats/arrest_data_2005-2014.zip"
@@ -36,23 +36,23 @@ wget "$LANSDLIDE_URL" -O landslide_data.csv
 
 # air quality data 12/16/2015-2/18/2017
 AIR_QUALITY="https://data.cdc.gov/api/views/cjae-szjv/rows.csv?accessType=DOWNLOAD"
-wget "$AIR_QUALITY" -0 air_quality.csv
+wget "$AIR_QUALITY" -O air_quality.csv
 
 # water quality data 10/1/1992-9/30-2014
 WATER_QUALITY="https://github.com/pzhou11/W205_Project/blob/master/data/water_quality.csv"
-wget "$WATER_QUALITY" -0 water_quality.csv
+wget "$WATER_QUALITY" -O water_quality.csv
 
 # water monitor locations - for water quality table
 WATER_SITES="https://github.com/pzhou11/W205_Project/blob/master/data/water_sites.csv"
-wget "$WATER_SITES" -0 water_sites.csv
+wget "$WATER_SITES" -O water_sites.csv
 # earthquake data for past 30 days
 # need to confirm updates
 EARTHQUAKE="https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php"
-wget "$EARTHQUAKE" -0 earthquake.csv
+wget "$EARTHQUAKE" -O earthquake.csv
 
 # civil unrest 1946-2005
 CIVIL_UNREST="https://github.com/pzhou11/W205_Project/blob/master/data/civil_unrest.csv"
-wget "$CIVIL_UNREST" -0 civil_unrest.csv
+wget "$CIVIL_UNREST" -O civil_unrest.csv
 
 # unzip data
 unzip arrest_data.zip
@@ -70,7 +70,7 @@ tail -n +2 earthquake.csv >earthquake.csv
 tail -n +2 civil_unrest.csv >civil_unrest.csv
 tail -n +2 water_sites.csv >water_sites.csv
 
-# create hdfs director
+# create hdfs directory
 hdfs dfs -mkdir /user/w205/project
 
 #create hdfs directory for each file and copy each file to hdfs
@@ -106,6 +106,11 @@ hdfs dfs -put earthquake.csv /user/w205/project/earthquake
 
 hdfs dfs -mkdir /user/w205/project/civil_unrest
 hdfs dfs -put civil_unrest.csv /user/w205/project/civil_unrest
+
+#apply git workaround
+cd ~/W205_Project
+git remote set-url origin https://github.com/pzhou11/W205_Project.git
+
 
 
 # change directory back to original
