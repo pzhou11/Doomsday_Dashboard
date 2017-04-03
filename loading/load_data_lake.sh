@@ -58,59 +58,54 @@ wget "$CIVIL_UNREST" -O civil_unrest.csv
 unzip arrest_data.zip
 
 # remove first line of files and rename
-tail -n +2 arrest_data_2005-2014.csv >arrest_data.csv
-tail -n +2 fire_data.csv >fire_data.csv
-tail -n +2 bridge_data.csv >bridge_data.csv
-tail -n +2 zip_reference.csv >zip_reference.csv
-tail -n +2 death_data.csv >death_data.csv
-tail -n +2 landslide_data.csv >landslide_data.csv
-tail -n +2 air_quality.csv >air_quality.csv
-tail -n +10 water_quality.csv >water_quality.csv
-tail -n +2 earthquake.csv >earthquake.csv
-tail -n +2 civil_unrest.csv >civil_unrest.csv
-tail -n +2 water_sites.csv >water_sites.csv
+tail -n +2 "arrest_data_2005-2014.csv" >clean_arrest_data.csv
+tail -n +2 "fire_data.csv" >clean_fire_data.csv
+tail -n +2 "bridge_data.csv" >clean_bridge_data.csv
+tail -n +2 "zip_reference.csv" >clean_zip_reference.csv
+tail -n +2 "death_data.csv" >clean_death_data.csv
+tail -n +2 "landslide_data.csv" >clean_landslide_data.csv
+tail -n +2 "air_quality.csv" >clean_air_quality.csv
+tail -n +10 "water_quality.csv" >clean_water_quality.csv
+tail -n +2 "earthquake.csv" >clean_earthquake.csv
+tail -n +2 "civil_unrest.csv" >clean_civil_unrest.csv
+tail -n +2 "water_sites.csv" >clean_water_sites.csv
 
 # create hdfs directory
 hdfs dfs -mkdir /user/w205/project
 
 #create hdfs directory for each file and copy each file to hdfs
 hdfs dfs -mkdir /user/w205/project/arrest
-hdfs dfs -put arrest_data.csv /user/w205/project/arrest
+hdfs dfs -put clean_arrest_data.csv /user/w205/project/arrest
 
 hdfs dfs -mkdir /user/w205/project/fire
-hdfs dfs -put fire_data.csv /user/w205/project/fire
+hdfs dfs -put clean_fire_data.csv /user/w205/project/fire
 
 hdfs dfs -mkdir /user/w205/project/bridge
-hdfs dfs -put bridge_data.csv /user/w205/project/bridge
+hdfs dfs -put clean_bridge_data.csv /user/w205/project/bridge
 
-hdfs dfs -mkdir /user/w205/project/bridge
-hdfs dfs -put bridge_data.csv /user/w205/project/zip_reference
+hdfs dfs -mkdir /user/w205/project/zip_reference
+hdfs dfs -put clean_zip_reference.csv /user/w205/project/zip_reference
 
 hdfs dfs -mkdir /user/w205/project/death
-hdfs dfs -put death_data.csv /user/w205/project/death
+hdfs dfs -put clean_death_data.csv /user/w205/project/death
 
 hdfs dfs -mkdir /user/w205/project/landslide
-hdfs dfs -put landslide_data.csv /user/w205/project/landslide
+hdfs dfs -put clean_landslide_data.csv /user/w205/project/landslide
 
 hdfs dfs -mkdir /user/w205/project/air_quality
-hdfs dfs -put air_quality.csv /user/w205/project/air_quality
+hdfs dfs -put clean_air_quality.csv /user/w205/project/air_quality
 
 hdfs dfs -mkdir /user/w205/project/water_quality
-hdfs dfs -put water_quality.csv /user/w205/project/water_quality
+hdfs dfs -put clean_water_quality.csv /user/w205/project/water_quality
 
 hdfs dfs -mkdir /user/w205/project/water_sites
-hdfs dfs -put water_sites.csv /user/w205/project/water_sites
+hdfs dfs -put clean_water_sites.csv /user/w205/project/water_sites
 
 hdfs dfs -mkdir /user/w205/project/earthquake
-hdfs dfs -put earthquake.csv /user/w205/project/earthquake
+hdfs dfs -put clean_earthquake.csv /user/w205/project/earthquake
 
 hdfs dfs -mkdir /user/w205/project/civil_unrest
-hdfs dfs -put civil_unrest.csv /user/w205/project/civil_unrest
-
-#apply git workaround
-cd ~/W205_Project
-git remote set-url origin https://github.com/pzhou11/W205_Project.git
-
+hdfs dfs -put clean_civil_unrest.csv /user/w205/project/civil_unrest
 
 
 # change directory back to original

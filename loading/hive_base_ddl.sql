@@ -30,7 +30,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/zip_reference'
+LOCATION '/user/w205/project/zip_reference'
 ;
 
 
@@ -128,7 +128,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/arrest'
+LOCATION '/user/w205/project/arrest'
 ;
 
 
@@ -157,7 +157,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/fire'
+LOCATION '/user/w205/project/fire'
 ;
 
 
@@ -189,7 +189,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/bridge'
+LOCATION '/user/w205/project/bridge'
 ;
 
 DROP TABLE Death_Data;
@@ -209,7 +209,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/death'
+LOCATION '/user/w205/project/death'
 ;
 
 DROP TABLE Landslide_Data;
@@ -259,7 +259,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/landslide'
+LOCATION '/user/w205/project/landslide'
 ;
 
 
@@ -290,7 +290,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/air_quality'
+LOCATION '/user/w205/project/air_quality'
 ;
 
 
@@ -315,7 +315,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/water_quality'
+LOCATION '/user/w205/project/water_quality'
 ;
 
 
@@ -338,7 +338,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/water_sites'
+LOCATION '/user/w205/project/water_sites'
 ;
 
 
@@ -378,7 +378,7 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/earthquake'
+LOCATION '/user/w205/project/earthquake'
 ;
 
 
@@ -415,5 +415,5 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project_staging/civil_unrest'
+LOCATION '/user/w205/project/civil_unrest'
 ;
