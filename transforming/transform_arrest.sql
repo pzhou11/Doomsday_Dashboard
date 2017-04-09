@@ -12,10 +12,11 @@ SELECT arrest_data.county,
    sum(arrest_data.total_felonies) as total_felony_count,
    sum(arrest_data.total_misdemeanor) as total_misdemeanor_count,
    sum(arrest_data.total_status_offenses) as total_status_offense_count,
-   sum(zip_code_reference.irspopulation2014) as county_population
+   sum(zip_code_reference_ca.irspopulation2014) as county_population
 FROM arrest_data 
 LEFT JOIN zip_code_reference
-   ON arrest_data.county = zip_code_reference.county
+   ON arrest_data.county = zip_code_reference_ca.county
 GROUP BY arrest_data.county
 ;
+
 
