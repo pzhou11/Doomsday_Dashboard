@@ -2,26 +2,21 @@ DROP TABLE Zip_Code_Reference;
 
 CREATE EXTERNAL TABLE Zip_Code_Reference
 (
-  RecordNumber int,
   Zipcode int,
   ZipCodeType string,
-  City string,
+  Decommissioned string,
+  PrimaryCity string,
+  AcceptableCity string,
+  UnacceptableCity string,
   State string,
-  LocationType string,
-  Latitude string,
-  Longitude string,
-  Xaxis string,
-  Yaxis string,
-  Zaxis string,
+  County string,
+  TimeZone string,
+  AreaCode string,
   WorldRegion string,
   Country string,
-  LocationText string,
-  Location string,
-  Decommisioned string,
-  TaxReturns string,
-  EstimatedPopulation int,
-  TotalWages string,
-  Notes string
+  Latitude int,
+  Longitude int,
+  IRSPopulation2014 int
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
