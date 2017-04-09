@@ -23,7 +23,7 @@ BRIDGE_URL="https://github.com/pzhou11/W205_Project/raw/master/data/merged_bridg
 wget "$BRIDGE_URL" -O bridge_data.csv
 
 # zip code reference file
-ZIP_URL="http://federalgovernmentzipcodes.us/free-zipcode-database.csv"
+ZIP_URL="https://github.com/pzhou11/W205_Project/raw/master/data/zip_code_database.csv"
 wget "$ZIP_URL" -O zip_reference.csv
 
 # leading causes of death file 1999-2013
