@@ -11,7 +11,7 @@ SELECT
   zip_code_reference_ca.longitude
 FROM bridge_data
 LEFT JOIN zip_code_reference_ca
-  ON UPPER(bridge_data.city) = zip_code_reference_ca.city
+  ON UPPER(bridge_data.city) = UPPER(zip_code_reference_ca.primarycity)
 WHERE bridge_data.status='Functionally Obsolete' OR bridge_data.status='Structurally Deficient'
 ;
 
