@@ -55,8 +55,8 @@ CIVIL_UNREST="http://www.clinecenter.illinois.edu/research/documents/ssp_public.
 wget "$CIVIL_UNREST" -O civil_unrest.csv
 
 # storm 12/2015 - 12/2016
-STORM="https://github.com/pzhou11/W205_Project/blob/master/data/storm.csv"
-wget "STORMS" -O storm.csv
+STORM="https://raw.githubusercontent.com/pzhou11/W205_Project/master/data/storm.csv"
+wget "$STORM" -O storm.csv
 
 # unzip data
 unzip arrest_data.zip
