@@ -54,6 +54,10 @@ wget "$EARTHQUAKE" -O earthquake.csv
 CIVIL_UNREST="http://www.clinecenter.illinois.edu/research/documents/ssp_public.csv"
 wget "$CIVIL_UNREST" -O civil_unrest.csv
 
+# storm 12/2015 - 12/2016
+STORM="https://github.com/pzhou11/W205_Project/blob/master/data/storm.csv"
+wget "STORM" -O storm.csv
+
 # unzip data
 unzip arrest_data.zip
 
@@ -69,6 +73,7 @@ tail -n +10 "water_quality.csv" >clean_water_quality.csv
 tail -n +2 "earthquake.csv" >clean_earthquake.csv
 tail -n +2 "civil_unrest.csv" >clean_civil_unrest.csv
 tail -n +2 "water_sites.csv" >clean_water_sites.csv
+tail -n +2 "storm.csv" >clean_storm.csv
 
 # create hdfs directory
 hdfs dfs -mkdir /user/w205/project
@@ -107,6 +112,8 @@ hdfs dfs -put clean_earthquake.csv /user/w205/project/earthquake
 hdfs dfs -mkdir /user/w205/project/civil_unrest
 hdfs dfs -put clean_civil_unrest.csv /user/w205/project/civil_unrest
 
+hdfs dfs -mkdir /user/w205/project/storm
+hdfs dfs -put clean_storm.csv /user/w205/project/storm
 
 # change directory back to original
 cd $MY_CWD
