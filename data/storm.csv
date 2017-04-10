@@ -1,401 +1,401 @@
-EVENT_ID,CZ_NAME_STR,BEGIN_LOCATION,BEGIN_DATE,BEGIN_TIME,EVENT_TYPE,MAGNITUDE,TOR_F_SCALE,DEATHS_DIRECT,INJURIES_DIRECT,DAMAGE_PROPERTY_NUM,DAMAGE_CROPS_NUM,STATE_ABBR,CZ_TIMEZONE,MAGNITUDE_TYPE,EPISODE_ID,CZ_TYPE,CZ_FIPS,WFO,INJURIES_INDIRECT,DEATHS_INDIRECT,SOURCE,FLOOD_CAUSE,TOR_LENGTH,TOR_WIDTH,BEGIN_RANGE,BEGIN_AZIMUTH,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,ABSOLUTE_ROWNUMBER
-613338,SAN JOSE, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,1
-605774,CARQUINEZ, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,101265,Z,18,STO,0,0,Drought Monitor, , , , , , , , , , , , ,2
-605773,SACRAMENTO , ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,101265,Z,17,STO,0,0,Drought Monitor, , , , , , , , , , , , ,3
-605772,SAN JOAQUIN , ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,101265,Z,19,STO,0,0,Drought Monitor, , , , , , , , , , , , ,4
-605771,SACRAMENTO , ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,101265,Z,16,STO,0,0,Drought Monitor, , , , , , , , , , , , ,5
-605770,SACRAMENTO , ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,101265,Z,15,STO,0,0,Drought Monitor, , , , , , , , , , , , ,6
-613348,KERN, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,7
-613347,INDIAN WELLS, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,8
-613346,TULARE, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,9
-613345,SIERRA, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,10
-613344,KERN, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,11
-613343,TULARE, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,12
-613342,SIERRA, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,13
-613341,SAN JOSE, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,14
-613340,SAN JOSE, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,15
-613339,SAN JOSE, ,12/01/2015,0,Drought, , ,0,0,0,0,CA,PST-8, ,102616,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,16
-606309,MENDOCINO, ,12/11/2015,1000,Coastal Flood, , ,0,0,0,0,CA,PST-8, ,101342,Z,2,EKA,0,0,Department of Highways, , , , , , , , , , , , ,17
-606304,REDWOOD, ,12/11/2015,1000,Coastal Flood, , ,0,0,0,0,CA,PST-8, ,101342,Z,1,EKA,0,0,Emergency Manager, , , , , , , , , , , , ,18
-608496,RIVERSIDE,ORDWAY,12/11/2015,1400,Flood, , ,0,0,0,0,CA,PST-8, ,101669,C,65,SGX,0,0,Law Enforcement,Heavy Rain, , ,4,W,4,WSW,ORDWAY,33.9943,-117.2331,33.9879,-117.2355,19
-608498,COACHELLA, ,12/11/2015,1440,Dust Storm, , ,0,0,0,0,CA,PST-8, ,101669,Z,61,SGX,0,0,Newspaper, , , , , , , , , , , , ,20
-608520,SAN DIEGO , ,12/12/2015,800,Coastal Flood, , ,0,0,0,0,CA,PST-8, ,101669,Z,43,SGX,0,0,Lifeguard, , , , , , , , , , , , ,21
-608559,SAN DIEGO , ,12/12/2015,800,Coastal Flood, , ,0,0,0,0,CA,PST-8, ,101669,Z,43,SGX,0,0,Fire Department/Rescue, , , , , , , , , , , , ,22
-608558,SAN DIEGO , ,12/12/2015,800,Coastal Flood, , ,0,0,0,0,CA,PST-8, ,101669,Z,43,SGX,0,0,Fire Department/Rescue, , , , , , , , , , , , ,23
-608555,SAN DIEGO , ,12/12/2015,800,Coastal Flood, , ,0,0,0,0,CA,PST-8, ,101669,Z,43,SGX,0,0,Lifeguard, , , , , , , , , , , , ,24
-608523,SAN DIEGO , ,12/12/2015,800,Coastal Flood, , ,0,0,0,0,CA,PST-8, ,101669,Z,43,SGX,0,0,Lifeguard, , , , , , , , , , , , ,25
-613366,KERN,GRAPE VINE,12/13/2015,1830,Flash Flood, , ,0,0,0,0,CA,PST-8, ,102620,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,2,SSE,2,SSE,GRAPE VINE,34.889,-118.9102,34.8886,-118.909,26
-613386,KERN,MAGUNDEN,12/22/2015,1004,Flash Flood, , ,0,0,0,0,CA,PST-8, ,102623,C,29,HNX,0,0,Department of Highways,Heavy Rain, , ,7,NE,7,NE,EDISON,35.4451,-118.8213,35.4239,-118.7773,27
-611427,EL DORADO ,FRESH POND,12/22/2015,1600,Debris Flow, , ,0,0,0,0,CA,PST-8, ,102259,C,17,STO,0,0,Utility Company,Heavy Rain / Burn Area, , ,4,N,5,N,FRESH POND,38.83,-120.53,38.8367,-120.5291,28
-611428,CALAVERAS,MOKELUMNE HILL,12/22/2015,1600,Debris Flow, , ,0,0,10000,0,CA,PST-8, ,102259,C,9,STO,0,0,Utility Company,Heavy Rain / Burn Area, , ,2,SE,2,W,JESUS MARIA,38.28,-120.67,38.2835,-120.6652,29
-616925,SAN JOSE, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,30
-616923,SAN JOSE, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,31
-617463,MOTHERLODE CAMPTONVILLE , ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103258,Z,67,STO,0,0,State Official, , , , , , , , , , , , ,32
-617288,CARQUINEZ, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103258,Z,18,STO,0,0,Drought Monitor, , , , , , , , , , , , ,33
-617287,SACRAMENTO , ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103258,Z,17,STO,0,0,Drought Monitor, , , , , , , , , , , , ,34
-617286,SAN JOAQUIN , ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103258,Z,19,STO,0,0,Drought Monitor, , , , , , , , , , , , ,35
-617285,SACRAMENTO , ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103258,Z,16,STO,0,0,Drought Monitor, , , , , , , , , , , , ,36
-617284,SACRAMENTO , ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103258,Z,15,STO,0,0,Drought Monitor, , , , , , , , , , , , ,37
-616935,KERN, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,38
-616934,INDIAN WELLS, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,39
-616929,SIERRA, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,40
-616933,TULARE, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,41
-616932,SIERRA, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,42
-616931,KERN, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,43
-616930,TULARE, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,44
-616927,SAN JOSE, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,45
-616926,SAN JOSE, ,01/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103238,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,46
-610495,MODOC , ,01/01/2016,230,Extreme Cold/Wind Chill, , ,0,0,0,0,CA,PST-8, ,102140,Z,85,MFR,0,0,RAWS, , , , , , , , , , , , ,47
-617378,SACRAMENTO ,SACRAMENTO,01/05/2016,400,Flood, , ,0,0,1000,0,CA,PST-8, ,103284,C,67,STO,0,0,Law Enforcement,Heavy Rain, , ,1,NNW,1,NNW,SACRAMENTO,38.5633,-121.4738,38.5577,-121.4766,48
-615555,VENTURA,DULAH,01/05/2016,911,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103037,C,111,LOX,0,0,Fire Department/Rescue,Heavy Rain / Burn Area, , ,1,SSE,1,S,DULAH,34.3083,-119.3459,34.3062,-119.3512,49
-615556,LOS ANGELES ,GLENDORA,01/05/2016,1230,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103037,C,37,LOX,0,0,Fire Department/Rescue,Heavy Rain / Burn Area, , ,2,N,2,N,GLENDORA,34.1526,-117.8708,34.1527,-117.8685,50
-617078,SAN DIEGO ,OVERLOOK,01/05/2016,1500,Flood, , ,0,0,0,0,CA,PST-8, ,103033,C,73,SGX,0,0,Official NWS Observations,Heavy Rain, , ,1,SSW,2,N,NORTH PARK,32.7538,-117.2046,32.7731,-117.1146,51
-617065,SAN DIEGO ,SAN PASQUAL,01/05/2016,1600,Debris Flow, , ,0,0,0,0,CA,PST-8, ,103033,C,73,SGX,0,0,Law Enforcement,Heavy Rain, , ,3,E,2,ESE,SAN PASQUAL,33.0772,-116.8974,33.0657,-116.9165,52
-617066,SAN DIEGO ,GLENVIEW,01/05/2016,1600,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103033,C,73,SGX,0,0,Law Enforcement,Heavy Rain, , ,1,SSW,2,SSW,GLENVIEW,32.8135,-116.9048,32.8087,-116.9053,53
-611586,SAN BERNARDINO ,BANNOCK,01/06/2016,100,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,102310,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,14,N,13,N,BANNOCK,35.1564,-114.8461,35.1439,-114.8385,54
-608298,NAPA ,WOODLEAF,01/06/2016,700,Debris Flow, , ,0,0,0,0,CA,PST-8, ,101646,C,55,MTR,0,0,911 Call Center,Heavy Rain, , ,1,NE,0,NE,WOODLEAF,38.6065,-122.594,38.6043,-122.5946,55
-608301,SONOMA,SEBASTOPOL,01/06/2016,800,Flood, , ,0,0,0,0,CA,PST-8, ,101646,C,97,MTR,0,0,911 Call Center,Heavy Rain, , ,1,SW,1,SW,SEBASTOPOL,38.3943,-122.8368,38.3941,-122.8367,56
-608300,MARIN,STINSON BEACH,01/06/2016,800,Debris Flow, , ,0,0,0,0,CA,PST-8, ,101646,C,41,MTR,0,0,911 Call Center,Heavy Rain, , ,1,S,1,S,STINSON BEACH,37.8879,-122.6277,37.8863,-122.6272,57
-608299,MONTEREY ,SPENCE,01/06/2016,800,Flood, , ,0,0,0,0,CA,PST-8, ,101646,C,53,MTR,0,0,911 Call Center,Heavy Rain, , ,1,NW,1,W,SPENCE,36.6286,-121.5845,36.6218,-121.5869,58
-608297,SAN FRANCISCO ,SAN FRANCISCO,01/06/2016,800,Flood, , ,0,0,0,0,CA,PST-8, ,101646,C,75,MTR,0,0,911 Call Center,Heavy Rain, , ,2,NE,1,ENE,OCEAN VIEW,37.7748,-122.4279,37.723,-122.4165,59
-608010,NORTH BAY, ,01/06/2016,800,Coastal Flood, , ,0,0,0,0,CA,PST-8, ,101646,Z,506,MTR,0,0,911 Call Center, , , , , , , , , , , , ,60
-608014,ALAMEDA,ALBANY,01/06/2016,800,Flood, , ,0,0,0,0,CA,PST-8, ,101646,C,1,MTR,0,0,911 Call Center,Heavy Rain, , ,5,NNW,5,NNW,ALBANY,37.9665,-122.3225,37.9662,-122.323,61
-617029,ORANGE ,SILVERADO,01/06/2016,1000,Debris Flow, , ,0,0,0,0,CA,PST-8, ,103033,C,59,SGX,0,0,Emergency Manager,Heavy Rain / Burn Area, , ,4,NW,3,WNW,MODJESKA,33.7871,-117.6814,33.7129,-117.6883,62
-608303,SANTA CRUZ ,ELLICOTT,01/06/2016,1030,Flood, , ,0,0,0,0,CA,PST-8, ,101646,C,87,MTR,0,0,Law Enforcement,Heavy Rain, , ,3,SSE,3,SSE,ELLICOTT,36.8835,-121.8006,36.8809,-121.7988,63
-615557,VENTURA,DULAH,01/06/2016,1045,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103037,C,111,LOX,0,0,Fire Department/Rescue,Heavy Rain / Burn Area, , ,1,S,1,SSW,DULAH,34.3108,-119.3521,34.3091,-119.355,64
-615559,LOS ANGELES ,NEWHALL,01/06/2016,1130,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103037,C,37,LOX,0,0,Law Enforcement,Heavy Rain / Burn Area, , ,2,SW,2,SW,NEWHALL,34.3651,-118.5494,34.3622,-118.5488,65
-616948,SAN BERNARDINO ,BRYN MAWR,01/06/2016,1300,Flood, , ,0,0,0,0,CA,PST-8, ,103033,C,71,SGX,0,0,Law Enforcement,Heavy Rain, , ,1,SSE,3,W,DEVORE,34.0362,-117.2221,34.2266,-117.4493,66
-617064,ORANGE ,ROCHE,01/06/2016,1300,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103033,C,59,SGX,0,0,Law Enforcement,Heavy Rain, , ,2,ESE,1,N,SAN CLEMENTE,33.4438,-117.6227,33.44,-117.6162,67
-617063,ORANGE ,VILLA PARK,01/06/2016,1300,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103033,C,59,SGX,0,0,Trained Spotter,Heavy Rain, , ,1,ESE,4,ESE,VILLA PARK,33.8172,-117.788,33.8011,-117.7408,68
-615558,VENTURA,PIRU,01/06/2016,1312,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103037,C,111,LOX,0,0,Law Enforcement,Heavy Rain, , ,1,W,1,WSW,PIRU,34.4195,-118.792,34.4181,-118.7885,69
-616978,RIVERSIDE,RIVERSIDE JCT,01/06/2016,1500,Flood, , ,0,0,0,0,CA,PST-8, ,103033,C,65,SGX,0,0,Law Enforcement,Heavy Rain, , ,1,N,0,SE,RIVERSIDE JCT,33.9818,-117.3783,33.9681,-117.3778,70
-617076,SAN DIEGO ,SORRENTO,01/06/2016,1500,Flash Flood, , ,0,0,25000,0,CA,PST-8, ,103033,C,73,SGX,0,0,Law Enforcement,Heavy Rain, , ,2,WNW,1,ENE,SORRENTO,32.905,-117.2495,32.9039,-117.2022,71
-617077,SAN DIEGO ,CALAVO GARDENS,01/06/2016,1500,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103033,C,73,SGX,0,0,NWS Employee,Heavy Rain, , ,0,SW,1,W,CREST,32.7688,-116.9811,32.7804,-116.8829,72
-616984,RIVERSIDE,MURRIETA,01/06/2016,1500,Debris Flow, , ,0,0,2000,0,CA,PST-8, ,103033,C,65,SGX,0,0,Law Enforcement,Heavy Rain, , ,2,SE,6,WSW,MURRIETA,33.5334,-117.1925,33.5105,-117.3093,73
-615560,LOS ANGELES ,GLENDORA,01/06/2016,1515,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103037,C,37,LOX,0,0,Law Enforcement,Heavy Rain, , ,8,N,7,N,GLENDORA,34.2402,-117.8536,34.2316,-117.8515,74
-616990,RIVERSIDE,DESERT HOT SPGS,01/06/2016,1600,Flood, , ,0,0,0,0,CA,PST-8, ,103033,C,65,SGX,0,0,Law Enforcement,Heavy Rain, , ,2,SE,1,ESE,INDIO,33.9411,-116.4757,33.7266,-116.2189,75
-611600,SAN BERNARDINO ,YUCCA VLY ARPT,01/06/2016,1600,Flash Flood, , ,0,0,2000,0,CA,PST-8, ,102310,C,71,VEF,0,0,Newspaper,Heavy Rain, , ,2,ENE,2,ENE,YUCCA VLY ARPT,34.1418,-116.3709,34.139,-116.3706,76
-617067,SAN DIEGO ,HARBISON CANYON,01/07/2016,1900,Debris Flow, , ,0,0,0,0,CA,PST-8, ,103033,C,73,SGX,0,0,Newspaper,Heavy Rain, , ,1,S,2,ESE,EL CAJON,32.8066,-116.8317,32.7746,-116.9426,77
-616052,LAKE TAHOE, ,01/14/2016,1430,Avalanche, , ,1,0,0,0,CA,PST-8, ,103092,Z,72,REV,0,0,Park/Forest Service, , , , , , , , , , , , ,78
-611869,SISKIYOU,SEIAD VLY,01/17/2016,600,Debris Flow, , ,0,0,0,0,CA,PST-8, ,102370,C,93,MFR,0,0,Park/Forest Service,Heavy Rain / Burn Area, , ,2,SE,3,SSE,SEIAD VLY,41.835,-123.177,41.815,-123.1727,79
-608663,SANTA CRUZ ,MT HERMON,01/22/2016,1230,Debris Flow, , ,0,2,5000,0,CA,PST-8, ,101780,C,87,MTR,0,0,Broadcast Media,Heavy Rain, , ,0,NW,0,NW,MT HERMON,37.0538,-122.0743,37.0528,-122.0738,80
-608664,MONTEREY ,BIG SUR,01/22/2016,1900,Debris Flow, , ,0,0,0,0,CA,PST-8, ,101780,C,53,MTR,0,0,Law Enforcement,Heavy Rain, , ,1,WNW,1,WNW,BIG SUR,36.2754,-121.8196,36.275,-121.8198,81
-617292,TEHAMA,CORNING,01/23/2016,1500,Flood, , ,0,0,5000,0,CA,PST-8, ,103285,C,103,STO,0,0,Public,Heavy Rain, , ,1,N,1,N,CORNING,39.93,-122.18,39.9291,-122.1799,82
-617405,NEVADA ,SODA SPGS,01/30/2016,300,Flood, , ,0,0,20000,0,CA,PST-8, ,103307,C,57,STO,0,0,Emergency Manager,Ice Jam, , ,0,N,0,NNE,SODA SPGS,39.32,-120.38,39.3212,-120.3793,83
-615571,LOS ANGELES ,GLENDORA,01/31/2016,1400,Flash Flood, , ,0,0,0,0,CA,PST-8, ,103039,C,37,LOX,0,0,Law Enforcement,Heavy Rain / Burn Area, , ,10,N,9,N,GLENDORA,34.2675,-117.8548,34.2616,-117.8637,84
-616543,SAN BERNARDINO ,CRESTLINE,01/31/2016,1500,Flash Flood, , ,0,0,1500,0,CA,PST-8, ,102850,C,71,SGX,0,0,Department of Highways,Heavy Rain, , ,1,SSE,1,SSE,CRESTLINE,34.2159,-117.2947,34.2124,-117.2898,85
-618316,SAN JOSE, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,86
-618319,SAN JOSE, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,92,HNX,0,0,Newspaper, , , , , , , , , , , , ,87
-622060,MOTHERLODE CAMPTONVILLE , ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103621,Z,67,STO,0,0,Drought Monitor, , , , , , , , , , , , ,88
-622058,SAN JOAQUIN , ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103621,Z,19,STO,0,0,Drought Monitor, , , , , , , , , , , , ,89
-622056,CARQUINEZ, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103621,Z,18,STO,0,0,Drought Monitor, , , , , , , , , , , , ,90
-622055,SACRAMENTO , ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103621,Z,17,STO,0,0,Drought Monitor, , , , , , , , , , , , ,91
-622053,SACRAMENTO , ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103621,Z,16,STO,0,0,Drought Monitor, , , , , , , , , , , , ,92
-622052,SACRAMENTO , ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103621,Z,15,STO,0,0,Drought Monitor, , , , , , , , , , , , ,93
-618326,KERN, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,94
-618325,INDIAN WELLS, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,95
-618324,TULARE, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,96
-618323,SIERRA, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,97
-618322,KERN, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,98
-618321,TULARE, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,99
-618320,SIERRA, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,100
-618318,SAN JOSE, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,101
-618317,SAN JOSE, ,02/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,103458,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,102
-620099,LAKE TAHOE, ,02/18/2016,700,Avalanche, , ,0,0,0,0,CA,PST-8, ,103727,Z,72,REV,0,0,Broadcast Media, , , , , , , , , , , , ,103
-622307,SAN JOAQUIN , ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104041,Z,19,STO,0,0,Drought Monitor, , , , , , , , , , , , ,104
-626447,KERN, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,105
-626441,SAN JOSE, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,106
-622303,SACRAMENTO , ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104041,Z,15,STO,0,0,Drought Monitor, , , , , , , , , , , , ,107
-626440,SAN JOSE, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,108
-626445,SIERRA, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,109
-626446,INDIAN WELLS, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,110
-626444,KERN, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,111
-626439,SAN JOSE, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,112
-626443,TULARE, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,113
-626442,SIERRA, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,114
-632308,SAN JOSE, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,115
-622308,MOTHERLODE CAMPTONVILLE , ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104041,Z,67,STO,0,0,Drought Monitor, , , , , , , , , , , , ,116
-622306,CARQUINEZ, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104041,Z,18,STO,0,0,Drought Monitor, , , , , , , , , , , , ,117
-622304,SACRAMENTO , ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104041,Z,16,STO,0,0,Drought Monitor, , , , , , , , , , , , ,118
-632309,TULARE, ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104282,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,119
-622305,SACRAMENTO , ,03/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,104041,Z,17,STO,0,0,Drought Monitor, , , , , , , , , , , , ,120
-622321,CALAVERAS,MOKELUMNE HILL,03/05/2016,2300,Debris Flow, , ,0,0,5000,0,CA,PST-8, ,104042,C,9,STO,0,0,Department of Highways,Heavy Rain / Burn Area, , ,2,ENE,2,E,MOKELUMNE HILL,38.3111,-120.6659,38.3059,-120.6584,121
-627008,COACHELLA, ,03/06/2016,1230,Dust Storm, , ,0,0,0,0,CA,PST-8, ,104284,Z,61,SGX,0,0,Law Enforcement, , , , , , , , , , , , ,122
-622685,VENTURA,DULAH,03/07/2016,610,Flash Flood, , ,0,0,0,0,CA,PST-8, ,104093,C,111,LOX,0,0,Fire Department/Rescue,Heavy Rain / Burn Area, , ,1,SSW,1,WNW,VENTURA JCT,34.3091,-119.3557,34.304,-119.3487,123
-627006,NEVADA ,NORTH BLOOMFIELD,03/13/2016,600,Flood, , ,0,0,0,0,CA,PST-8, ,104663,C,57,STO,0,0,Broadcast Media,Heavy Rain, , ,7,SSE,7,SSE,NORTH BLOOMFIELD,39.27,-120.8634,39.27,-120.863,124
-619540,MORONGO , ,03/22/2016,1206,Dust Storm, , ,0,0,0,0,CA,PST-8, ,103656,Z,525,VEF,0,0,Trained Spotter, , , , , , , , , , , , ,125
-632900,SACRAMENTO , ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105508,Z,15,STO,0,0,State Official, , , , , , , , , , , , ,126
-631107,KERN, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,127
-631106,INDIAN WELLS, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,128
-631105,TULARE, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,129
-631104,SIERRA, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,130
-631103,KERN, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,131
-631100,TULARE, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,132
-631099,SIERRA, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,133
-631098,SAN JOSE, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,134
-631097,SAN JOSE, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,135
-631096,SAN JOSE, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,136
-631095,SAN JOSE, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105273,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,137
-632967,MOTHERLODE CAMPTONVILLE , ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105508,Z,67,STO,0,0,State Official, , , , , , , , , , , , ,138
-632966,SAN JOAQUIN , ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105508,Z,19,STO,0,0,State Official, , , , , , , , , , , , ,139
-632952,CARQUINEZ, ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105508,Z,18,STO,0,0,State Official, , , , , , , , , , , , ,140
-632951,SACRAMENTO , ,04/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105508,Z,17,STO,0,0,State Official, , , , , , , , , , , , ,141
-619622,SAN BERNARDINO ,JIMGREY,04/08/2016,1251,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,103667,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,2,WSW,2,WSW,JIMGREY,34.97,-117.47,34.9683,-117.4639,142
-619623,SAN BERNARDINO ,CALICO,04/08/2016,1331,Flash Flood, , ,0,0,2000,0,CA,PST-8, ,103667,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,6,N,7,N,CALICO,35.0422,-116.888,35.0498,-116.8876,143
-628849,SAN BERNARDINO ,ADELANTO EL MIRGE APT,04/08/2016,1630,Flood, , ,0,0,0,0,CA,PST-8, ,104966,C,71,SGX,0,0,Law Enforcement,Heavy Rain, , ,1,S,2,ENE,EL MIRAGE,34.6075,-117.5987,34.5909,-117.599,144
-628848,SAN BERNARDINO ,ADELANTO HLNDALE ARP,04/08/2016,1700,Flood, , ,0,0,0,0,CA,PST-8, ,104966,C,71,SGX,0,0,Law Enforcement,Heavy Rain, , ,2,SE,3,SE,ADELANTO HLNDALE ARP,34.7335,-117.4706,34.7195,-117.4645,145
-619624,SAN BERNARDINO ,YUCCA VLY ARPT,04/10/2016,1130,Flash Flood, , ,0,1,10000,0,CA,PST-8, ,103667,C,71,VEF,0,0,Broadcast Media,Heavy Rain, , ,1,NW,1,NW,YUCCA VLY ARPT,34.1439,-116.4161,34.1432,-116.4155,146
-628839,SAN DIEGO ,RANCHO BERNARDO,04/10/2016,1200,Flood, , ,0,0,10000,0,CA,PST-8, ,104966,C,73,SGX,0,0,NWS Employee,Heavy Rain, , ,1,WNW,1,WNW,RANCHO BERNARDO,33.0231,-117.0803,33.0233,-117.0799,147
-628842,SAN DIEGO ,SUNNY VISTA,04/10/2016,1215,Flood, , ,0,0,0,0,CA,PST-8, ,104966,C,73,SGX,0,0,Law Enforcement,Heavy Rain, , ,1,N,1,N,SUNNY VISTA,32.6596,-117.0816,32.6598,-117.0777,148
-619625,SAN BERNARDINO ,GROMMET,04/10/2016,1415,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,103667,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,1,SSW,1,WNW,GROMMET,34.0902,-114.7029,34.109,-114.7213,149
-619626,SAN BERNARDINO ,CALICO,04/11/2016,1547,Flash Flood, , ,0,0,5000,0,CA,PST-8, ,103667,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,4,NW,2,W,CALICO,34.9822,-116.9258,34.9482,-116.9038,150
-628847,SAN DIEGO ,WARNER SPGS,04/11/2016,1600,Flash Flood, , ,0,0,350000,0,CA,PST-8, ,104966,C,73,SGX,0,0,Department of Highways,Heavy Rain, , ,3,ESE,4,ESE,WARNER SPGS,33.2557,-116.578,33.2565,-116.5759,151
-640180,SACRAMENTO , ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106415,Z,16,STO,0,0,State Official, , , , , , , , , , , , ,152
-635462,KERN, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,153
-635461,INDIAN WELLS, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,154
-635460,TULARE, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,155
-635459,SIERRA, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,156
-635458,KERN, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,157
-635457,TULARE, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,158
-635455,SIERRA, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,159
-635454,SAN JOSE, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,160
-635453,SAN JOSE, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,161
-635452,SAN JOSE, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,162
-635451,SAN JOSE, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,105885,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,163
-640179,SACRAMENTO , ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106415,Z,15,STO,0,0,State Official, , , , , , , , , , , , ,164
-640185,MOTHERLODE CAMPTONVILLE , ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106415,Z,67,STO,0,0,State Official, , , , , , , , , , , , ,165
-640184,SAN JOAQUIN , ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106415,Z,19,STO,0,0,State Official, , , , , , , , , , , , ,166
-640183,CARQUINEZ, ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106415,Z,18,STO,0,0,State Official, , , , , , , , , , , , ,167
-640181,SACRAMENTO , ,05/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106415,Z,17,STO,0,0,State Official, , , , , , , , , , , , ,168
-643359,SANTA BARBARA ,CUYAMA,05/05/2016,1637,Flash Flood, , ,0,0,0,0,CA,PST-8, ,107255,C,83,LOX,0,0,Law Enforcement,Heavy Rain, , ,4,ESE,4,ESE,CUYAMA,34.9347,-119.5398,34.924,-119.5379,169
-635824,SAN DIEGO ,SOLANA BEACH,05/06/2016,630,Flood, , ,0,0,0,0,CA,PST-8, ,105951,C,73,SGX,0,0,Law Enforcement,Heavy Rain, , ,1,ESE,1,E,SOLANA BEACH,32.9978,-117.2587,32.9983,-117.2546,170
-635823,SAN DIEGO ,SAN DIEGO MUNI BROWN,05/06/2016,900,Flood, , ,0,0,10000,0,CA,PST-8, ,105951,C,73,SGX,0,0,Broadcast Media,Heavy Rain, , ,1,ESE,1,ESE,SAN DIEGO MUNI BROWN,32.561,-116.9635,32.5611,-116.962,171
-638280,FRESNO,COALINGA,05/06/2016,1354,Debris Flow, , ,0,0,0,0,CA,PST-8, ,106281,C,19,HNX,0,0,Law Enforcement,Heavy Rain, , ,5,SW,5,SW,COALINGA,36.0971,-120.4316,36.0981,-120.4242,172
-638281,FRESNO,COALINGA,05/06/2016,1355,Debris Flow, , ,0,0,0,0,CA,PST-8, ,106281,C,19,HNX,0,0,Law Enforcement,Heavy Rain, , ,2,SSW,2,SSW,COALINGA,36.1183,-120.3813,36.1191,-120.3787,173
-638283,FRESNO,COALINGA,05/06/2016,1408,Debris Flow, , ,0,0,0,0,CA,PST-8, ,106281,C,19,HNX,0,0,Law Enforcement,Heavy Rain, , ,4,SW,4,SW,COALINGA,36.1028,-120.4181,36.1036,-120.4136,174
-643360,SAN LUIS OBISPO ,CHOLAME,05/06/2016,1524,Flash Flood, , ,0,0,0,0,CA,PST-8, ,107255,C,79,LOX,0,0,Law Enforcement,Heavy Rain, , ,4,ENE,4,NNE,CHOLAME,35.7533,-120.2364,35.7627,-120.2656,175
-639590,KERN,OIL CENTER,05/06/2016,1531,Debris Flow, , ,0,0,0,0,CA,PST-8, ,106281,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,2,N,1,NNE,OIL CENTER,35.4232,-118.9809,35.4177,-118.9739,176
-638287,KERN,GRAPE VINE,05/06/2016,1546,Debris Flow, , ,0,0,0,0,CA,PST-8, ,106281,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,S,1,S,GRAPE VINE,34.8995,-118.9217,34.8994,-118.9224,177
-635827,SAN BERNARDINO ,ONTARIO,05/06/2016,2330,Flood, , ,0,0,0,0,CA,PST-8, ,105951,C,71,SGX,0,0,Law Enforcement,Heavy Rain, , ,2,ENE,1,ENE,ONTARIO,34.0754,-117.6216,34.0784,-117.6265,178
-635826,SAN BERNARDINO ,(ONT)ONTARIO ITNL AR,05/07/2016,30,Flash Flood, , ,0,0,30000,0,CA,PST-8, ,105951,C,71,SGX,0,0,Broadcast Media,Heavy Rain, , ,2,WSW,2,WSW,(ONT)ONTARIO ITNL AR,34.0425,-117.6303,34.0427,-117.6271,179
-635828,SAN BERNARDINO ,(ONT)ONTARIO ITNL AR,05/07/2016,45,Flood, , ,0,0,0,0,CA,PST-8, ,105951,C,71,SGX,0,0,Broadcast Media,Heavy Rain, , ,2,SW,2,SW,(ONT)ONTARIO ITNL AR,34.0272,-117.6336,34.0273,-117.6323,180
-635830,SAN BERNARDINO ,(ONT)ONTARIO ITNL AR,05/07/2016,100,Flash Flood, , ,0,0,0,0,CA,PST-8, ,105951,C,71,SGX,0,0,Law Enforcement,Heavy Rain, , ,2,SW,1,SSW,(ONT)ONTARIO ITNL AR,34.0315,-117.616,34.0318,-117.6058,181
-640200,SAN DIEGO , ,05/21/2016,2100,Dust Storm, , ,0,0,0,0,CA,PST-8, ,106629,Z,62,SGX,0,0,Trained Spotter, , , , , , , , , , , , ,182
-641541,SAN JOSE, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,183
-647041,CARQUINEZ, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,107997,Z,18,STO,0,0,State Official, , , , , , , , , , , , ,184
-647040,SACRAMENTO , ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,107997,Z,17,STO,0,0,State Official, , , , , , , , , , , , ,185
-647039,SACRAMENTO , ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,107997,Z,16,STO,0,0,State Official, , , , , , , , , , , , ,186
-647038,SACRAMENTO , ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,107997,Z,15,STO,0,0,State Official, , , , , , , , , , , , ,187
-647043,MOTHERLODE CAMPTONVILLE , ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,107997,Z,67,STO,0,0,State Official, , , , , , , , , , , , ,188
-647042,SAN JOAQUIN , ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,107997,Z,19,STO,0,0,State Official, , , , , , , , , , , , ,189
-641551,KERN, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,190
-641550,INDIAN WELLS, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,191
-641549,TULARE, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,192
-641548,SIERRA, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,193
-641547,KERN, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,194
-641546,TULARE, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,195
-641545,SIERRA, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,196
-641544,SAN JOSE, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,197
-641543,SAN JOSE, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,198
-641542,SAN JOSE, ,06/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,106889,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,199
-647062,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,98,HNX,0,0,Mesonet, , , , , , , , , , , , ,200
-647074,KERN, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,99,HNX,0,0,Mesonet, , , , , , , , , , , , ,201
-647073,KERN, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,99,HNX,0,0,Mesonet, , , , , , , , , , , , ,202
-647072,KERN, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,99,HNX,0,0,ASOS, , , , , , , , , , , , ,203
-647071,KERN, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,99,HNX,0,0,ASOS, , , , , , , , , , , , ,204
-647070,KERN, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,99,HNX,0,0,ASOS, , , , , , , , , , , , ,205
-647069,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,98,HNX,0,0,ASOS, , , , , , , , , , , , ,206
-647068,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,98,HNX,0,0,AWOS, , , , , , , , , , , , ,207
-647067,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,98,HNX,0,0,Mesonet, , , , , , , , , , , , ,208
-647066,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,98,HNX,0,0,Mesonet, , , , , , , , , , , , ,209
-647065,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,98,HNX,0,0,Mesonet, , , , , , , , , , , , ,210
-647064,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,98,HNX,0,0,ASOS, , , , , , , , , , , , ,211
-647063,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108010,Z,98,HNX,0,0,Mesonet, , , , , , , , , , , , ,212
-643038,INYO,DEEP SPGS,06/29/2016,1730,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,107187,C,27,VEF,0,0,Law Enforcement,Heavy Rain, , ,1,NW,1,NW,DEEP SPGS,37.3787,-117.9959,37.3803,-117.9934,213
-644969,SAN BERNARDINO ,BANNOCK,06/30/2016,1751,Flash Flood, , ,0,0,2000,0,CA,PST-8, ,107187,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,1,SSW,0,WSW,BANNOCK,34.9372,-114.8337,34.9475,-114.8365,214
-644995,SAN BERNARDINO ,IBIS,06/30/2016,1830,Flash Flood, , ,0,0,10000,0,CA,PST-8, ,107187,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,8,NE,7,NNE,IBIS,35.0444,-114.6882,35.0382,-114.7093,215
-644972,INYO,BEATTY JCT,06/30/2016,2230,Flash Flood, , ,0,0,5000,0,CA,PST-8, ,107187,C,27,VEF,0,0,Law Enforcement,Heavy Rain, , ,1,NW,1,WNW,BEATTY JCT,36.593,-116.9455,36.5842,-116.9488,216
-646615,INYO,DEATH VLY JCT,07/01/2016,0,Flash Flood, , ,0,0,2000,0,CA,PST-8, ,107930,C,27,VEF,0,0,Law Enforcement,Heavy Rain, , ,3,WSW,16,NNE,SHOSHONE,36.2876,-116.4798,36.1734,-116.12,217
-647732,KERN, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,218
-647731,INDIAN WELLS, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,219
-647730,TULARE, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,220
-647729,SIERRA, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,221
-647728,KERN, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,222
-647727,TULARE, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,223
-647726,SIERRA, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,224
-647725,SAN JOSE, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,225
-647724,SAN JOSE, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,226
-647723,SAN JOSE, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,227
-647722,SAN JOSE, ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108100,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,228
-650498,SAN JOAQUIN , ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108059,Z,19,STO,0,0,State Official, , , , , , , , , , , , ,229
-650497,MOTHERLODE CAMPTONVILLE , ,07/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108059,Z,67,STO,0,0,State Official, , , , , , , , , , , , ,230
-646616,SAN BERNARDINO ,BANNOCK,07/01/2016,413,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,107930,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,6,N,5,N,BANNOCK,35.0375,-114.8337,35.0282,-114.827,231
-652419,SAN BERNARDINO ,BALDWIN LAKE,07/01/2016,1330,Flood, , ,0,0,0,0,CA,PST-8, ,108917,C,71,SGX,0,0,Department of Highways,Heavy Rain, , ,2,SW,1,SW,BALDWIN LAKE,34.2656,-116.7906,34.2655,-116.7849,232
-646620,SAN BERNARDINO ,BARSTOW,07/01/2016,1525,Flash Flood, , ,0,0,100000,0,CA,PST-8, ,107930,C,71,VEF,0,0,Newspaper,Heavy Rain, , ,1,WSW,1,E,BARSTOW,34.8768,-117.0473,34.8788,-117.0098,233
-646621,SAN BERNARDINO ,BARSTOW,07/01/2016,1525,Flash Flood, , ,0,0,100000,0,CA,PST-8, ,107930,C,71,VEF,0,0,Newspaper,Heavy Rain, , ,1,WSW,1,E,BARSTOW,34.8768,-117.0473,34.8788,-117.0098,234
-652422,SAN BERNARDINO ,HELENDALE,07/01/2016,1710,Flash Flood, , ,0,0,10000,0,CA,PST-8, ,108917,C,71,SGX,0,0,Law Enforcement,Heavy Rain, , ,4,SSW,3,SSW,HELENDALE,34.6703,-117.3454,34.6939,-117.3434,235
-646625,INYO,BEATTY JCT,07/01/2016,2014,Flash Flood, , ,0,0,5000,0,CA,PST-8, ,107930,C,27,VEF,0,0,Law Enforcement,Heavy Rain, , ,4,WNW,1,SSE,BEATTY JCT,36.609,-117.001,36.5604,-116.9213,236
-649295,INDIAN WELLS, ,07/29/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,98,HNX,0,0,Mesonet, , , , , , , , , , , , ,237
-649294,KERN, ,07/29/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,99,HNX,0,0,Mesonet, , , , , , , , , , , , ,238
-649293,KERN, ,07/29/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,99,HNX,0,0,Mesonet, , , , , , , , , , , , ,239
-649292,KERN, ,07/29/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,99,HNX,0,0,ASOS, , , , , , , , , , , , ,240
-649296,INDIAN WELLS, ,07/29/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,98,HNX,0,0,RAWS, , , , , , , , , , , , ,241
-646271,COLORADO RIVER VALLEY, ,07/30/2016,1,Dust Storm, , ,0,0,0,0,CA,MST-7, ,107852,Z,31,PSR,0,0,Trained Spotter, , , , , , , , , , , , ,242
-649300,KERN, ,07/30/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,99,HNX,0,0,Mesonet, , , , , , , , , , , , ,243
-649301,KERN, ,07/30/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,99,HNX,0,0,ASOS, , , , , , , , , , , , ,244
-649299,KERN, ,07/30/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,99,HNX,0,0,Mesonet, , , , , , , , , , , , ,245
-649298,INDIAN WELLS, ,07/30/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,98,HNX,0,0,Mesonet, , , , , , , , , , , , ,246
-649297,INDIAN WELLS, ,07/30/2016,1000,Excessive Heat, , ,0,0,0,0,CA,PST-8, ,108172,Z,98,HNX,0,0,RAWS, , , , , , , , , , , , ,247
-646652,INYO,BISHOP,07/31/2016,1700,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,107937,C,27,VEF,0,0,Public,Heavy Rain, , ,2,WNW,2,WNW,BISHOP,37.386,-118.4153,37.3861,-118.4142,248
-648124,SAN JOSE, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,249
-650757,SAN JOAQUIN , ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108594,Z,19,STO,0,0,State Official, , , , , , , , , , , , ,250
-650505,MOTHERLODE CAMPTONVILLE , ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108594,Z,67,STO,0,0,State Official, , , , , , , , , , , , ,251
-648136,KERN, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,252
-648135,INDIAN WELLS, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,253
-648134,TULARE, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,254
-648133,SIERRA, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,255
-648132,KERN, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,256
-648131,TULARE, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,257
-648129,SIERRA, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,258
-648128,SAN JOSE, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,259
-648127,SAN JOSE, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,260
-648126,SAN JOSE, ,08/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108188,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,261
-649593,SAN BERNARDINO ,ESSEX,08/01/2016,1730,Flash Flood, , ,0,0,2000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,2,NE,2,NE,ESSEX,34.7542,-115.2239,34.753,-115.2257,262
-649594,SAN BERNARDINO ,VIDAL,08/02/2016,353,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,5,NE,6,NNE,VIDAL,34.1824,-114.4432,34.189,-114.4472,263
-649595,SAN BERNARDINO ,ELORA STATION,08/02/2016,1410,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Public,Heavy Rain, , ,1,N,0,NW,ELORA STATION,35.1417,-115.5302,35.135,-115.5349,264
-649596,SAN BERNARDINO ,NEBO,08/02/2016,1542,Flash Flood, , ,0,0,5000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,12,SE,8,NNE,CRUCERO,34.7509,-115.7767,35.1477,-116.0925,265
-649598,SAN BERNARDINO ,JAVA,08/03/2016,1829,Flash Flood, , ,0,0,25000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,2,ESE,2,ESE,JAVA,34.89,-114.6448,34.8892,-114.6448,266
-649604,SAN BERNARDINO ,WHEATON SPGS,08/04/2016,129,Flash Flood, , ,0,0,2000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,2,E,2,E,WHEATON SPGS,35.4705,-115.4502,35.4689,-115.4438,267
-656741,SAN BERNARDINO ,LUCERNE VLY,08/04/2016,1300,Flash Flood, , ,0,0,0,0,CA,PST-8, ,109801,C,71,SGX,0,0,Trained Spotter,Heavy Rain, , ,6,WSW,4,W,LUCERNE VLY,34.4211,-117.0401,34.4444,-117.0229,268
-649621,SAN BERNARDINO ,(NXP)MCAF TWENTYNINE,08/04/2016,1300,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Trained Spotter,Heavy Rain, , ,3,ESE,2,E,(NXP)MCAF TWENTYNINE,34.1201,-115.8974,34.1339,-115.9133,269
-649632,SAN BERNARDINO ,ESSEX,08/04/2016,1746,Flash Flood, , ,0,0,5000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,2,NE,2,NE,ESSEX,34.7553,-115.2247,34.7533,-115.2264,270
-649638,SAN BERNARDINO ,ESSEX,08/04/2016,1900,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,0,N,6,NW,ESSEX,34.73,-115.25,34.7994,-115.3259,271
-649646,SAN BERNARDINO ,VIDAL JCT ARPT,08/04/2016,2041,Flash Flood, , ,0,0,5000,0,CA,PST-8, ,108103,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,2,E,3,SSW,GROMMET,34.1812,-114.5421,34.0585,-114.7124,272
-649672,SAN BERNARDINO ,HAVASU LAKE,08/18/2016,1623,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,108107,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,13,W,13,W,HAVASU LAKE,34.53,-114.65,34.5302,-114.6468,273
-649674,SAN BERNARDINO ,(EED)NEEDLES ARPT,08/18/2016,1650,Flash Flood, , ,0,0,25000,0,CA,PST-8, ,108107,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,3,SSE,3,SSE,(EED)NEEDLES ARPT,34.7294,-114.6046,34.7299,-114.5998,274
-647599,IMPERIAL , ,08/19/2016,1700,Dust Storm, , ,0,0,0,0,CA,PST-8, ,108081,Z,33,PSR,0,0,Trained Spotter, , , , , , , , , , , , ,275
-647649,RIVERSIDE,MESAVILLE,08/21/2016,300,Flood, , ,0,0,0,0,CA,PST-8, ,108094,C,65,PSR,0,0,Law Enforcement,Heavy Rain, , ,7,NE,10,ENE,MESAVILLE,33.7769,-114.5531,33.7757,-114.4748,276
-649678,SAN BERNARDINO ,VIDAL JCT ARPT,08/21/2016,343,Flash Flood, , ,0,0,2000,0,CA,PST-8, ,108107,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,2,WNW,6,NW,VIDAL JCT ARPT,34.1866,-114.5963,34.23,-114.6547,277
-649904,DEATH VALLEY, ,08/22/2016,1511,Dust Storm, , ,0,0,0,0,CA,PST-8, ,108110,Z,522,VEF,0,0,Law Enforcement, , , , , , , , , , , , ,278
-649907,SAN BERNARDINO ,KLINEFELTER,08/22/2016,1828,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,108110,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,1,SSW,1,WSW,KLINEFELTER,34.88,-114.76,34.893,-114.7659,279
-649910,SAN BERNARDINO ,DAWES,08/22/2016,2030,Flash Flood, , ,0,0,2000,0,CA,PST-8, ,108110,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,0,ESE,1,ESE,DAWES,35.0972,-115.5642,35.0932,-115.5504,280
-655107,SAN BERNARDINO ,BAKER,08/26/2016,1958,Flash Flood, , ,0,0,5000,0,CA,PST-8, ,108113,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,15,NNW,13,NNW,BAKER,35.4748,-116.1609,35.4515,-116.156,281
-655109,SAN BERNARDINO ,(EED)NEEDLES ARPT,08/26/2016,2102,Flash Flood, , ,0,0,50000,0,CA,PST-8, ,108113,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,1,ENE,1,SE,(EED)NEEDLES ARPT,34.7767,-114.6044,34.7579,-114.6025,282
-655110,SAN BERNARDINO ,VIDAL JCT ARPT,08/27/2016,233,Flash Flood, , ,0,0,5000,0,CA,PST-8, ,108113,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,1,N,0,NNE,VIDAL JCT ARPT,34.1917,-114.5705,34.1866,-114.5672,283
-655111,SAN BERNARDINO ,BANNOCK,08/27/2016,237,Flash Flood, , ,0,0,10000,0,CA,PST-8, ,108113,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,7,N,5,N,BANNOCK,35.0438,-114.8439,35.023,-114.8301,284
-656603,SAN JOSE, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,285
-650759,SAN JOAQUIN , ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108652,Z,19,STO,0,0,State Official, , , , , , , , , , , , ,286
-650758,MOTHERLODE CAMPTONVILLE , ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,108652,Z,67,STO,0,0,State Official, , , , , , , , , , , , ,287
-656616,KERN, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,288
-656615,INDIAN WELLS, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,289
-656613,TULARE, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,290
-656612,SIERRA, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,291
-656611,KERN, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,292
-656609,TULARE, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,293
-656608,SIERRA, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,294
-656607,SAN JOSE, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,295
-656605,SAN JOSE, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,296
-656604,SAN JOSE, ,09/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,109760,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,297
-661638,SAN DIEGO , ,09/22/2016,1200,Dust Storm, , ,0,0,0,0,CA,PST-8, ,110820,Z,62,SGX,0,0,Trained Spotter, , , , , , , , , , , , ,298
-661639,APPLE LUCERNE, ,09/22/2016,1200,Dust Storm, , ,0,0,0,0,CA,PST-8, ,110820,Z,60,SGX,0,0,Trained Spotter, , , , , , , , , , , , ,299
-655165,MOJAVE, ,09/22/2016,1422,Dust Storm, , ,0,0,0,0,CA,PST-8, ,109475,Z,523,VEF,0,0,AWOS, , , , , , , , , , , , ,300
-655166,MORONGO , ,09/22/2016,1645,Dust Storm, , ,0,0,0,0,CA,PST-8, ,109475,Z,525,VEF,0,0,ASOS, , , , , , , , , , , , ,301
-661637,SAN DIEGO ,GUATAY,09/29/2016,1500,Flood, , ,0,0,0,0,CA,PST-8, ,110821,C,73,SGX,0,0,Trained Spotter,Heavy Rain, , ,1,S,2,E,GUATAY,32.8311,-116.5457,32.8536,-116.5169,302
-659940,SAN JOSE, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,303
-664165,SACRAMENTO , ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111299,Z,15,STO,0,0,State Official, , , , , , , , , , , , ,304
-664164,SACRAMENTO , ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111299,Z,17,STO,0,0,State Official, , , , , , , , , , , , ,305
-664155,SAN JOAQUIN , ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111299,Z,19,STO,0,0,State Official, , , , , , , , , , , , ,306
-664154,MOTHERLODE CAMPTONVILLE , ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111299,Z,67,STO,0,0,State Official, , , , , , , , , , , , ,307
-659950,KERN, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,308
-659949,INDIAN WELLS, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,309
-659948,TULARE, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,310
-659947,SIERRA, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,311
-659946,KERN, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,312
-659945,TULARE, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,313
-659944,SIERRA, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,314
-659943,SAN JOSE, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,315
-659942,SAN JOSE, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,316
-659941,SAN JOSE, ,10/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,110476,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,317
-663212,MONO ,MONO LAKE,10/16/2016,400,Debris Flow, , ,0,0,0,0,CA,PST-8, ,111174,C,51,REV,0,0,Public,Heavy Rain, , ,5,SW,5,SW,MONO LAKE,37.9504,-119.2106,37.9504,-119.2104,318
-663981,DEL NORTE,SMITH RIVER,10/16/2016,900,Flash Flood, , ,0,0,0,0,CA,PST-8, ,111265,C,15,EKA,0,0,Public,Heavy Rain, , ,2,S,2,S,SMITH RIVER,41.9015,-124.1465,41.9009,-124.1459,319
-663091,SAN BERNARDINO ,YUCCA VLY GNT RCK AR,10/24/2016,1030,Flood, , ,0,0,0,0,CA,PST-8, ,111154,C,71,SGX,0,0,Department of Highways,Heavy Rain, , ,7,WNW,10,SE,LCRNE VLY SOGGY DRY,34.3542,-116.5011,34.3449,-116.5605,320
-669717,SANTA CLARA ,SAN JOSE,10/28/2016,500,Flood, , ,0,0,0,0,CA,PST-8, ,111217,C,85,MTR,0,0,Broadcast Media,Heavy Rain, , ,1,ESE,1,SE,SAN JOSE,37.3257,-121.8655,37.3185,-121.8587,321
-669716,SANTA CLARA ,SAN JOSE,10/28/2016,550,Flood, , ,0,1,0,0,CA,PST-8, ,112327,C,85,MTR,0,0,Broadcast Media,Heavy Rain, , ,1,SW,1,SW,SAN JOSE,37.325,-121.887,37.3252,-121.887,322
-663607,MONTEREY ,MOLUS,10/28/2016,630,Flood, , ,0,0,0,0,CA,PST-8, ,111217,C,53,MTR,0,0,Law Enforcement,Heavy Rain, , ,1,SSE,1,NW,CAMPHORA,36.4598,-121.3773,36.4581,-121.3796,323
-663605,NAPA ,RUTHERFORD,10/28/2016,700,Debris Flow, , ,0,0,0,0,CA,PST-8, ,111217,C,55,MTR,0,0,Law Enforcement,Heavy Rain, , ,2,NE,2,NE,RUTHERFORD,38.4885,-122.3971,38.4864,-122.3962,324
-663606,SAN BENITO ,TRES PINOS,10/28/2016,730,Flood, , ,0,0,0,0,CA,PST-8, ,111217,C,69,MTR,0,0,Law Enforcement,Heavy Rain, , ,1,NNW,1,NNW,TRES PINOS,36.7912,-121.3244,36.7916,-121.3237,325
-663604,MONTEREY ,HALL,10/28/2016,745,Flood, , ,0,0,0,0,CA,PST-8, ,111217,C,53,MTR,0,0,Law Enforcement,Heavy Rain, , ,1,ESE,1,ESE,HALL,36.8645,-121.7144,36.8635,-121.7138,326
-663603,SANTA CLARA ,(SJC)SAN JOSE INTL A,10/28/2016,815,Flood, , ,0,0,0,0,CA,PST-8, ,111217,C,85,MTR,0,0,Law Enforcement,Heavy Rain, , ,1,NNE,1,NNE,(SJC)SAN JOSE INTL A,37.3899,-121.9194,37.3889,-121.9185,327
-663602,SANTA CLARA ,(SJC)SAN JOSE INTL A,10/28/2016,900,Flood, , ,0,0,0,0,CA,PST-8, ,111217,C,85,MTR,0,0,Public,Heavy Rain, , ,1,NNW,1,NNW,(SJC)SAN JOSE INTL A,37.3894,-121.9385,37.3833,-121.9373,328
-668181,SAN JOAQUIN , ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111966,Z,19,STO,0,0,State Official, , , , , , , , , , , , ,329
-666352,KERN, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,330
-666351,INDIAN WELLS, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,331
-666350,TULARE, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,332
-666349,SIERRA, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,333
-666348,KERN, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,334
-666347,TULARE, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,335
-666346,SIERRA, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,336
-666344,SAN JOSE, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,337
-666343,SAN JOSE, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,338
-666342,SAN JOSE, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,339
-666340,SAN JOSE, ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111717,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,340
-668178,MOTHERLODE CAMPTONVILLE , ,11/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111966,Z,67,STO,0,0,State Official, , , , , , , , , , , , ,341
-668900,SAN JOSE, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,89,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,342
-671432,SAN JOAQUIN , ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,112508,Z,19,STO,0,0,State Official, , , , , , , , , , , , ,343
-668910,KERN, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,99,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,344
-668909,INDIAN WELLS, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,98,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,345
-668908,TULARE, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,97,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,346
-668907,SIERRA, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,96,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,347
-668906,KERN, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,95,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,348
-668905,TULARE, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,94,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,349
-668904,SIERRA, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,93,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,350
-668903,SAN JOSE, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,92,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,351
-668902,SAN JOSE, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,91,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,352
-668901,SAN JOSE, ,12/01/2016,0,Drought, , ,0,0,0,0,CA,PST-8, ,111854,Z,90,HNX,0,0,Emergency Manager, , , , , , , , , , , , ,353
-671407,NEVADA ,NEVADA CITY,12/10/2016,800,Flood, , ,0,0,30000,0,CA,PST-8, ,112546,C,57,STO,0,0,Broadcast Media,Heavy Rain, , ,1,SSE,1,SSE,NEVADA CITY,39.2626,-121.0171,39.2624,-121.0173,354
-671408,NEVADA ,ALTA HILL,12/10/2016,800,Flood, , ,0,0,10000,0,CA,PST-8, ,112546,C,57,STO,0,0,Broadcast Media,Heavy Rain, , ,0,ENE,0,E,ALTA HILL,39.2314,-121.0711,39.2312,-121.0709,355
-671533,SANTA CLARA ,SAN JOSE,12/10/2016,1421,Flood, , ,0,0,0,0,CA,PST-8, ,112566,C,85,MTR,0,0,Law Enforcement,Heavy Rain, , ,2,ENE,2,ENE,SAN JOSE,37.3421,-121.8563,37.3412,-121.8548,356
-671535,SANTA CLARA ,(SJC)SAN JOSE INTL A,12/10/2016,1441,Flood, , ,0,0,0,0,CA,PST-8, ,112566,C,85,MTR,0,0,Law Enforcement,Heavy Rain, , ,1,NNE,1,NNE,(SJC)SAN JOSE INTL A,37.3902,-121.9209,37.3898,-121.92,357
-671536,SANTA CLARA ,SAN JOSE,12/10/2016,1513,Flood, , ,0,0,0,0,CA,PST-8, ,112566,C,85,MTR,0,0,Law Enforcement,Heavy Rain, , ,1,WSW,1,WSW,SAN JOSE,37.3226,-121.8943,37.3226,-121.8942,358
-671537,SAN MATEO ,EAST PALO ALTO,12/10/2016,1731,Flood, , ,0,0,0,0,CA,PST-8, ,112566,C,81,MTR,0,0,Law Enforcement,Heavy Rain, , ,6,SE,6,SE,EAST PALO ALTO,37.4034,-122.0705,37.4035,-122.0703,359
-671429,NEVADA ,CRYSTAL LAKE,12/11/2016,0,Flood, , ,0,0,5000,0,CA,PST-8, ,112546,C,57,STO,0,0,Broadcast Media,Heavy Rain, , ,4,E,4,E,CRYSTAL LAKE,39.3098,-120.5094,39.3097,-120.5088,360
-672346,DEL NORTE,(CEC)MC NAMARA ARPT,12/14/2016,1340,Flood, , ,0,0,583700,0,CA,PST-8, ,111295,C,15,EKA,0,0,County Official,Heavy Rain, , ,0,SSE,2,ESE,NORTHCREST,41.7742,-124.2269,41.7744,-124.1472,361
-664098,MENDOCINO,FT BRAGG AAF,12/15/2016,400,Flood, , ,0,0,1500000,0,CA,PST-8, ,111295,C,45,EKA,0,0,County Official,Dam / Levee Break, , ,1,SSW,1,SSW,FT BRAGG AAF,39.4545,-123.8055,39.4584,-123.8068,362
-664081,HUMBOLDT,ARCATA,12/15/2016,840,Flood, , ,0,0,0,0,CA,PST-8, ,111295,C,23,EKA,0,0,Department of Highways,Heavy Rain, , ,1,S,3,WSW,PORT KENYON,40.8528,-124.0803,40.5853,-124.3426,363
-664091,HUMBOLDT, ,12/15/2016,1100,Coastal Flood, , ,0,0,0,0,CA,PST-8, ,111295,Z,103,EKA,0,0,NWS Employee, , , , , , , , , , , , ,364
-671532,SONOMA,MANZANA,12/15/2016,1203,Flash Flood, , ,0,0,0,0,CA,PST-8, ,112564,C,97,MTR,0,0,Public,Heavy Rain, , ,1,SE,1,NW,MOLINO,38.44,-122.86,38.4403,-122.8592,365
-664084,MENDOCINO,PT ARENA,12/15/2016,1255,Flood, , ,0,0,0,0,CA,PST-8, ,111295,C,45,EKA,0,0,Department of Highways,Heavy Rain, , ,2,NW,2,SSW,MANCHESTER,38.94,-123.7,38.9459,-123.6964,366
-664089,MENDOCINO,ELK,12/15/2016,1315,Flood, , ,0,0,0,0,CA,PST-8, ,111295,C,45,EKA,0,0,Department of Highways,Heavy Rain, , ,4,NNE,2,SE,ALBION,39.1796,-123.6929,39.1976,-123.7449,367
-671855,SONOMA,PETALUMA,12/15/2016,1328,Flood, , ,0,0,0,0,CA,PST-8, ,112564,C,97,MTR,0,0,Law Enforcement,Heavy Rain, , ,5,E,3,SW,SCHELLVILLE ARPT,38.23,-122.5379,38.1969,-122.4897,368
-671868,NAPA ,ROCKTRAM,12/15/2016,1328,Flood, , ,0,0,0,0,CA,PST-8, ,112564,C,55,MTR,0,0,Law Enforcement,Heavy Rain, , ,2,W,2,NNE,BRAZOS,38.25,-122.3,38.2537,-122.3089,369
-671534,SONOMA,SCHELLVILLE ARPT,12/15/2016,1342,Flash Flood, , ,0,0,0,0,CA,PST-8, ,112564,C,97,MTR,0,0,Law Enforcement,Heavy Rain, , ,5,S,5,S,SCHELLVILLE ARPT,38.15,-122.45,38.1506,-122.4459,370
-664090,MENDOCINO,HOPLAND,12/15/2016,1356,Flood, , ,0,0,0,0,CA,PST-8, ,111295,C,45,EKA,0,0,Department of Highways,Heavy Rain, , ,1,SE,1,SSE,HOPLAND,38.9725,-123.1131,38.9708,-123.1134,371
-671876,SONOMA,PENNGROVE,12/15/2016,1400,Flash Flood, , ,0,0,0,0,CA,PST-8, ,112564,C,97,MTR,0,0,Law Enforcement,Heavy Rain, , ,3,NE,3,NE,PENNGROVE,38.33,-122.63,38.3304,-122.6339,372
-671881,ALAMEDA,EMERYVILLE,12/15/2016,1400,Flood, , ,0,0,0,0,CA,PST-8, ,112564,C,1,MTR,0,0,Law Enforcement,Heavy Rain, , ,2,SSE,2,SSE,EMERYVILLE,37.8277,-122.2713,37.8228,-122.272,373
-671884,MARIN,ALTO,12/15/2016,1432,Flash Flood, , ,0,0,0,0,CA,PST-8, ,112564,C,41,MTR,0,0,Law Enforcement,Heavy Rain, , ,1,W,1,W,ALTO,37.9,-122.52,37.8997,-122.5128,374
-671434,SACRAMENTO ,LAKE ALPINE,12/15/2016,1600,Flood, , ,0,0,0,0,CA,PST-8, ,112542,C,67,STO,0,0,Broadcast Media,Heavy Rain, , ,80,W,80,W,LAKE ALPINE,38.604,-121.4665,38.6033,-121.4672,375
-669277,MADERA,PONDEROSA ACRES,12/15/2016,1743,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,39,HNX,0,0,Law Enforcement,Heavy Rain, , ,0,N,1,N,PONDEROSA ACRES,37.37,-119.62,37.3885,-119.6229,376
-669278,MADERA,INDIAN SPGS,12/15/2016,1904,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,39,HNX,0,0,Law Enforcement,Heavy Rain, , ,7,SW,7,SW,INDIAN SPGS,36.9687,-119.8169,36.9651,-119.809,377
-671433,SACRAMENTO ,WHITE ROCK,12/15/2016,2000,Flood, , ,0,0,0,0,CA,PST-8, ,112542,C,67,STO,0,0,Broadcast Media,Heavy Rain, , ,2,WSW,2,WSW,WHITE ROCK,38.6173,-121.1417,38.6161,-121.1424,378
-669279,MADERA,WISHON,12/15/2016,2028,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,39,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,NE,1,NE,WISHON,37.315,-119.5362,37.3139,-119.5379,379
-669280,MARIPOSA,BAGBY,12/15/2016,2045,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,43,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,W,1,SW,BAGBY,37.6191,-120.1487,37.6069,-120.148,380
-669281,FRESNO,PINE RIDGE,12/15/2016,2116,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,19,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,SE,1,SE,PINE RIDGE,37.06,-119.36,37.0599,-119.3564,381
-669282,FRESNO,CLOVIS,12/15/2016,2140,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,19,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,SSW,1,SSW,CLOVIS,36.8,-119.71,36.8001,-119.7088,382
-669283,MARIPOSA,BRICEBURG,12/15/2016,2233,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,43,HNX,0,0,Law Enforcement,Heavy Rain, , ,0,N,0,E,BRICEBURG,37.6,-119.97,37.5991,-119.9637,383
-671431,SACRAMENTO ,ARCADE,12/16/2016,0,Flood, , ,0,0,0,0,CA,PST-8, ,112542,C,67,STO,0,0,County Official,Heavy Rain, , ,1,SE,1,SE,ARCADE,38.6217,-121.3654,38.6173,-121.3655,384
-669284,FRESNO,PRATHER,12/16/2016,25,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,19,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,SW,1,SSW,PRATHER,37.02,-119.53,37.0144,-119.5307,385
-669285,KERN,DEMOCRAT SPGS,12/16/2016,28,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,S,1,SSE,DEMOCRAT SPGS,35.52,-118.67,35.523,-118.666,386
-672396,KERN,RIVER KERN,12/16/2016,28,Debris Flow, , ,0,0,1000,0,CA,PST-8, ,112237,C,29,HNX,0,0,NWS Employee,Heavy Rain / Burn Area, , ,1,SW,2,ENE,RIVER KERN,35.7678,-118.4697,35.7923,-118.4148,387
-668955,LOS ANGELES ,LAS LOMAS,12/16/2016,423,Flash Flood, , ,0,0,0,0,CA,PST-8, ,112193,C,37,LOX,0,0,Law Enforcement,Heavy Rain / Burn Area, , ,1,ENE,1,E,LAS LOMAS,34.1516,-117.9403,34.151,-117.9405,388
-669286,KERN,MIRACLE HOT SPGS,12/16/2016,444,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,NE,1,NE,MIRACLE HOT SPGS,35.59,-118.52,35.5922,-118.5191,389
-669287,TULARE,SPRINGVILLE,12/16/2016,455,Flood, , ,0,0,0,0,CA,PST-8, ,112237,C,107,HNX,0,0,Law Enforcement,Heavy Rain, , ,3,WSW,2,SW,SPRINGVILLE,36.11,-118.86,36.105,-118.8521,390
-671430,SACRAMENTO ,BRIDGE HOUSE,12/16/2016,1700,Flood, , ,0,0,0,0,CA,PST-8, ,112542,C,67,STO,0,0,Broadcast Media,Heavy Rain, , ,2,NW,2,NW,BRIDGE HOUSE,38.5193,-121.1009,38.5209,-121.1023,391
-670378,SAN BERNARDINO ,KEENBROOK,12/22/2016,700,Flood, , ,0,0,5000,0,CA,PST-8, ,112435,C,71,SGX,0,0,Department of Highways,Heavy Rain, , ,2,NNW,2,E,KEENBROOK,34.2933,-117.4924,34.274,-117.4519,392
-671538,SANTA CRUZ ,REDWOOD GROVE,12/23/2016,1130,Flood, , ,0,0,0,0,CA,PST-8, ,112567,C,87,MTR,0,0,CoCoRaHS,Heavy Rain, , ,1,S,1,S,REDWOOD GROVE,37.1402,-122.13,37.1402,-122.13,393
-672543,KERN,LAKEVIEW,12/23/2016,2127,Flood, , ,0,0,0,0,CA,PST-8, ,112650,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,E,1,E,LAKEVIEW,35.1,-119.11,35.1017,-119.1006,394
-672544,KERN,DEMOCRAT SPGS,12/24/2016,7,Flood, , ,0,0,0,0,CA,PST-8, ,112650,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,E,1,ESE,DEMOCRAT SPGS,35.53,-118.66,35.5274,-118.6558,395
-672563,KERN,PENTLAND,12/31/2016,1544,Flood, , ,0,0,0,0,CA,PST-8, ,112652,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,NE,1,ENE,PENTLAND,35.06,-119.31,35.0561,-119.3002,396
-672564,KERN,EDISON,12/31/2016,1640,Flood, , ,0,0,0,0,CA,PST-8, ,112652,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,3,WSW,3,SW,EDISON,35.33,-118.91,35.314,-118.9043,397
-672565,KERN,DI GIORGIO,12/31/2016,1714,Flood, , ,0,0,0,0,CA,PST-8, ,112652,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,1,N,0,S,DI GIORGIO,35.2572,-118.83,35.2462,-118.8292,398
-672562,KERN,RIBIER,12/31/2016,1925,Flash Flood, , ,0,0,10000,0,CA,PST-8, ,112652,C,29,HNX,0,0,Law Enforcement,Heavy Rain, , ,2,N,3,S,EDISON,35.2835,-118.8707,35.3004,-118.8707,399
-667708,SAN BERNARDINO ,LENWOOD,12/31/2016,1939,Flash Flood, , ,0,0,1000,0,CA,PST-8, ,111971,C,71,VEF,0,0,Law Enforcement,Heavy Rain, , ,2,ESE,2,ESE,LENWOOD,34.8536,-117.0846,34.8559,-117.0841,400
+EVENT_ID,CZ_NAME_STR,BEGIN_LOCATION,BEGIN_DATE,BEGIN_TIME,EVENT_TYPE,MAGNITUDE,TOR_F_SCALE,DEATHS_DIRECT,INJURIES_DIRECT,DAMAGE_PROPERTY_NUM,DAMAGE_CROPS_NUM,CZ_TIMEZONE,MAGNITUDE_TYPE,EPISODE_ID,CZ_TYPE,CZ_FIPS,INJURIES_INDIRECT,DEATHS_INDIRECT,FLOOD_CAUSE,TOR_LENGTH,TOR_WIDTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON
+613338,SAN JOSE, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,89,0,0, , , , , , , , 
+605774,CARQUINEZ, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,101265,Z,18,0,0, , , , , , , , 
+605773,SACRAMENTO , ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,101265,Z,17,0,0, , , , , , , , 
+605772,SAN JOAQUIN , ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,101265,Z,19,0,0, , , , , , , , 
+605771,SACRAMENTO , ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,101265,Z,16,0,0, , , , , , , , 
+605770,SACRAMENTO , ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,101265,Z,15,0,0, , , , , , , , 
+613348,KERN, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,99,0,0, , , , , , , , 
+613347,INDIAN WELLS, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,98,0,0, , , , , , , , 
+613346,TULARE, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,97,0,0, , , , , , , , 
+613345,SIERRA, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,96,0,0, , , , , , , , 
+613344,KERN, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,95,0,0, , , , , , , , 
+613343,TULARE, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,94,0,0, , , , , , , , 
+613342,SIERRA, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,93,0,0, , , , , , , , 
+613341,SAN JOSE, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,92,0,0, , , , , , , , 
+613340,SAN JOSE, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,91,0,0, , , , , , , , 
+613339,SAN JOSE, ,12/01/2015,0,Drought,, ,0,0,0,0,PST-8, ,102616,Z,90,0,0, , , , , , , , 
+606309,MENDOCINO, ,12/11/2015,1000,Coastal Flood,, ,0,0,0,0,PST-8, ,101342,Z,2,0,0, , , , , , , , 
+606304,REDWOOD, ,12/11/2015,1000,Coastal Flood,, ,0,0,0,0,PST-8, ,101342,Z,1,0,0, , , , , , , , 
+608496,RIVERSIDE,ORDWAY,12/11/2015,1400,Flood,, ,0,0,0,0,PST-8, ,101669,C,65,0,0,Heavy Rain, , ,ORDWAY,33.9943,-117.2331,33.9879,-117.2355
+608498,COACHELLA, ,12/11/2015,1440,Dust Storm,, ,0,0,0,0,PST-8, ,101669,Z,61,0,0, , , , , , , , 
+608520,SAN DIEGO , ,12/12/2015,800,Coastal Flood,, ,0,0,0,0,PST-8, ,101669,Z,43,0,0, , , , , , , , 
+608559,SAN DIEGO , ,12/12/2015,800,Coastal Flood,, ,0,0,0,0,PST-8, ,101669,Z,43,0,0, , , , , , , , 
+608558,SAN DIEGO , ,12/12/2015,800,Coastal Flood,, ,0,0,0,0,PST-8, ,101669,Z,43,0,0, , , , , , , , 
+608555,SAN DIEGO , ,12/12/2015,800,Coastal Flood,, ,0,0,0,0,PST-8, ,101669,Z,43,0,0, , , , , , , , 
+608523,SAN DIEGO , ,12/12/2015,800,Coastal Flood,, ,0,0,0,0,PST-8, ,101669,Z,43,0,0, , , , , , , , 
+613366,KERN,GRAPE VINE,12/13/2015,1830,Flash Flood,, ,0,0,0,0,PST-8, ,102620,C,29,0,0,Heavy Rain, , ,GRAPE VINE,34.889,-118.9102,34.8886,-118.909
+613386,KERN,MAGUNDEN,12/22/2015,1004,Flash Flood,, ,0,0,0,0,PST-8, ,102623,C,29,0,0,Heavy Rain, , ,EDISON,35.4451,-118.8213,35.4239,-118.7773
+611427,EL DORADO ,FRESH POND,12/22/2015,1600,Debris Flow,, ,0,0,0,0,PST-8, ,102259,C,17,0,0,Heavy Rain / Burn Area, , ,FRESH POND,38.83,-120.53,38.8367,-120.5291
+611428,CALAVERAS,MOKELUMNE HILL,12/22/2015,1600,Debris Flow,, ,0,0,10000,0,PST-8, ,102259,C,9,0,0,Heavy Rain / Burn Area, , ,JESUS MARIA,38.28,-120.67,38.2835,-120.6652
+616925,SAN JOSE, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,90,0,0, , , , , , , , 
+616923,SAN JOSE, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,89,0,0, , , , , , , , 
+617463,MOTHERLODE CAMPTONVILLE , ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103258,Z,67,0,0, , , , , , , , 
+617288,CARQUINEZ, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103258,Z,18,0,0, , , , , , , , 
+617287,SACRAMENTO , ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103258,Z,17,0,0, , , , , , , , 
+617286,SAN JOAQUIN , ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103258,Z,19,0,0, , , , , , , , 
+617285,SACRAMENTO , ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103258,Z,16,0,0, , , , , , , , 
+617284,SACRAMENTO , ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103258,Z,15,0,0, , , , , , , , 
+616935,KERN, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,99,0,0, , , , , , , , 
+616934,INDIAN WELLS, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,98,0,0, , , , , , , , 
+616929,SIERRA, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,93,0,0, , , , , , , , 
+616933,TULARE, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,97,0,0, , , , , , , , 
+616932,SIERRA, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,96,0,0, , , , , , , , 
+616931,KERN, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,95,0,0, , , , , , , , 
+616930,TULARE, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,94,0,0, , , , , , , , 
+616927,SAN JOSE, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,92,0,0, , , , , , , , 
+616926,SAN JOSE, ,01/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103238,Z,91,0,0, , , , , , , , 
+610495,MODOC , ,01/01/2016,230,Extreme Cold/Wind Chill,, ,0,0,0,0,PST-8, ,102140,Z,85,0,0, , , , , , , , 
+617378,SACRAMENTO ,SACRAMENTO,01/05/2016,400,Flood,, ,0,0,1000,0,PST-8, ,103284,C,67,0,0,Heavy Rain, , ,SACRAMENTO,38.5633,-121.4738,38.5577,-121.4766
+615555,VENTURA,DULAH,01/05/2016,911,Flash Flood,, ,0,0,0,0,PST-8, ,103037,C,111,0,0,Heavy Rain / Burn Area, , ,DULAH,34.3083,-119.3459,34.3062,-119.3512
+615556,LOS ANGELES ,GLENDORA,01/05/2016,1230,Flash Flood,, ,0,0,0,0,PST-8, ,103037,C,37,0,0,Heavy Rain / Burn Area, , ,GLENDORA,34.1526,-117.8708,34.1527,-117.8685
+617078,SAN DIEGO ,OVERLOOK,01/05/2016,1500,Flood,, ,0,0,0,0,PST-8, ,103033,C,73,0,0,Heavy Rain, , ,NORTH PARK,32.7538,-117.2046,32.7731,-117.1146
+617065,SAN DIEGO ,SAN PASQUAL,01/05/2016,1600,Debris Flow,, ,0,0,0,0,PST-8, ,103033,C,73,0,0,Heavy Rain, , ,SAN PASQUAL,33.0772,-116.8974,33.0657,-116.9165
+617066,SAN DIEGO ,GLENVIEW,01/05/2016,1600,Flash Flood,, ,0,0,0,0,PST-8, ,103033,C,73,0,0,Heavy Rain, , ,GLENVIEW,32.8135,-116.9048,32.8087,-116.9053
+611586,SAN BERNARDINO ,BANNOCK,01/06/2016,100,Flash Flood,, ,0,0,1000,0,PST-8, ,102310,C,71,0,0,Heavy Rain, , ,BANNOCK,35.1564,-114.8461,35.1439,-114.8385
+608298,NAPA ,WOODLEAF,01/06/2016,700,Debris Flow,, ,0,0,0,0,PST-8, ,101646,C,55,0,0,Heavy Rain, , ,WOODLEAF,38.6065,-122.594,38.6043,-122.5946
+608301,SONOMA,SEBASTOPOL,01/06/2016,800,Flood,, ,0,0,0,0,PST-8, ,101646,C,97,0,0,Heavy Rain, , ,SEBASTOPOL,38.3943,-122.8368,38.3941,-122.8367
+608300,MARIN,STINSON BEACH,01/06/2016,800,Debris Flow,, ,0,0,0,0,PST-8, ,101646,C,41,0,0,Heavy Rain, , ,STINSON BEACH,37.8879,-122.6277,37.8863,-122.6272
+608299,MONTEREY ,SPENCE,01/06/2016,800,Flood,, ,0,0,0,0,PST-8, ,101646,C,53,0,0,Heavy Rain, , ,SPENCE,36.6286,-121.5845,36.6218,-121.5869
+608297,SAN FRANCISCO ,SAN FRANCISCO,01/06/2016,800,Flood,, ,0,0,0,0,PST-8, ,101646,C,75,0,0,Heavy Rain, , ,OCEAN VIEW,37.7748,-122.4279,37.723,-122.4165
+608010,NORTH BAY, ,01/06/2016,800,Coastal Flood,, ,0,0,0,0,PST-8, ,101646,Z,506,0,0, , , , , , , , 
+608014,ALAMEDA,ALBANY,01/06/2016,800,Flood,, ,0,0,0,0,PST-8, ,101646,C,1,0,0,Heavy Rain, , ,ALBANY,37.9665,-122.3225,37.9662,-122.323
+617029,ORANGE ,SILVERADO,01/06/2016,1000,Debris Flow,, ,0,0,0,0,PST-8, ,103033,C,59,0,0,Heavy Rain / Burn Area, , ,MODJESKA,33.7871,-117.6814,33.7129,-117.6883
+608303,SANTA CRUZ ,ELLICOTT,01/06/2016,1030,Flood,, ,0,0,0,0,PST-8, ,101646,C,87,0,0,Heavy Rain, , ,ELLICOTT,36.8835,-121.8006,36.8809,-121.7988
+615557,VENTURA,DULAH,01/06/2016,1045,Flash Flood,, ,0,0,0,0,PST-8, ,103037,C,111,0,0,Heavy Rain / Burn Area, , ,DULAH,34.3108,-119.3521,34.3091,-119.355
+615559,LOS ANGELES ,NEWHALL,01/06/2016,1130,Flash Flood,, ,0,0,0,0,PST-8, ,103037,C,37,0,0,Heavy Rain / Burn Area, , ,NEWHALL,34.3651,-118.5494,34.3622,-118.5488
+616948,SAN BERNARDINO ,BRYN MAWR,01/06/2016,1300,Flood,, ,0,0,0,0,PST-8, ,103033,C,71,0,0,Heavy Rain, , ,DEVORE,34.0362,-117.2221,34.2266,-117.4493
+617064,ORANGE ,ROCHE,01/06/2016,1300,Flash Flood,, ,0,0,0,0,PST-8, ,103033,C,59,0,0,Heavy Rain, , ,SAN CLEMENTE,33.4438,-117.6227,33.44,-117.6162
+617063,ORANGE ,VILLA PARK,01/06/2016,1300,Flash Flood,, ,0,0,0,0,PST-8, ,103033,C,59,0,0,Heavy Rain, , ,VILLA PARK,33.8172,-117.788,33.8011,-117.7408
+615558,VENTURA,PIRU,01/06/2016,1312,Flash Flood,, ,0,0,0,0,PST-8, ,103037,C,111,0,0,Heavy Rain, , ,PIRU,34.4195,-118.792,34.4181,-118.7885
+616978,RIVERSIDE,RIVERSIDE JCT,01/06/2016,1500,Flood,, ,0,0,0,0,PST-8, ,103033,C,65,0,0,Heavy Rain, , ,RIVERSIDE JCT,33.9818,-117.3783,33.9681,-117.3778
+617076,SAN DIEGO ,SORRENTO,01/06/2016,1500,Flash Flood,, ,0,0,25000,0,PST-8, ,103033,C,73,0,0,Heavy Rain, , ,SORRENTO,32.905,-117.2495,32.9039,-117.2022
+617077,SAN DIEGO ,CALAVO GARDENS,01/06/2016,1500,Flash Flood,, ,0,0,0,0,PST-8, ,103033,C,73,0,0,Heavy Rain, , ,CREST,32.7688,-116.9811,32.7804,-116.8829
+616984,RIVERSIDE,MURRIETA,01/06/2016,1500,Debris Flow,, ,0,0,2000,0,PST-8, ,103033,C,65,0,0,Heavy Rain, , ,MURRIETA,33.5334,-117.1925,33.5105,-117.3093
+615560,LOS ANGELES ,GLENDORA,01/06/2016,1515,Flash Flood,, ,0,0,0,0,PST-8, ,103037,C,37,0,0,Heavy Rain, , ,GLENDORA,34.2402,-117.8536,34.2316,-117.8515
+616990,RIVERSIDE,DESERT HOT SPGS,01/06/2016,1600,Flood,, ,0,0,0,0,PST-8, ,103033,C,65,0,0,Heavy Rain, , ,INDIO,33.9411,-116.4757,33.7266,-116.2189
+611600,SAN BERNARDINO ,YUCCA VLY ARPT,01/06/2016,1600,Flash Flood,, ,0,0,2000,0,PST-8, ,102310,C,71,0,0,Heavy Rain, , ,YUCCA VLY ARPT,34.1418,-116.3709,34.139,-116.3706
+617067,SAN DIEGO ,HARBISON CANYON,01/07/2016,1900,Debris Flow,, ,0,0,0,0,PST-8, ,103033,C,73,0,0,Heavy Rain, , ,EL CAJON,32.8066,-116.8317,32.7746,-116.9426
+616052,LAKE TAHOE, ,01/14/2016,1430,Avalanche,, ,1,0,0,0,PST-8, ,103092,Z,72,0,0, , , , , , , , 
+611869,SISKIYOU,SEIAD VLY,01/17/2016,600,Debris Flow,, ,0,0,0,0,PST-8, ,102370,C,93,0,0,Heavy Rain / Burn Area, , ,SEIAD VLY,41.835,-123.177,41.815,-123.1727
+608663,SANTA CRUZ ,MT HERMON,01/22/2016,1230,Debris Flow,, ,0,2,5000,0,PST-8, ,101780,C,87,0,0,Heavy Rain, , ,MT HERMON,37.0538,-122.0743,37.0528,-122.0738
+608664,MONTEREY ,BIG SUR,01/22/2016,1900,Debris Flow,, ,0,0,0,0,PST-8, ,101780,C,53,0,0,Heavy Rain, , ,BIG SUR,36.2754,-121.8196,36.275,-121.8198
+617292,TEHAMA,CORNING,01/23/2016,1500,Flood,, ,0,0,5000,0,PST-8, ,103285,C,103,0,0,Heavy Rain, , ,CORNING,39.93,-122.18,39.9291,-122.1799
+617405,NEVADA ,SODA SPGS,01/30/2016,300,Flood,, ,0,0,20000,0,PST-8, ,103307,C,57,0,0,Ice Jam, , ,SODA SPGS,39.32,-120.38,39.3212,-120.3793
+615571,LOS ANGELES ,GLENDORA,01/31/2016,1400,Flash Flood,, ,0,0,0,0,PST-8, ,103039,C,37,0,0,Heavy Rain / Burn Area, , ,GLENDORA,34.2675,-117.8548,34.2616,-117.8637
+616543,SAN BERNARDINO ,CRESTLINE,01/31/2016,1500,Flash Flood,, ,0,0,1500,0,PST-8, ,102850,C,71,0,0,Heavy Rain, , ,CRESTLINE,34.2159,-117.2947,34.2124,-117.2898
+618316,SAN JOSE, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,89,0,0, , , , , , , , 
+618319,SAN JOSE, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,92,0,0, , , , , , , , 
+622060,MOTHERLODE CAMPTONVILLE , ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103621,Z,67,0,0, , , , , , , , 
+622058,SAN JOAQUIN , ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103621,Z,19,0,0, , , , , , , , 
+622056,CARQUINEZ, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103621,Z,18,0,0, , , , , , , , 
+622055,SACRAMENTO , ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103621,Z,17,0,0, , , , , , , , 
+622053,SACRAMENTO , ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103621,Z,16,0,0, , , , , , , , 
+622052,SACRAMENTO , ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103621,Z,15,0,0, , , , , , , , 
+618326,KERN, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,99,0,0, , , , , , , , 
+618325,INDIAN WELLS, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,98,0,0, , , , , , , , 
+618324,TULARE, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,97,0,0, , , , , , , , 
+618323,SIERRA, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,96,0,0, , , , , , , , 
+618322,KERN, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,95,0,0, , , , , , , , 
+618321,TULARE, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,94,0,0, , , , , , , , 
+618320,SIERRA, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,93,0,0, , , , , , , , 
+618318,SAN JOSE, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,91,0,0, , , , , , , , 
+618317,SAN JOSE, ,02/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,103458,Z,90,0,0, , , , , , , , 
+620099,LAKE TAHOE, ,02/18/2016,700,Avalanche,, ,0,0,0,0,PST-8, ,103727,Z,72,0,0, , , , , , , , 
+622307,SAN JOAQUIN , ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104041,Z,19,0,0, , , , , , , , 
+626447,KERN, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,99,0,0, , , , , , , , 
+626441,SAN JOSE, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,92,0,0, , , , , , , , 
+622303,SACRAMENTO , ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104041,Z,15,0,0, , , , , , , , 
+626440,SAN JOSE, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,91,0,0, , , , , , , , 
+626445,SIERRA, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,96,0,0, , , , , , , , 
+626446,INDIAN WELLS, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,98,0,0, , , , , , , , 
+626444,KERN, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,95,0,0, , , , , , , , 
+626439,SAN JOSE, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,90,0,0, , , , , , , , 
+626443,TULARE, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,94,0,0, , , , , , , , 
+626442,SIERRA, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,93,0,0, , , , , , , , 
+632308,SAN JOSE, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,89,0,0, , , , , , , , 
+622308,MOTHERLODE CAMPTONVILLE , ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104041,Z,67,0,0, , , , , , , , 
+622306,CARQUINEZ, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104041,Z,18,0,0, , , , , , , , 
+622304,SACRAMENTO , ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104041,Z,16,0,0, , , , , , , , 
+632309,TULARE, ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104282,Z,97,0,0, , , , , , , , 
+622305,SACRAMENTO , ,03/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,104041,Z,17,0,0, , , , , , , , 
+622321,CALAVERAS,MOKELUMNE HILL,03/05/2016,2300,Debris Flow,, ,0,0,5000,0,PST-8, ,104042,C,9,0,0,Heavy Rain / Burn Area, , ,MOKELUMNE HILL,38.3111,-120.6659,38.3059,-120.6584
+627008,COACHELLA, ,03/06/2016,1230,Dust Storm,, ,0,0,0,0,PST-8, ,104284,Z,61,0,0, , , , , , , , 
+622685,VENTURA,DULAH,03/07/2016,610,Flash Flood,, ,0,0,0,0,PST-8, ,104093,C,111,0,0,Heavy Rain / Burn Area, , ,VENTURA JCT,34.3091,-119.3557,34.304,-119.3487
+627006,NEVADA ,NORTH BLOOMFIELD,03/13/2016,600,Flood,, ,0,0,0,0,PST-8, ,104663,C,57,0,0,Heavy Rain, , ,NORTH BLOOMFIELD,39.27,-120.8634,39.27,-120.863
+619540,MORONGO , ,03/22/2016,1206,Dust Storm,, ,0,0,0,0,PST-8, ,103656,Z,525,0,0, , , , , , , , 
+632900,SACRAMENTO , ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105508,Z,15,0,0, , , , , , , , 
+631107,KERN, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,99,0,0, , , , , , , , 
+631106,INDIAN WELLS, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,98,0,0, , , , , , , , 
+631105,TULARE, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,97,0,0, , , , , , , , 
+631104,SIERRA, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,96,0,0, , , , , , , , 
+631103,KERN, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,95,0,0, , , , , , , , 
+631100,TULARE, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,94,0,0, , , , , , , , 
+631099,SIERRA, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,93,0,0, , , , , , , , 
+631098,SAN JOSE, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,92,0,0, , , , , , , , 
+631097,SAN JOSE, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,91,0,0, , , , , , , , 
+631096,SAN JOSE, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,90,0,0, , , , , , , , 
+631095,SAN JOSE, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105273,Z,89,0,0, , , , , , , , 
+632967,MOTHERLODE CAMPTONVILLE , ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105508,Z,67,0,0, , , , , , , , 
+632966,SAN JOAQUIN , ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105508,Z,19,0,0, , , , , , , , 
+632952,CARQUINEZ, ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105508,Z,18,0,0, , , , , , , , 
+632951,SACRAMENTO , ,04/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105508,Z,17,0,0, , , , , , , , 
+619622,SAN BERNARDINO ,JIMGREY,04/08/2016,1251,Flash Flood,, ,0,0,1000,0,PST-8, ,103667,C,71,0,0,Heavy Rain, , ,JIMGREY,34.97,-117.47,34.9683,-117.4639
+619623,SAN BERNARDINO ,CALICO,04/08/2016,1331,Flash Flood,, ,0,0,2000,0,PST-8, ,103667,C,71,0,0,Heavy Rain, , ,CALICO,35.0422,-116.888,35.0498,-116.8876
+628849,SAN BERNARDINO ,ADELANTO EL MIRGE APT,04/08/2016,1630,Flood,, ,0,0,0,0,PST-8, ,104966,C,71,0,0,Heavy Rain, , ,EL MIRAGE,34.6075,-117.5987,34.5909,-117.599
+628848,SAN BERNARDINO ,ADELANTO HLNDALE ARP,04/08/2016,1700,Flood,, ,0,0,0,0,PST-8, ,104966,C,71,0,0,Heavy Rain, , ,ADELANTO HLNDALE ARP,34.7335,-117.4706,34.7195,-117.4645
+619624,SAN BERNARDINO ,YUCCA VLY ARPT,04/10/2016,1130,Flash Flood,, ,0,1,10000,0,PST-8, ,103667,C,71,0,0,Heavy Rain, , ,YUCCA VLY ARPT,34.1439,-116.4161,34.1432,-116.4155
+628839,SAN DIEGO ,RANCHO BERNARDO,04/10/2016,1200,Flood,, ,0,0,10000,0,PST-8, ,104966,C,73,0,0,Heavy Rain, , ,RANCHO BERNARDO,33.0231,-117.0803,33.0233,-117.0799
+628842,SAN DIEGO ,SUNNY VISTA,04/10/2016,1215,Flood,, ,0,0,0,0,PST-8, ,104966,C,73,0,0,Heavy Rain, , ,SUNNY VISTA,32.6596,-117.0816,32.6598,-117.0777
+619625,SAN BERNARDINO ,GROMMET,04/10/2016,1415,Flash Flood,, ,0,0,1000,0,PST-8, ,103667,C,71,0,0,Heavy Rain, , ,GROMMET,34.0902,-114.7029,34.109,-114.7213
+619626,SAN BERNARDINO ,CALICO,04/11/2016,1547,Flash Flood,, ,0,0,5000,0,PST-8, ,103667,C,71,0,0,Heavy Rain, , ,CALICO,34.9822,-116.9258,34.9482,-116.9038
+628847,SAN DIEGO ,WARNER SPGS,04/11/2016,1600,Flash Flood,, ,0,0,350000,0,PST-8, ,104966,C,73,0,0,Heavy Rain, , ,WARNER SPGS,33.2557,-116.578,33.2565,-116.5759
+640180,SACRAMENTO , ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106415,Z,16,0,0, , , , , , , , 
+635462,KERN, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,99,0,0, , , , , , , , 
+635461,INDIAN WELLS, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,98,0,0, , , , , , , , 
+635460,TULARE, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,97,0,0, , , , , , , , 
+635459,SIERRA, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,96,0,0, , , , , , , , 
+635458,KERN, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,95,0,0, , , , , , , , 
+635457,TULARE, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,94,0,0, , , , , , , , 
+635455,SIERRA, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,93,0,0, , , , , , , , 
+635454,SAN JOSE, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,92,0,0, , , , , , , , 
+635453,SAN JOSE, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,91,0,0, , , , , , , , 
+635452,SAN JOSE, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,90,0,0, , , , , , , , 
+635451,SAN JOSE, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,105885,Z,89,0,0, , , , , , , , 
+640179,SACRAMENTO , ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106415,Z,15,0,0, , , , , , , , 
+640185,MOTHERLODE CAMPTONVILLE , ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106415,Z,67,0,0, , , , , , , , 
+640184,SAN JOAQUIN , ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106415,Z,19,0,0, , , , , , , , 
+640183,CARQUINEZ, ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106415,Z,18,0,0, , , , , , , , 
+640181,SACRAMENTO , ,05/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106415,Z,17,0,0, , , , , , , , 
+643359,SANTA BARBARA ,CUYAMA,05/05/2016,1637,Flash Flood,, ,0,0,0,0,PST-8, ,107255,C,83,0,0,Heavy Rain, , ,CUYAMA,34.9347,-119.5398,34.924,-119.5379
+635824,SAN DIEGO ,SOLANA BEACH,05/06/2016,630,Flood,, ,0,0,0,0,PST-8, ,105951,C,73,0,0,Heavy Rain, , ,SOLANA BEACH,32.9978,-117.2587,32.9983,-117.2546
+635823,SAN DIEGO ,SAN DIEGO MUNI BROWN,05/06/2016,900,Flood,, ,0,0,10000,0,PST-8, ,105951,C,73,0,0,Heavy Rain, , ,SAN DIEGO MUNI BROWN,32.561,-116.9635,32.5611,-116.962
+638280,FRESNO,COALINGA,05/06/2016,1354,Debris Flow,, ,0,0,0,0,PST-8, ,106281,C,19,0,0,Heavy Rain, , ,COALINGA,36.0971,-120.4316,36.0981,-120.4242
+638281,FRESNO,COALINGA,05/06/2016,1355,Debris Flow,, ,0,0,0,0,PST-8, ,106281,C,19,0,0,Heavy Rain, , ,COALINGA,36.1183,-120.3813,36.1191,-120.3787
+638283,FRESNO,COALINGA,05/06/2016,1408,Debris Flow,, ,0,0,0,0,PST-8, ,106281,C,19,0,0,Heavy Rain, , ,COALINGA,36.1028,-120.4181,36.1036,-120.4136
+643360,SAN LUIS OBISPO ,CHOLAME,05/06/2016,1524,Flash Flood,, ,0,0,0,0,PST-8, ,107255,C,79,0,0,Heavy Rain, , ,CHOLAME,35.7533,-120.2364,35.7627,-120.2656
+639590,KERN,OIL CENTER,05/06/2016,1531,Debris Flow,, ,0,0,0,0,PST-8, ,106281,C,29,0,0,Heavy Rain, , ,OIL CENTER,35.4232,-118.9809,35.4177,-118.9739
+638287,KERN,GRAPE VINE,05/06/2016,1546,Debris Flow,, ,0,0,0,0,PST-8, ,106281,C,29,0,0,Heavy Rain, , ,GRAPE VINE,34.8995,-118.9217,34.8994,-118.9224
+635827,SAN BERNARDINO ,ONTARIO,05/06/2016,2330,Flood,, ,0,0,0,0,PST-8, ,105951,C,71,0,0,Heavy Rain, , ,ONTARIO,34.0754,-117.6216,34.0784,-117.6265
+635826,SAN BERNARDINO ,(ONT)ONTARIO ITNL AR,05/07/2016,30,Flash Flood,, ,0,0,30000,0,PST-8, ,105951,C,71,0,0,Heavy Rain, , ,(ONT)ONTARIO ITNL AR,34.0425,-117.6303,34.0427,-117.6271
+635828,SAN BERNARDINO ,(ONT)ONTARIO ITNL AR,05/07/2016,45,Flood,, ,0,0,0,0,PST-8, ,105951,C,71,0,0,Heavy Rain, , ,(ONT)ONTARIO ITNL AR,34.0272,-117.6336,34.0273,-117.6323
+635830,SAN BERNARDINO ,(ONT)ONTARIO ITNL AR,05/07/2016,100,Flash Flood,, ,0,0,0,0,PST-8, ,105951,C,71,0,0,Heavy Rain, , ,(ONT)ONTARIO ITNL AR,34.0315,-117.616,34.0318,-117.6058
+640200,SAN DIEGO , ,05/21/2016,2100,Dust Storm,, ,0,0,0,0,PST-8, ,106629,Z,62,0,0, , , , , , , , 
+641541,SAN JOSE, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,89,0,0, , , , , , , , 
+647041,CARQUINEZ, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,107997,Z,18,0,0, , , , , , , , 
+647040,SACRAMENTO , ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,107997,Z,17,0,0, , , , , , , , 
+647039,SACRAMENTO , ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,107997,Z,16,0,0, , , , , , , , 
+647038,SACRAMENTO , ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,107997,Z,15,0,0, , , , , , , , 
+647043,MOTHERLODE CAMPTONVILLE , ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,107997,Z,67,0,0, , , , , , , , 
+647042,SAN JOAQUIN , ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,107997,Z,19,0,0, , , , , , , , 
+641551,KERN, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,99,0,0, , , , , , , , 
+641550,INDIAN WELLS, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,98,0,0, , , , , , , , 
+641549,TULARE, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,97,0,0, , , , , , , , 
+641548,SIERRA, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,96,0,0, , , , , , , , 
+641547,KERN, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,95,0,0, , , , , , , , 
+641546,TULARE, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,94,0,0, , , , , , , , 
+641545,SIERRA, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,93,0,0, , , , , , , , 
+641544,SAN JOSE, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,92,0,0, , , , , , , , 
+641543,SAN JOSE, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,91,0,0, , , , , , , , 
+641542,SAN JOSE, ,06/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,106889,Z,90,0,0, , , , , , , , 
+647062,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,98,0,0, , , , , , , , 
+647074,KERN, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,99,0,0, , , , , , , , 
+647073,KERN, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,99,0,0, , , , , , , , 
+647072,KERN, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,99,0,0, , , , , , , , 
+647071,KERN, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,99,0,0, , , , , , , , 
+647070,KERN, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,99,0,0, , , , , , , , 
+647069,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,98,0,0, , , , , , , , 
+647068,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,98,0,0, , , , , , , , 
+647067,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,98,0,0, , , , , , , , 
+647066,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,98,0,0, , , , , , , , 
+647065,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,98,0,0, , , , , , , , 
+647064,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,98,0,0, , , , , , , , 
+647063,INDIAN WELLS, ,06/20/2016,1200,Excessive Heat,, ,0,0,0,0,PST-8, ,108010,Z,98,0,0, , , , , , , , 
+643038,INYO,DEEP SPGS,06/29/2016,1730,Flash Flood,, ,0,0,1000,0,PST-8, ,107187,C,27,0,0,Heavy Rain, , ,DEEP SPGS,37.3787,-117.9959,37.3803,-117.9934
+644969,SAN BERNARDINO ,BANNOCK,06/30/2016,1751,Flash Flood,, ,0,0,2000,0,PST-8, ,107187,C,71,0,0,Heavy Rain, , ,BANNOCK,34.9372,-114.8337,34.9475,-114.8365
+644995,SAN BERNARDINO ,IBIS,06/30/2016,1830,Flash Flood,, ,0,0,10000,0,PST-8, ,107187,C,71,0,0,Heavy Rain, , ,IBIS,35.0444,-114.6882,35.0382,-114.7093
+644972,INYO,BEATTY JCT,06/30/2016,2230,Flash Flood,, ,0,0,5000,0,PST-8, ,107187,C,27,0,0,Heavy Rain, , ,BEATTY JCT,36.593,-116.9455,36.5842,-116.9488
+646615,INYO,DEATH VLY JCT,07/01/2016,0,Flash Flood,, ,0,0,2000,0,PST-8, ,107930,C,27,0,0,Heavy Rain, , ,SHOSHONE,36.2876,-116.4798,36.1734,-116.12
+647732,KERN, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,99,0,0, , , , , , , , 
+647731,INDIAN WELLS, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,98,0,0, , , , , , , , 
+647730,TULARE, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,97,0,0, , , , , , , , 
+647729,SIERRA, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,96,0,0, , , , , , , , 
+647728,KERN, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,95,0,0, , , , , , , , 
+647727,TULARE, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,94,0,0, , , , , , , , 
+647726,SIERRA, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,93,0,0, , , , , , , , 
+647725,SAN JOSE, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,92,0,0, , , , , , , , 
+647724,SAN JOSE, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,91,0,0, , , , , , , , 
+647723,SAN JOSE, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,90,0,0, , , , , , , , 
+647722,SAN JOSE, ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108100,Z,89,0,0, , , , , , , , 
+650498,SAN JOAQUIN , ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108059,Z,19,0,0, , , , , , , , 
+650497,MOTHERLODE CAMPTONVILLE , ,07/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108059,Z,67,0,0, , , , , , , , 
+646616,SAN BERNARDINO ,BANNOCK,07/01/2016,413,Flash Flood,, ,0,0,1000,0,PST-8, ,107930,C,71,0,0,Heavy Rain, , ,BANNOCK,35.0375,-114.8337,35.0282,-114.827
+652419,SAN BERNARDINO ,BALDWIN LAKE,07/01/2016,1330,Flood,, ,0,0,0,0,PST-8, ,108917,C,71,0,0,Heavy Rain, , ,BALDWIN LAKE,34.2656,-116.7906,34.2655,-116.7849
+646620,SAN BERNARDINO ,BARSTOW,07/01/2016,1525,Flash Flood,, ,0,0,100000,0,PST-8, ,107930,C,71,0,0,Heavy Rain, , ,BARSTOW,34.8768,-117.0473,34.8788,-117.0098
+646621,SAN BERNARDINO ,BARSTOW,07/01/2016,1525,Flash Flood,, ,0,0,100000,0,PST-8, ,107930,C,71,0,0,Heavy Rain, , ,BARSTOW,34.8768,-117.0473,34.8788,-117.0098
+652422,SAN BERNARDINO ,HELENDALE,07/01/2016,1710,Flash Flood,, ,0,0,10000,0,PST-8, ,108917,C,71,0,0,Heavy Rain, , ,HELENDALE,34.6703,-117.3454,34.6939,-117.3434
+646625,INYO,BEATTY JCT,07/01/2016,2014,Flash Flood,, ,0,0,5000,0,PST-8, ,107930,C,27,0,0,Heavy Rain, , ,BEATTY JCT,36.609,-117.001,36.5604,-116.9213
+649295,INDIAN WELLS, ,07/29/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,98,0,0, , , , , , , , 
+649294,KERN, ,07/29/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,99,0,0, , , , , , , , 
+649293,KERN, ,07/29/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,99,0,0, , , , , , , , 
+649292,KERN, ,07/29/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,99,0,0, , , , , , , , 
+649296,INDIAN WELLS, ,07/29/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,98,0,0, , , , , , , , 
+646271,COLORADO RIVER VALLEY, ,07/30/2016,1,Dust Storm,, ,0,0,0,0,MST-7, ,107852,Z,31,0,0, , , , , , , , 
+649300,KERN, ,07/30/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,99,0,0, , , , , , , , 
+649301,KERN, ,07/30/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,99,0,0, , , , , , , , 
+649299,KERN, ,07/30/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,99,0,0, , , , , , , , 
+649298,INDIAN WELLS, ,07/30/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,98,0,0, , , , , , , , 
+649297,INDIAN WELLS, ,07/30/2016,1000,Excessive Heat,, ,0,0,0,0,PST-8, ,108172,Z,98,0,0, , , , , , , , 
+646652,INYO,BISHOP,07/31/2016,1700,Flash Flood,, ,0,0,1000,0,PST-8, ,107937,C,27,0,0,Heavy Rain, , ,BISHOP,37.386,-118.4153,37.3861,-118.4142
+648124,SAN JOSE, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,89,0,0, , , , , , , , 
+650757,SAN JOAQUIN , ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108594,Z,19,0,0, , , , , , , , 
+650505,MOTHERLODE CAMPTONVILLE , ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108594,Z,67,0,0, , , , , , , , 
+648136,KERN, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,99,0,0, , , , , , , , 
+648135,INDIAN WELLS, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,98,0,0, , , , , , , , 
+648134,TULARE, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,97,0,0, , , , , , , , 
+648133,SIERRA, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,96,0,0, , , , , , , , 
+648132,KERN, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,95,0,0, , , , , , , , 
+648131,TULARE, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,94,0,0, , , , , , , , 
+648129,SIERRA, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,93,0,0, , , , , , , , 
+648128,SAN JOSE, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,92,0,0, , , , , , , , 
+648127,SAN JOSE, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,91,0,0, , , , , , , , 
+648126,SAN JOSE, ,08/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108188,Z,90,0,0, , , , , , , , 
+649593,SAN BERNARDINO ,ESSEX,08/01/2016,1730,Flash Flood,, ,0,0,2000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,ESSEX,34.7542,-115.2239,34.753,-115.2257
+649594,SAN BERNARDINO ,VIDAL,08/02/2016,353,Flash Flood,, ,0,0,1000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,VIDAL,34.1824,-114.4432,34.189,-114.4472
+649595,SAN BERNARDINO ,ELORA STATION,08/02/2016,1410,Flash Flood,, ,0,0,1000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,ELORA STATION,35.1417,-115.5302,35.135,-115.5349
+649596,SAN BERNARDINO ,NEBO,08/02/2016,1542,Flash Flood,, ,0,0,5000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,CRUCERO,34.7509,-115.7767,35.1477,-116.0925
+649598,SAN BERNARDINO ,JAVA,08/03/2016,1829,Flash Flood,, ,0,0,25000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,JAVA,34.89,-114.6448,34.8892,-114.6448
+649604,SAN BERNARDINO ,WHEATON SPGS,08/04/2016,129,Flash Flood,, ,0,0,2000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,WHEATON SPGS,35.4705,-115.4502,35.4689,-115.4438
+656741,SAN BERNARDINO ,LUCERNE VLY,08/04/2016,1300,Flash Flood,, ,0,0,0,0,PST-8, ,109801,C,71,0,0,Heavy Rain, , ,LUCERNE VLY,34.4211,-117.0401,34.4444,-117.0229
+649621,SAN BERNARDINO ,(NXP)MCAF TWENTYNINE,08/04/2016,1300,Flash Flood,, ,0,0,1000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,(NXP)MCAF TWENTYNINE,34.1201,-115.8974,34.1339,-115.9133
+649632,SAN BERNARDINO ,ESSEX,08/04/2016,1746,Flash Flood,, ,0,0,5000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,ESSEX,34.7553,-115.2247,34.7533,-115.2264
+649638,SAN BERNARDINO ,ESSEX,08/04/2016,1900,Flash Flood,, ,0,0,1000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,ESSEX,34.73,-115.25,34.7994,-115.3259
+649646,SAN BERNARDINO ,VIDAL JCT ARPT,08/04/2016,2041,Flash Flood,, ,0,0,5000,0,PST-8, ,108103,C,71,0,0,Heavy Rain, , ,GROMMET,34.1812,-114.5421,34.0585,-114.7124
+649672,SAN BERNARDINO ,HAVASU LAKE,08/18/2016,1623,Flash Flood,, ,0,0,1000,0,PST-8, ,108107,C,71,0,0,Heavy Rain, , ,HAVASU LAKE,34.53,-114.65,34.5302,-114.6468
+649674,SAN BERNARDINO ,(EED)NEEDLES ARPT,08/18/2016,1650,Flash Flood,, ,0,0,25000,0,PST-8, ,108107,C,71,0,0,Heavy Rain, , ,(EED)NEEDLES ARPT,34.7294,-114.6046,34.7299,-114.5998
+647599,IMPERIAL , ,08/19/2016,1700,Dust Storm,, ,0,0,0,0,PST-8, ,108081,Z,33,0,0, , , , , , , , 
+647649,RIVERSIDE,MESAVILLE,08/21/2016,300,Flood,, ,0,0,0,0,PST-8, ,108094,C,65,0,0,Heavy Rain, , ,MESAVILLE,33.7769,-114.5531,33.7757,-114.4748
+649678,SAN BERNARDINO ,VIDAL JCT ARPT,08/21/2016,343,Flash Flood,, ,0,0,2000,0,PST-8, ,108107,C,71,0,0,Heavy Rain, , ,VIDAL JCT ARPT,34.1866,-114.5963,34.23,-114.6547
+649904,DEATH VALLEY, ,08/22/2016,1511,Dust Storm,, ,0,0,0,0,PST-8, ,108110,Z,522,0,0, , , , , , , , 
+649907,SAN BERNARDINO ,KLINEFELTER,08/22/2016,1828,Flash Flood,, ,0,0,1000,0,PST-8, ,108110,C,71,0,0,Heavy Rain, , ,KLINEFELTER,34.88,-114.76,34.893,-114.7659
+649910,SAN BERNARDINO ,DAWES,08/22/2016,2030,Flash Flood,, ,0,0,2000,0,PST-8, ,108110,C,71,0,0,Heavy Rain, , ,DAWES,35.0972,-115.5642,35.0932,-115.5504
+655107,SAN BERNARDINO ,BAKER,08/26/2016,1958,Flash Flood,, ,0,0,5000,0,PST-8, ,108113,C,71,0,0,Heavy Rain, , ,BAKER,35.4748,-116.1609,35.4515,-116.156
+655109,SAN BERNARDINO ,(EED)NEEDLES ARPT,08/26/2016,2102,Flash Flood,, ,0,0,50000,0,PST-8, ,108113,C,71,0,0,Heavy Rain, , ,(EED)NEEDLES ARPT,34.7767,-114.6044,34.7579,-114.6025
+655110,SAN BERNARDINO ,VIDAL JCT ARPT,08/27/2016,233,Flash Flood,, ,0,0,5000,0,PST-8, ,108113,C,71,0,0,Heavy Rain, , ,VIDAL JCT ARPT,34.1917,-114.5705,34.1866,-114.5672
+655111,SAN BERNARDINO ,BANNOCK,08/27/2016,237,Flash Flood,, ,0,0,10000,0,PST-8, ,108113,C,71,0,0,Heavy Rain, , ,BANNOCK,35.0438,-114.8439,35.023,-114.8301
+656603,SAN JOSE, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,89,0,0, , , , , , , , 
+650759,SAN JOAQUIN , ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108652,Z,19,0,0, , , , , , , , 
+650758,MOTHERLODE CAMPTONVILLE , ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,108652,Z,67,0,0, , , , , , , , 
+656616,KERN, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,99,0,0, , , , , , , , 
+656615,INDIAN WELLS, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,98,0,0, , , , , , , , 
+656613,TULARE, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,97,0,0, , , , , , , , 
+656612,SIERRA, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,96,0,0, , , , , , , , 
+656611,KERN, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,95,0,0, , , , , , , , 
+656609,TULARE, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,94,0,0, , , , , , , , 
+656608,SIERRA, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,93,0,0, , , , , , , , 
+656607,SAN JOSE, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,92,0,0, , , , , , , , 
+656605,SAN JOSE, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,91,0,0, , , , , , , , 
+656604,SAN JOSE, ,09/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,109760,Z,90,0,0, , , , , , , , 
+661638,SAN DIEGO , ,09/22/2016,1200,Dust Storm,, ,0,0,0,0,PST-8, ,110820,Z,62,0,0, , , , , , , , 
+661639,APPLE LUCERNE, ,09/22/2016,1200,Dust Storm,, ,0,0,0,0,PST-8, ,110820,Z,60,0,0, , , , , , , , 
+655165,MOJAVE, ,09/22/2016,1422,Dust Storm,, ,0,0,0,0,PST-8, ,109475,Z,523,0,0, , , , , , , , 
+655166,MORONGO , ,09/22/2016,1645,Dust Storm,, ,0,0,0,0,PST-8, ,109475,Z,525,0,0, , , , , , , , 
+661637,SAN DIEGO ,GUATAY,09/29/2016,1500,Flood,, ,0,0,0,0,PST-8, ,110821,C,73,0,0,Heavy Rain, , ,GUATAY,32.8311,-116.5457,32.8536,-116.5169
+659940,SAN JOSE, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,89,0,0, , , , , , , , 
+664165,SACRAMENTO , ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111299,Z,15,0,0, , , , , , , , 
+664164,SACRAMENTO , ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111299,Z,17,0,0, , , , , , , , 
+664155,SAN JOAQUIN , ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111299,Z,19,0,0, , , , , , , , 
+664154,MOTHERLODE CAMPTONVILLE , ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111299,Z,67,0,0, , , , , , , , 
+659950,KERN, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,99,0,0, , , , , , , , 
+659949,INDIAN WELLS, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,98,0,0, , , , , , , , 
+659948,TULARE, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,97,0,0, , , , , , , , 
+659947,SIERRA, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,96,0,0, , , , , , , , 
+659946,KERN, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,95,0,0, , , , , , , , 
+659945,TULARE, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,94,0,0, , , , , , , , 
+659944,SIERRA, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,93,0,0, , , , , , , , 
+659943,SAN JOSE, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,92,0,0, , , , , , , , 
+659942,SAN JOSE, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,91,0,0, , , , , , , , 
+659941,SAN JOSE, ,10/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,110476,Z,90,0,0, , , , , , , , 
+663212,MONO ,MONO LAKE,10/16/2016,400,Debris Flow,, ,0,0,0,0,PST-8, ,111174,C,51,0,0,Heavy Rain, , ,MONO LAKE,37.9504,-119.2106,37.9504,-119.2104
+663981,DEL NORTE,SMITH RIVER,10/16/2016,900,Flash Flood,, ,0,0,0,0,PST-8, ,111265,C,15,0,0,Heavy Rain, , ,SMITH RIVER,41.9015,-124.1465,41.9009,-124.1459
+663091,SAN BERNARDINO ,YUCCA VLY GNT RCK AR,10/24/2016,1030,Flood,, ,0,0,0,0,PST-8, ,111154,C,71,0,0,Heavy Rain, , ,LCRNE VLY SOGGY DRY,34.3542,-116.5011,34.3449,-116.5605
+669717,SANTA CLARA ,SAN JOSE,10/28/2016,500,Flood,, ,0,0,0,0,PST-8, ,111217,C,85,0,0,Heavy Rain, , ,SAN JOSE,37.3257,-121.8655,37.3185,-121.8587
+669716,SANTA CLARA ,SAN JOSE,10/28/2016,550,Flood,, ,0,1,0,0,PST-8, ,112327,C,85,0,0,Heavy Rain, , ,SAN JOSE,37.325,-121.887,37.3252,-121.887
+663607,MONTEREY ,MOLUS,10/28/2016,630,Flood,, ,0,0,0,0,PST-8, ,111217,C,53,0,0,Heavy Rain, , ,CAMPHORA,36.4598,-121.3773,36.4581,-121.3796
+663605,NAPA ,RUTHERFORD,10/28/2016,700,Debris Flow,, ,0,0,0,0,PST-8, ,111217,C,55,0,0,Heavy Rain, , ,RUTHERFORD,38.4885,-122.3971,38.4864,-122.3962
+663606,SAN BENITO ,TRES PINOS,10/28/2016,730,Flood,, ,0,0,0,0,PST-8, ,111217,C,69,0,0,Heavy Rain, , ,TRES PINOS,36.7912,-121.3244,36.7916,-121.3237
+663604,MONTEREY ,HALL,10/28/2016,745,Flood,, ,0,0,0,0,PST-8, ,111217,C,53,0,0,Heavy Rain, , ,HALL,36.8645,-121.7144,36.8635,-121.7138
+663603,SANTA CLARA ,(SJC)SAN JOSE INTL A,10/28/2016,815,Flood,, ,0,0,0,0,PST-8, ,111217,C,85,0,0,Heavy Rain, , ,(SJC)SAN JOSE INTL A,37.3899,-121.9194,37.3889,-121.9185
+663602,SANTA CLARA ,(SJC)SAN JOSE INTL A,10/28/2016,900,Flood,, ,0,0,0,0,PST-8, ,111217,C,85,0,0,Heavy Rain, , ,(SJC)SAN JOSE INTL A,37.3894,-121.9385,37.3833,-121.9373
+668181,SAN JOAQUIN , ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111966,Z,19,0,0, , , , , , , , 
+666352,KERN, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,99,0,0, , , , , , , , 
+666351,INDIAN WELLS, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,98,0,0, , , , , , , , 
+666350,TULARE, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,97,0,0, , , , , , , , 
+666349,SIERRA, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,96,0,0, , , , , , , , 
+666348,KERN, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,95,0,0, , , , , , , , 
+666347,TULARE, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,94,0,0, , , , , , , , 
+666346,SIERRA, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,93,0,0, , , , , , , , 
+666344,SAN JOSE, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,92,0,0, , , , , , , , 
+666343,SAN JOSE, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,91,0,0, , , , , , , , 
+666342,SAN JOSE, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,90,0,0, , , , , , , , 
+666340,SAN JOSE, ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111717,Z,89,0,0, , , , , , , , 
+668178,MOTHERLODE CAMPTONVILLE , ,11/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111966,Z,67,0,0, , , , , , , , 
+668900,SAN JOSE, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,89,0,0, , , , , , , , 
+671432,SAN JOAQUIN , ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,112508,Z,19,0,0, , , , , , , , 
+668910,KERN, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,99,0,0, , , , , , , , 
+668909,INDIAN WELLS, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,98,0,0, , , , , , , , 
+668908,TULARE, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,97,0,0, , , , , , , , 
+668907,SIERRA, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,96,0,0, , , , , , , , 
+668906,KERN, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,95,0,0, , , , , , , , 
+668905,TULARE, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,94,0,0, , , , , , , , 
+668904,SIERRA, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,93,0,0, , , , , , , , 
+668903,SAN JOSE, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,92,0,0, , , , , , , , 
+668902,SAN JOSE, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,91,0,0, , , , , , , , 
+668901,SAN JOSE, ,12/01/2016,0,Drought,, ,0,0,0,0,PST-8, ,111854,Z,90,0,0, , , , , , , , 
+671407,NEVADA ,NEVADA CITY,12/10/2016,800,Flood,, ,0,0,30000,0,PST-8, ,112546,C,57,0,0,Heavy Rain, , ,NEVADA CITY,39.2626,-121.0171,39.2624,-121.0173
+671408,NEVADA ,ALTA HILL,12/10/2016,800,Flood,, ,0,0,10000,0,PST-8, ,112546,C,57,0,0,Heavy Rain, , ,ALTA HILL,39.2314,-121.0711,39.2312,-121.0709
+671533,SANTA CLARA ,SAN JOSE,12/10/2016,1421,Flood,, ,0,0,0,0,PST-8, ,112566,C,85,0,0,Heavy Rain, , ,SAN JOSE,37.3421,-121.8563,37.3412,-121.8548
+671535,SANTA CLARA ,(SJC)SAN JOSE INTL A,12/10/2016,1441,Flood,, ,0,0,0,0,PST-8, ,112566,C,85,0,0,Heavy Rain, , ,(SJC)SAN JOSE INTL A,37.3902,-121.9209,37.3898,-121.92
+671536,SANTA CLARA ,SAN JOSE,12/10/2016,1513,Flood,, ,0,0,0,0,PST-8, ,112566,C,85,0,0,Heavy Rain, , ,SAN JOSE,37.3226,-121.8943,37.3226,-121.8942
+671537,SAN MATEO ,EAST PALO ALTO,12/10/2016,1731,Flood,, ,0,0,0,0,PST-8, ,112566,C,81,0,0,Heavy Rain, , ,EAST PALO ALTO,37.4034,-122.0705,37.4035,-122.0703
+671429,NEVADA ,CRYSTAL LAKE,12/11/2016,0,Flood,, ,0,0,5000,0,PST-8, ,112546,C,57,0,0,Heavy Rain, , ,CRYSTAL LAKE,39.3098,-120.5094,39.3097,-120.5088
+672346,DEL NORTE,(CEC)MC NAMARA ARPT,12/14/2016,1340,Flood,, ,0,0,583700,0,PST-8, ,111295,C,15,0,0,Heavy Rain, , ,NORTHCREST,41.7742,-124.2269,41.7744,-124.1472
+664098,MENDOCINO,FT BRAGG AAF,12/15/2016,400,Flood,, ,0,0,1500000,0,PST-8, ,111295,C,45,0,0,Dam / Levee Break, , ,FT BRAGG AAF,39.4545,-123.8055,39.4584,-123.8068
+664081,HUMBOLDT,ARCATA,12/15/2016,840,Flood,, ,0,0,0,0,PST-8, ,111295,C,23,0,0,Heavy Rain, , ,PORT KENYON,40.8528,-124.0803,40.5853,-124.3426
+664091,HUMBOLDT, ,12/15/2016,1100,Coastal Flood,, ,0,0,0,0,PST-8, ,111295,Z,103,0,0, , , , , , , , 
+671532,SONOMA,MANZANA,12/15/2016,1203,Flash Flood,, ,0,0,0,0,PST-8, ,112564,C,97,0,0,Heavy Rain, , ,MOLINO,38.44,-122.86,38.4403,-122.8592
+664084,MENDOCINO,PT ARENA,12/15/2016,1255,Flood,, ,0,0,0,0,PST-8, ,111295,C,45,0,0,Heavy Rain, , ,MANCHESTER,38.94,-123.7,38.9459,-123.6964
+664089,MENDOCINO,ELK,12/15/2016,1315,Flood,, ,0,0,0,0,PST-8, ,111295,C,45,0,0,Heavy Rain, , ,ALBION,39.1796,-123.6929,39.1976,-123.7449
+671855,SONOMA,PETALUMA,12/15/2016,1328,Flood,, ,0,0,0,0,PST-8, ,112564,C,97,0,0,Heavy Rain, , ,SCHELLVILLE ARPT,38.23,-122.5379,38.1969,-122.4897
+671868,NAPA ,ROCKTRAM,12/15/2016,1328,Flood,, ,0,0,0,0,PST-8, ,112564,C,55,0,0,Heavy Rain, , ,BRAZOS,38.25,-122.3,38.2537,-122.3089
+671534,SONOMA,SCHELLVILLE ARPT,12/15/2016,1342,Flash Flood,, ,0,0,0,0,PST-8, ,112564,C,97,0,0,Heavy Rain, , ,SCHELLVILLE ARPT,38.15,-122.45,38.1506,-122.4459
+664090,MENDOCINO,HOPLAND,12/15/2016,1356,Flood,, ,0,0,0,0,PST-8, ,111295,C,45,0,0,Heavy Rain, , ,HOPLAND,38.9725,-123.1131,38.9708,-123.1134
+671876,SONOMA,PENNGROVE,12/15/2016,1400,Flash Flood,, ,0,0,0,0,PST-8, ,112564,C,97,0,0,Heavy Rain, , ,PENNGROVE,38.33,-122.63,38.3304,-122.6339
+671881,ALAMEDA,EMERYVILLE,12/15/2016,1400,Flood,, ,0,0,0,0,PST-8, ,112564,C,1,0,0,Heavy Rain, , ,EMERYVILLE,37.8277,-122.2713,37.8228,-122.272
+671884,MARIN,ALTO,12/15/2016,1432,Flash Flood,, ,0,0,0,0,PST-8, ,112564,C,41,0,0,Heavy Rain, , ,ALTO,37.9,-122.52,37.8997,-122.5128
+671434,SACRAMENTO ,LAKE ALPINE,12/15/2016,1600,Flood,, ,0,0,0,0,PST-8, ,112542,C,67,0,0,Heavy Rain, , ,LAKE ALPINE,38.604,-121.4665,38.6033,-121.4672
+669277,MADERA,PONDEROSA ACRES,12/15/2016,1743,Flood,, ,0,0,0,0,PST-8, ,112237,C,39,0,0,Heavy Rain, , ,PONDEROSA ACRES,37.37,-119.62,37.3885,-119.6229
+669278,MADERA,INDIAN SPGS,12/15/2016,1904,Flood,, ,0,0,0,0,PST-8, ,112237,C,39,0,0,Heavy Rain, , ,INDIAN SPGS,36.9687,-119.8169,36.9651,-119.809
+671433,SACRAMENTO ,WHITE ROCK,12/15/2016,2000,Flood,, ,0,0,0,0,PST-8, ,112542,C,67,0,0,Heavy Rain, , ,WHITE ROCK,38.6173,-121.1417,38.6161,-121.1424
+669279,MADERA,WISHON,12/15/2016,2028,Flood,, ,0,0,0,0,PST-8, ,112237,C,39,0,0,Heavy Rain, , ,WISHON,37.315,-119.5362,37.3139,-119.5379
+669280,MARIPOSA,BAGBY,12/15/2016,2045,Flood,, ,0,0,0,0,PST-8, ,112237,C,43,0,0,Heavy Rain, , ,BAGBY,37.6191,-120.1487,37.6069,-120.148
+669281,FRESNO,PINE RIDGE,12/15/2016,2116,Flood,, ,0,0,0,0,PST-8, ,112237,C,19,0,0,Heavy Rain, , ,PINE RIDGE,37.06,-119.36,37.0599,-119.3564
+669282,FRESNO,CLOVIS,12/15/2016,2140,Flood,, ,0,0,0,0,PST-8, ,112237,C,19,0,0,Heavy Rain, , ,CLOVIS,36.8,-119.71,36.8001,-119.7088
+669283,MARIPOSA,BRICEBURG,12/15/2016,2233,Flood,, ,0,0,0,0,PST-8, ,112237,C,43,0,0,Heavy Rain, , ,BRICEBURG,37.6,-119.97,37.5991,-119.9637
+671431,SACRAMENTO ,ARCADE,12/16/2016,0,Flood,, ,0,0,0,0,PST-8, ,112542,C,67,0,0,Heavy Rain, , ,ARCADE,38.6217,-121.3654,38.6173,-121.3655
+669284,FRESNO,PRATHER,12/16/2016,25,Flood,, ,0,0,0,0,PST-8, ,112237,C,19,0,0,Heavy Rain, , ,PRATHER,37.02,-119.53,37.0144,-119.5307
+669285,KERN,DEMOCRAT SPGS,12/16/2016,28,Flood,, ,0,0,0,0,PST-8, ,112237,C,29,0,0,Heavy Rain, , ,DEMOCRAT SPGS,35.52,-118.67,35.523,-118.666
+672396,KERN,RIVER KERN,12/16/2016,28,Debris Flow,, ,0,0,1000,0,PST-8, ,112237,C,29,0,0,Heavy Rain / Burn Area, , ,RIVER KERN,35.7678,-118.4697,35.7923,-118.4148
+668955,LOS ANGELES ,LAS LOMAS,12/16/2016,423,Flash Flood,, ,0,0,0,0,PST-8, ,112193,C,37,0,0,Heavy Rain / Burn Area, , ,LAS LOMAS,34.1516,-117.9403,34.151,-117.9405
+669286,KERN,MIRACLE HOT SPGS,12/16/2016,444,Flood,, ,0,0,0,0,PST-8, ,112237,C,29,0,0,Heavy Rain, , ,MIRACLE HOT SPGS,35.59,-118.52,35.5922,-118.5191
+669287,TULARE,SPRINGVILLE,12/16/2016,455,Flood,, ,0,0,0,0,PST-8, ,112237,C,107,0,0,Heavy Rain, , ,SPRINGVILLE,36.11,-118.86,36.105,-118.8521
+671430,SACRAMENTO ,BRIDGE HOUSE,12/16/2016,1700,Flood,, ,0,0,0,0,PST-8, ,112542,C,67,0,0,Heavy Rain, , ,BRIDGE HOUSE,38.5193,-121.1009,38.5209,-121.1023
+670378,SAN BERNARDINO ,KEENBROOK,12/22/2016,700,Flood,, ,0,0,5000,0,PST-8, ,112435,C,71,0,0,Heavy Rain, , ,KEENBROOK,34.2933,-117.4924,34.274,-117.4519
+671538,SANTA CRUZ ,REDWOOD GROVE,12/23/2016,1130,Flood,, ,0,0,0,0,PST-8, ,112567,C,87,0,0,Heavy Rain, , ,REDWOOD GROVE,37.1402,-122.13,37.1402,-122.13
+672543,KERN,LAKEVIEW,12/23/2016,2127,Flood,, ,0,0,0,0,PST-8, ,112650,C,29,0,0,Heavy Rain, , ,LAKEVIEW,35.1,-119.11,35.1017,-119.1006
+672544,KERN,DEMOCRAT SPGS,12/24/2016,7,Flood,, ,0,0,0,0,PST-8, ,112650,C,29,0,0,Heavy Rain, , ,DEMOCRAT SPGS,35.53,-118.66,35.5274,-118.6558
+672563,KERN,PENTLAND,12/31/2016,1544,Flood,, ,0,0,0,0,PST-8, ,112652,C,29,0,0,Heavy Rain, , ,PENTLAND,35.06,-119.31,35.0561,-119.3002
+672564,KERN,EDISON,12/31/2016,1640,Flood,, ,0,0,0,0,PST-8, ,112652,C,29,0,0,Heavy Rain, , ,EDISON,35.33,-118.91,35.314,-118.9043
+672565,KERN,DI GIORGIO,12/31/2016,1714,Flood,, ,0,0,0,0,PST-8, ,112652,C,29,0,0,Heavy Rain, , ,DI GIORGIO,35.2572,-118.83,35.2462,-118.8292
+672562,KERN,RIBIER,12/31/2016,1925,Flash Flood,, ,0,0,10000,0,PST-8, ,112652,C,29,0,0,Heavy Rain, , ,EDISON,35.2835,-118.8707,35.3004,-118.8707
+667708,SAN BERNARDINO ,LENWOOD,12/31/2016,1939,Flash Flood,, ,0,0,1000,0,PST-8, ,111971,C,71,0,0,Heavy Rain, , ,LENWOOD,34.8536,-117.0846,34.8559,-117.0841

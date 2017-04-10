@@ -412,3 +412,44 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/project/civil_unrest'
 ;
+
+DROP TABLE Storm
+
+CREATE EXTERNAL TABLE Storm
+(
+  EVENT_ID int,
+  CZ_NAME_STR string,
+  BEGIN_LOCATION string,
+  BEGIN_DATE date,
+  BEGIN_TIME int,
+  EVENT_TYPE string,
+  MAGNITUDE int,
+  TOR_F_SCALE int,
+  DEATHS_DIRECT int,
+  INJURIES_DIRECT int,
+  DAMAGE_PROPERTY_NUM int,
+  DAMAGE_CROPS_NUM int,
+  CZ_TIMEZONE string,
+  MAGNITUDE_TYPE string,
+  EPISODE_ID int,
+  CZ_TYPE string,
+  CZ_FIPS int,
+  INJURIES_INDIRECT int,
+  DEATHS_INDIRECT int,
+  FLOOD_CAUSE string,
+  END_LOCATION string,
+  BEGIN_LAT int,
+  BEGIN_LONG int,
+  END_LAT int,
+  END_LONG int
+  )
+
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+  "separatorChar" = ",",
+  "quoteChar" = '"',
+  "escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/project/storm
+;
