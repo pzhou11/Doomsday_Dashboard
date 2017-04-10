@@ -47,11 +47,11 @@ WATER_SITES="https://github.com/pzhou11/W205_Project/blob/master/data/water_site
 wget "$WATER_SITES" -O water_sites.csv
 # earthquake data for past 30 days
 # need to confirm updates
-EARTHQUAKE="https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php"
+EARTHQUAKE="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_month.csv"
 wget "$EARTHQUAKE" -O earthquake.csv
 
 # civil unrest 1946-2005
-CIVIL_UNREST="https://github.com/pzhou11/W205_Project/blob/master/data/civil_unrest.csv"
+CIVIL_UNREST="http://www.clinecenter.illinois.edu/research/documents/ssp_public.csv"
 wget "$CIVIL_UNREST" -O civil_unrest.csv
 
 # unzip data
