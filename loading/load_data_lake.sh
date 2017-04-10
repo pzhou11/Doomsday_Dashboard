@@ -39,11 +39,11 @@ AIR_QUALITY="https://data.cdc.gov/api/views/cjae-szjv/rows.csv?accessType=DOWNLO
 wget "$AIR_QUALITY" -O air_quality.csv
 
 # water quality data 10/1/1992-9/30-2014
-WATER_QUALITY="https://github.com/pzhou11/W205_Project/blob/master/data/water_quality.csv"
+WATER_QUALITY="https://raw.githubusercontent.com/pzhou11/W205_Project/master/data/water_quality.csv"
 wget "$WATER_QUALITY" -O water_quality.csv
 
 # water monitor locations - for water quality table
-WATER_SITES="https://github.com/pzhou11/W205_Project/blob/master/data/water_sites.csv"
+WATER_SITES="https://raw.githubusercontent.com/pzhou11/W205_Project/master/data/water_sites.csv"
 wget "$WATER_SITES" -O water_sites.csv
 # earthquake data for past 30 days
 # need to confirm updates
