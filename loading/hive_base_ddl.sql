@@ -413,7 +413,7 @@ STORED AS TEXTFILE
 LOCATION '/user/w205/project/civil_unrest'
 ;
 
-DROP TABLE Storm
+DROP TABLE Storm;
 
 CREATE EXTERNAL TABLE Storm
 (
@@ -452,5 +452,5 @@ WITH SERDEPROPERTIES (
   "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/project/storm
+LOCATION '/user/w205/project/storm'
 ;

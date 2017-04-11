@@ -1,3 +1,5 @@
+DROP TABLE T_Fire1;
+
 CREATE TABLE T_Fire1 AS
 SELECT concat(ROUND(fire_data.latitude,2), ROUND(fire_data.longitude,2), acq_date) as fire_id,
    ROUND(fire_data.latitude,2) as fire_lat,
@@ -19,6 +21,7 @@ WHERE abs(fire_data.latitude - zip_code_reference_ca.latitude) IS NOT NULL
 ;
 
 
+DROP TABLE T_Fire2;
 
 CREATE TABLE T_Fire2 AS
 SELECT fire_id,
@@ -28,6 +31,7 @@ GROUP BY fire_id
 ;
 
 
+DROP TABLE T_Fire3;
 
 CREATE TABLE T_Fire3 AS
 SELECT T_Fire1.fire_id,
@@ -47,7 +51,7 @@ INNER JOIN T_Fire2
 
 
 
-
+DROP TABLE T_Fire4;
 
 CREATE TABLE T_Fire4 AS
 SELECT fire_id,
@@ -58,6 +62,7 @@ GROUP BY fire_id
 
 
 
+DROP TABLE T_Fire5;
 
 CREATE TABLE T_Fire5 AS
 SELECT T_Fire3.fire_id,

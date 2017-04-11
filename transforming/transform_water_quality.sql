@@ -1,5 +1,3 @@
-# combines water_quality and water_sites
-
 DROP TABLE T_Water_Quality;
 
 CREATE TABLE T_Water_Quality

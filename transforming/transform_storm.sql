@@ -8,9 +8,12 @@ SELECT storm.CZ_NAME_STR,
    sum(storm.DAMAGE_PROPERTY_NUM and storm.DAMAGE_CROPS_NUM) as damages,
    storm.EVENT_TYPE,
    storm.MAGNITUDE,
-   sum(storm.TORR_LENGTH and storm.TORR_WIDTH) as tor_size
+   sum(storm.TORR_LENGTH and storm.TORR_WIDTH) as tor_size,
    storm.TOR_F_SCALE
 FROM storm
-LEFT JOIN zip_code_reference
+LEFT JOIN zip_code_reference_ca
    ON storm.CZ_NAME_STR = zip_code_reference_ca.county
 GROUP BY storm.CZ_NAME_STR
+;
+
+
