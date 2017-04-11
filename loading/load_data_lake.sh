@@ -72,7 +72,7 @@ tail -n +2 "air_quality.csv" >clean_air_quality.csv
 tail -n +10 "water_quality.csv" >clean_water_quality.csv
 tail -n +2 "earthquake.csv" >clean_earthquake.csv
 tail -n +2 "civil_unrest.csv" >clean_civil_unrest.csv
-tail -n +2 "water_sites.csv" >clean_water_sites.csv
+tail -n +5 "water_sites.csv" >clean_water_sites.csv
 tail -n +2 "storm.csv" >clean_storm.csv
 
 # create hdfs directory
