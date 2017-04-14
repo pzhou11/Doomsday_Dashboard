@@ -271,11 +271,11 @@ CREATE EXTERNAL TABLE Air_Quality
  CountyFips string,
  CountyName string,
  ReportYear int,
- Value int,
  Unit string,
  UnitName string,
  DataOrigin string,
- MonitorOnly int
+ MonitorOnly int,
+ value int
   )
 
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
