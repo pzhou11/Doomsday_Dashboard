@@ -122,24 +122,7 @@ AS SELECT
   zip_code_reference_ca.County,
   ada.days
 
-FROM AQ_Days adaDROP TABLE T_AQ_Days;
-
-CREATE TABLE T_AQ_Days
-AS SELECT
-  ada.countyname,
-  MAX(ada.reportyear) as year,
-  zip_code_reference_ca.zipcode,
-  zip_code_reference_ca.County,
-  ada.days
-
 FROM AQ_Days ada
 INNER JOIN zip_code_reference_ca
 WHERE zip_code_reference_ca.county LIKE CONCAT(ada.countyname, '%')
 GROUP BY ada.countyname, zip_code_reference_ca.zipcode, zip_code_reference_ca.County, ada.days
-;
-
-
-
-
-
-
