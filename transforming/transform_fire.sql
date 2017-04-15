@@ -9,6 +9,7 @@ SELECT concat(ROUND(fire_data.latitude,2), ROUND(fire_data.longitude,2), acq_dat
    zip_code_reference_ca.latitude as zip_lat,
    zip_code_reference_ca.longitude as zip_long,
    zip_code_reference_ca.primarycity,
+   zip_code_reference_ca.zipcode,
    zip_code_reference_ca.state,
    zip_code_reference_ca.county,
    ABS(ROUND(fire_data.latitude,2) - zip_code_reference_ca.latitude) as lat_diff,
@@ -39,6 +40,7 @@ SELECT T_Fire1.fire_id,
    T_Fire1.fire_long,
    T_Fire1.acq_date as date,
    T_Fire1.primarycity as city,
+   T_Fire1.zipcode,
    T_Fire1.county,
    T_Fire1.state,
    T_Fire2.min_lat,
@@ -70,6 +72,7 @@ SELECT T_Fire3.fire_id,
    T_Fire3.fire_long,
    T_Fire3.date,
    T_Fire3.city,
+   T_Fire3.zipcode,
    T_Fire3.county,
    T_Fire3.state
 FROM T_Fire3
@@ -77,3 +80,4 @@ INNER JOIN T_Fire4
    ON T_Fire3.fire_id=T_Fire4.fire_id
    AND T_Fire3.long_diff=T_Fire4.min_long
 ;
+
