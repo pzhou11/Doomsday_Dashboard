@@ -231,10 +231,11 @@ CREATE EXTERNAL TABLE Landslide_Data
   photos_lin string,
   cat_src string,
   cat_id int,
+  country
   near string,
   distance decimal,
   state string,
-  city string,
+  county string,
   population int,
   countrycod string,
   continentc string,
