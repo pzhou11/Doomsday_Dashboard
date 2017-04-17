@@ -216,7 +216,7 @@ CREATE EXTERNAL TABLE Landslide_Data
   id string,
   date_ date,
   time_ string,
-  country string,
+  country_ignore string,
   nearest_pl string,
   hazard_typ string,
   lanslide_ string,
@@ -231,7 +231,7 @@ CREATE EXTERNAL TABLE Landslide_Data
   photos_lin string,
   cat_src string,
   cat_id int,
-  country
+  country string,
   near string,
   distance decimal,
   state string,
