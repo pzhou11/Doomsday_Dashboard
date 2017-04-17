@@ -31,17 +31,21 @@ class WordCounter(Bolt):
         #create cursor
         cur = conn.cursor()
         cur.execute('''DROP TABLE IF EXISTS tweetwordcount; CREATE TABLE tweetwordcount
-                        (word TEXT PRIMARY KEY	NOT NULL,
-                        count INT	NOT NULL);''')
+                        (word TEXT PRIMARY KEY NOT NULL,
+                        count INT NOT NULL);''')
         conn.commit()
         cur.close()
 
 
     def process(self, tup):
         conn = psycopg2.connect(database = "tcount", user="postgres", password = "pass", host = "localhost", port = "5432") 
-        #create cursor
+        conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+
+	#create cursor
         cur = conn.cursor()
-       	word = tup.values[0]
+       	conn.commit()
+
+	word = tup.values[0]
 	
         # Increment the local count
         self.counts[word] += 1
@@ -63,4 +67,3 @@ class WordCounter(Bolt):
 
 	# Log the count - just to see the topology running
         self.log('%s: %d' % (word, self.counts[word]))
-

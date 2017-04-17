@@ -17,9 +17,12 @@ class ParseTweet(Bolt):
         # Split the tweet into words
         words = tweet.split()
 
-        # Filter out the hash tags, RT, @ and urls
+        # Filter out the RT, @ and urls
         valid_words = []
         for word in words:
+
+            # Filter the user mentions
+            if word.startswith("@"): continue
 
             # Filter out retweet tags
             if word.startswith("RT"): continue
@@ -37,6 +40,6 @@ class ParseTweet(Bolt):
         if not valid_words: return
 
         # Emit all the words
-        self.emit(valid_words)
+        self.emit_many(valid_words)
 
         # tuple acknowledgement is handled automatically
