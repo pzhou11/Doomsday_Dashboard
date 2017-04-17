@@ -14,3 +14,4 @@ source transform_water_quality.sql;
 
 source transform_storm.sql;
 
+source transform_death.sql;
