@@ -10,10 +10,10 @@ from streamparse.spout import Spout
 # Twitter credentials
 ################################################################################
 twitter_credentials = {
-    "consumer_key"        :  "KsRHdFVPSfjWPeN3g94eX94XX",
-    "consumer_secret"     :  "OBLxPGJoClWYL9wjCt0Zead22SoWsliJ2oghKyCrs8AqiUvq2V",
-    "access_token"        :  "1511952991-tc8ULziyVQZqs7eVz52Vswg7X9DqlzeBVxDWabZ",
-    "access_token_secret" :  "qnjejyIWb6qfavon8646Rx6FXJusEYqQ2EMMZhbbieHWw",
+    "consumer_key"        :  "YBBUh4mehGbp6MFkzAFsfDNHl",
+    "consumer_secret"     :  "6ttL4wtLIrORgwWzyCyNM33t2Atswbaakwru4uoWg7FTnmuRFd",
+    "access_token"        :  "1511952991-pukEYajl8dr8a0kTJqPK6HSLIFsDmfeDl7jpljz",
+    "access_token_secret" :  "KUMzwLwWTQbdJ4xxJGoOm3P11xGJhZtEH7qPS1jLZQlSh",
 }
 
 def auth_get(auth_key):
@@ -61,7 +61,7 @@ class Tweets(Spout):
 
         # Create the stream and listen for english tweets
         stream = tweepy.Stream(auth, listener, timeout=None)
-        stream.filter(languages=["en"], track=["earthquake", "earthquakes", "feel that"], async=True)
+        stream.filter(languages=["en"], track=["Trump", "earthquake", "earthquakes", "quake"], async=True)
 
     def queue(self):
         return self._queue
@@ -85,4 +85,3 @@ class Tweets(Spout):
 
     def fail(self, tup_id):
         pass  # if a tuple fails to process, do nothing
-
