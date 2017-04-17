@@ -10,7 +10,7 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 class WordCounter(Bolt):
 
     def initialize(self, conf, ctx):
-	self.counts = Counter()
+        self.counts = Counter()
 
 	# Connect to psycog - use psycopg to interact with Postgres
 	conn = psycopg2.connect(database="postgres", user="postgres", password="pass", host="localhost", port="5432")
@@ -31,8 +31,8 @@ class WordCounter(Bolt):
         #create cursor
         cur = conn.cursor()
         cur.execute('''DROP TABLE IF EXISTS tweetwordcount; CREATE TABLE tweetwordcount
-                        (word TEXT PRIMARY KEY NOT NULL,
-			count INT NOT NULL);''')
+                        (word TEXT PRIMARY KEY	NOT NULL,
+                        count INT	NOT NULL);''')
         conn.commit()
         cur.close()
 
@@ -44,13 +44,13 @@ class WordCounter(Bolt):
        	word = tup.values[0]
 	
         # Increment the local count
-	self.counts[word] += 1
+        self.counts[word] += 1
         self.emit([word, self.counts[word]])
-
+	
 	# check the word from table and get counts
 	cur.execute("SELECT word, count FROM tweetwordcount WHERE word=%s", (word,))
 	record = cur.fetchone()
-	
+
 	# if not in database, then insert word/count, otherwise update word/count
         if record == None:
 		cur.execute("INSERT INTO tweetwordcount (word, count) VALUES (%s, %s)", (word, self.counts[word]))
@@ -63,3 +63,4 @@ class WordCounter(Bolt):
 
 	# Log the count - just to see the topology running
         self.log('%s: %d' % (word, self.counts[word]))
+
