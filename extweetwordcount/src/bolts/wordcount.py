@@ -15,22 +15,22 @@ class WordCounter(Bolt):
 	# Connect to psycog - use psycopg to interact with Postgres
 	conn = psycopg2.connect(database="postgres", user="postgres", password="pass", host="localhost", port="5432")
 
-      	# Create Database: Tcount
+      	# Create Database: tweetcount
     	try:
 		conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
 		cur = conn.cursor()
-		cur.execute("CREATE DATABASE tcount")
+		cur.execute("CREATE DATABASE tweetcount")
 		cur.close()
 		conn.close()
 	except:
 		print("Could not create database")
 
-	# Table name: Tweetwordcount
-        conn = psycopg2.connect(database = "tcount", user="postgres", password = "pass", host = "localhost", port = "5432")
+	# Table name: wordcount
+        conn = psycopg2.connect(database = "tweetcount", user="postgres", password = "pass", host = "localhost", port = "5432")
 
         #create cursor
         cur = conn.cursor()
-        cur.execute('''DROP TABLE IF EXISTS tweetwordcount; CREATE TABLE tweetwordcount
+        cur.execute('''DROP TABLE IF EXISTS wordcount; CREATE TABLE wordcount
                         (word TEXT PRIMARY KEY NOT NULL,
                         count INT NOT NULL);''')
         conn.commit()
@@ -38,7 +38,7 @@ class WordCounter(Bolt):
 
 
     def process(self, tup):
-        conn = psycopg2.connect(database = "tcount", user="postgres", password = "pass", host = "localhost", port = "5432") 
+        conn = psycopg2.connect(database = "tweetcount", user="postgres", password = "pass", host = "localhost", port = "5432") 
         conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
 
 	#create cursor
@@ -52,16 +52,16 @@ class WordCounter(Bolt):
         self.emit([word, self.counts[word]])
 	
 	# check the word from table and get counts
-	cur.execute("SELECT word, count FROM tweetwordcount WHERE word=%s", (word,))
+	cur.execute("SELECT word, count FROM wordcount WHERE word=%s", (word,))
 	record = cur.fetchone()
 
 	# if not in database, then insert word/count, otherwise update word/count
         if record == None:
-		cur.execute("INSERT INTO tweetwordcount (word, count) VALUES (%s, %s)", (word, self.counts[word]))
+		cur.execute("INSERT INTO wordcount (word, count) VALUES (%s, %s)", (word, self.counts[word]))
 		conn.commit()
 		
 	else:
-		cur.execute("UPDATE tweetwordcount SET count=%s WHERE word=%s", (self.counts[word], word))
+		cur.execute("UPDATE wordcount SET count=%s WHERE word=%s", (self.counts[word], word))
 		conn.commit()
 	
 
