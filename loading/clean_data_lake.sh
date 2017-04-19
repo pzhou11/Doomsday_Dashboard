@@ -20,6 +20,8 @@ hdfs dfs -rm /user/w205/project/earthquake/clean_earthquake.csv
 
 hdfs dfs -rm /user/w205/project/civil_unrest/clean_civil_unrest.csv
 
+hdfs dfs -rm /user/w205/project/storm/clean_storm.csv
+
 
 hdfs dfs -rmdir /user/w205/project/arrest
 
@@ -43,6 +45,7 @@ hdfs dfs -rmdir /user/w205/project/earthquake
 
 hdfs dfs -rmdir /user/w205/project/civil_unrest
 
+hdfs dfs -rmdir /user/w205/project/storm
 
 hdfs dfs -rmdir /user/w205/project
 
