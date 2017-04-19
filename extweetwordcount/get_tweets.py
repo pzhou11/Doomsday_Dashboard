@@ -8,6 +8,7 @@ from streamparse.spout import Spout
 
 ################################################################################
 # Twitter credentials
+# Source: https://gist.github.com/yanofsky/5436496
 ################################################################################
 twitter_credentials = {
     "consumer_key"        :  "YBBUh4mehGbp6MFkzAFsfDNHl",
@@ -32,7 +33,7 @@ def get_tweets(user_name):
 	tweet_list = []
 	
 	# save tweets in the list
-	tweet = api.user_timeline(screen_name = user_name, count = 5)
+	tweet = api.user_timeline(screen_name = user_name, count = 20)
 	tweet_list.extend(tweet)
 
 	# convert into an array, include time and text
