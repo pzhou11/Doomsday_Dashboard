@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Omar's Hours in Meetings</title>
+
+        <script type="text/javascript" src="./d3.js"></script>
+            <style type="text/css">
+            h1 {
+            font-size: 48;
+            font-family: sans-serif;
+            color: black;
+            stroke: black;
+            background: tan;
+            }
+            .axis path,
+            .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+            }
+
+            .axis text {
+                font-family: sans-serif;
+                font-size: 11px;
+            }
+            p {
+                color: black;
+            }
+            </style>
+    </head>
+    <body>
+    <style>
+    body {
+        background:  tan;
+        font-family: sans-serif;
+        color: green;
+    }
+
+    </style>
+    <h1> Omar's Hours in Meetings </h1>
+            <p> hours per workday
+                <button id="button2" type="button">Actual</button2>
+                <button id="button1" type="button">Preferred</button>
+
+            </p>
+        <script type="text/javascript">
+
+        var dataset = [ ["1/3/17", 1.5], ["1/4/17", 1.5], ["1/5/17", 2], ["1/6/17", 1.5], ["1/9/17", 1], ["1/10/17", 3], ["1/11/17", 2.5], ["1/12/17",  4], ["1/13/17", 0.5], ["1/16/17", 3], ["1/17/17", 2.5], ["1/18/17", 2.75], ["1/19/17", 1.5], ["1/20/17", 2], ["1/23/17", 3.5], ["1/24/17", 2], ["1/25/17", 2.5], ["1/26/17", 5], ["1/27/17", 3.5], ["1/30/17", 4.5], ["1/31/17", 4], ["2/1/17", 4], ["2/2/17", 3.5], ["2/3/17", 5.5], ["2/6/17", 3.5] , ["2/7/17", 3] , ["2/8/17", 0.5], ["2/9/17", 3.5], ["2/10/17", 2.5]]
+
+
+        var margin = {top: 20, right: 20, bottom: 100, left: 45};
+        var w = 720 - margin.left - margin.right;
+        var h = 620 - margin.top - margin.bottom;
+        var barPadding = 2;
+
+        var yScale = d3.scaleLinear()
+                    .domain([0, 5.5])
+                    .range([h, 0]);
+
+        var xScale = d3.scaleBand()
+                        .domain(["1/3/17", "1/4/17", "1/5/17", "1/6/17", "1/9/17","1/10/17", "1/11/17", "1/12/17", "1/13/17", "1/16/17","1/17/17", "1/18/17", "1/19/17", "1/20/17", "1/23/17", "1/24/17", "1/25/17", "1/26/17","1/27/17", "1/30/17", "1/31/17", "2/1/17","2/2/17", "2/3/17", "2/6/17", "2/7/17", "2/8/17", "2/9/17", "2/10/17"])
+                        .rangeRound([0, w]);
+
+
+        var svg = d3.select("body")
+                    .append("svg")
+                    .attr("width", w + margin.left + margin.right)
+                    .attr("height", h + margin.top + margin.bottom)
+                    .append("g")
+                        .attr("transform", "translate("+margin.left + "," + margin.top + ")");;
+
+        svg.selectAll("rect")
+        .data(dataset)
+        .enter()
+        .append("rect")
+        .attr("x", function(d, i) {
+            return (i * (w) / (dataset.length)) + 2;
+        })
+        .attr("y", function(d) {
+            return yScale(d[1]);
+        })
+        .attr("width", ( (w - margin.left - margin.right) / (dataset.length) ) - barPadding)
+        .attr("height", function(d) {
+            return h - yScale(d[1]);
+        })
+        .attr("fill", "green")
+        .on("mouseover", function(d, i) {
+            d3.select(this)
+            .attr("fill", "rgb(0,250,0)");
+        })
+        .on("mouseout", function() {
+            d3.select(this)
+            .transition()
+            .duration(1000)
+            .attr("fill", "green");
+
+        })
+       .append("title")
+           .text(function(d) {
+                 return d[1] + " hours on " + d[0];
+       });
+
+
+        var xAxis = d3.axisBottom(xScale)
+            .tickValues(xScale.domain().filter(function(d) {
+                return d[0];
+            }))
+            .ticks(10);
+
+        var yAxis = d3.axisLeft(yScale)
+            .ticks(5);
+
+
+        svg.append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(0," + h + ")")
+            .call(xAxis)
+          .selectAll("text")
+            .attr("transform" , "rotate(-90)")
+            .style("text-anchor", "start")
+            .attr("y", function(d,i) {
+                return -17 + i*barPadding/2.7;
+            })
+            .attr("x", 3)
+            .attr("fill", "white");
+
+        svg.append("text")      // text label for the x axis
+                .attr("id", "x_label")
+                .attr("x", w/2 )
+                .attr("y",  h + margin.top + 5 )
+                .style("text-anchor", "middle")
+                .style("font-size", 18)
+                .text("Date");
+
+        svg.append("g")
+            .attr("class", "axis")
+            .call(yAxis);
+
+        svg.append("text")
+            .attr("id", "y_label")
+            .attr("transform", "rotate(-90)")
+            .attr("y", - 45)
+            .attr("x",0 - (h / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Hours");
+
+
+
+        d3.select("#button1")
+            .on("click", function() {
+                dataset = [ ["1/3/17", 0], ["1/4/17", 0], ["1/5/17", 0], ["1/6/17", 0], ["1/9/17", 0], ["1/10/17", 0], ["1/11/17", 0], ["1/12/17",  0], ["1/13/17", 0], ["1/16/17", 0], ["1/17/17", 0], ["1/18/17", 0], ["1/19/17", 0], ["1/20/17", 0], ["1/23/17", 0], ["1/24/17", 0], ["1/25/17", 0], ["1/26/17", 0], ["1/27/17", 0], ["1/30/17", 0], ["1/31/17", 0], ["2/1/17", 0], ["2/2/17", 0], ["2/3/17", 0], ["2/6/17", 0] , ["2/7/17", 0] , ["2/8/17", 0], ["2/9/17", 0], ["2/10/17", 0]];
+
+
+                svg.selectAll("rect")
+                    .data(dataset)
+                    .transition().duration(800)
+                    .attr("y", function(d) {
+                        return yScale(d[1])
+                    })
+                    .attr("height", function(d) {
+
+                    })
+                    .attr("height", function(d) {
+                          return h - yScale(d[1]);
+                     });
+
+                  var image = d3.select("svg").append("svg:image")
+                    .transition().delay(100).duration(1000)
+                    .attr("xlink:href", "https://mladzema.files.wordpress.com/2013/03/buddha-enlightenment.jpg")
+                    .attr("id", "buddha_image")
+                    .attr("x", w/4)
+                    .attr("y", 100);
+
+
+                 d3.select("#x_label").remove();
+                 d3.select("#y_label").remove();
+
+                 svg.append("text")      // text label for the x axis
+                    .attr("id", "x_label")
+                    .attr("x", w/2 )
+                    .attr("y",  h + margin.top + 5 )
+                    .style("text-anchor", "middle")
+                    .style("font-size", 18)
+                    .text("Om");
+
+                svg.append("text")
+                    .attr("id", "y_label")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", - 45)
+                    .attr("x",0 - (h / 2))
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("Om");
+
+            })
+
+
+
+
+
+        d3.select("#button2")
+            .on("click", function() {
+                dataset = [ ["1/3/17", 1.5], ["1/4/17", 1.5], ["1/5/17", 2], ["1/6/17", 1.5], ["1/9/17", 1], ["1/10/17", 3], ["1/11/17", 2.5], ["1/12/17",  4], ["1/13/17", 0.5], ["1/16/17", 3], ["1/17/17", 2.5], ["1/18/17", 2.75], ["1/19/17", 1.5], ["1/20/17", 2], ["1/23/17", 3.5], ["1/24/17", 2], ["1/25/17", 2.5], ["1/26/17", 5], ["1/27/17", 3.5], ["1/30/17", 4.5], ["1/31/17", 4], ["2/1/17", 4], ["2/2/17", 3.5], ["2/3/17", 5.5], ["2/6/17", 3.5] , ["2/7/17", 3] , ["2/8/17", 0.5], ["2/9/17", 3.5], ["2/10/17", 2.5]];
+
+                d3.select("#buddha_image").remove().transition().delay(100);
+
+                svg.selectAll("rect")
+                    .data(dataset)
+                    .transition().duration(1000)
+                    .attr("y", function(d) {
+                        return yScale(d[1])
+                    })
+                    .attr("height", function(d) {
+
+                    })
+                    .attr("height", function(d) {
+                          return h - yScale(d[1]);
+                     });
+                 d3.select("#x_label").remove();
+                 d3.select("#y_label").remove();
+
+                 svg.append("text")      // text label for the x axis
+                    .attr("id", "x_label")
+                    .attr("x", w/2 )
+                    .attr("y",  h + margin.top + 5 )
+                    .style("text-anchor", "middle")
+                    .style("font-size", 18)
+                    .text("Date");
+
+                svg.append("text")
+                    .attr("id", "y_label")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", - 45)
+                    .attr("x",0 - (h / 2))
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("Hours");
+                });
+
+
+
+
+        </script>
+    </body>
+</html>
