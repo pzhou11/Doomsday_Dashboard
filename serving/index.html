@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Trust No One</title>
+        <title>Disaster Dashboard</title>
 
         <script type="text/javascript" src="./d3.js"></script>
             <style type="text/css">
@@ -23,60 +23,70 @@
         color: black;
     }
 
-        #chart1{
-        position: absolute;
-        float: left;
-        width: 500px;
-        height: 500px;
-        top: 100px;
-        left: 10px;
-        overflow: hidden;
-        }
-
     </style>
     <h1> Disaster Dash Board </h1>
-
-        <div id="chart1"> </div>
-
-<!--         <div id="chart2"> </div>
-
-        <div id="chart3"> </div> -->
-
+        <p></p>
         <script type="text/javascript">
 
-        var margin = {top: 20, right: 50, bottom: 90, left: 60};
+        var margin = {top: 100, right: 0, bottom: 0, left: 0};
         var w = 500 - margin.left - margin.right;
         var h = 500 - margin.top - margin.bottom;
-        var barPadding = 2;
 
 
 d3.csv("t_master.csv", function (dataset) {
 
-        var inputZIP = "90034"
+        var inputZIP = "94158"
 
         var header = d3.select("h1")
                         .append("text")
                         .text(inputZIP)
 
-        var filteredData = dataset.filter(function(d) {return zipcode == inputZIP})
+        var filteredData = dataset.filter(function(d) {return d.zipcode == inputZIP})
 
 
-        var svg = d3.select("#chart1")
-                    .append("svg")
-                    // .attr("width", w + margin.left + margin.right)
-                    // .attr("height", h + margin.top + margin.bottom)
-                    // .append("g")
-                    // .attr("transform", "translate("+margin.left + "," + margin.top + ")");
+        var report = d3.select("p")
+                    .append("report")
+                    .attr("width", 800)
+                    //.attr("transform", "translate("+margin.left + "," + margin.top + ")");           
 
-
-    var ufoReport = svg.selectAll("text")
+        var dashboard = report.selectAll("text")
                         .data(filteredData)
                         .enter()
                         .append("text")
                         .html(function(d,i) {
-                         return "City" + d.primarycity + "<br> "})
+                         return "City: " + d.primarycity + "<br>" + "County: " +  d.county
+		         + "<br><br>" + "Number of Obsolete Bridges: " + d.obsolete_bridge_count 
+                         + "<br>" + "Number of Deficient Bridges: " + d.deficient_bridge_count
+                         + "<br><br>" + "Earthquakes on the past 7 days: " + d.num_of_earthquakes_last_7_days
+                         + "<br>" + "Most recent earthquake: " + d.most_recent_earthquake
+                         + "<br>" + "Magnitude of biggest earthquake in the past 7 days: " + d.max_magnitude_last_7_days
+                         + "<br><br>" + "Fires in the past 7 days: " + d.fire_last_7_days 
+                         + "<br><br>" + "Leading Cause of Death: " + d.cause_of_death1 + ", with " + d.num_of_deaths_of_cause1 
+                         + " deaths"
+                         + "<br>" + "Leading Cause of Death: " + d.cause_of_death2 + ", with " + d.num_of_deaths_of_cause2 
+                         + " deaths"
+                         + "<br><br>" + "Most Recent Water Quality: " + d.most_recent_water_quality 
+                         + "<br>" + "Average Water Quality Concentration: " + d.avg_water_quality_concentration 
+			 + "<br><br>" + "Air Quality Annual Year: " + d.aq_annual_year 
+			 + " Air Quality Annual Value: " + d.aq_annual_value
+                         + "<br>" + "Air Quality % Year " + d.aq_percent_year
+                         + " Air Quality % " + d.aq_percent_value
+                         + "<br>" + "Air Quality Days Year: " + d.aq_days_year + "Air Quality Days: " + d.aq_days
+                         + "<br><br>" + "Storm Deaths: " + d.storm_deaths
+                         + "<br>" + "Storm Injuries: " + d.storm_injuries
+                         + "<br>" + "Storm Damages: " + d.storm_damages
+			 + "<br>" + "Storm Type: " + d.storm_type
+                         + "<br><br>" + "Homicides per Capita: " + d.homicide_per_1000
+                         + "<br>" + "Violent Crimes per Capita: " + d.violent_per_1000
+                         + "<br>" + "Property Crimes per Capita: " + d.property_per_1000
+                         + "<br>" + "Violent Crimes per Capita: " + d.violent_per_1000
+                         + "<br>" + "Drug Crimes per Capita: " + d.drug_per_1000
+                         + "<br>" + "Sex Crimes per Capita: " + d.sex_per_1000 
+                         + "<br><br>" + "Number of Landslides in County: " + d.landslide_count
+                         + "<br>" + "County Landslide Rank in California: " + d.landslide_rank
+                         + "<br>" + "Most Recent Landslide: " + d.latest_landslide})
                         .attr("font","sans-serif")
-                        ;
+                        .attr("y", 20);
 
 });
 
