@@ -56,10 +56,9 @@ d3.csv("t_master.csv", function (dataset) {
 
         var header = d3.select("h1")
                         .append("text")
-                        .style('fill', 'teal')
                         .text(inputZIP)
 
-        var filteredData = dataset.filter(function(d) {return t_master.zipcode == inputZIP})
+        var filteredData = dataset.filter(function(d) {return zipcode == inputZIP})
 
 
         var svg = d3.select("#chart1")
@@ -75,7 +74,7 @@ d3.csv("t_master.csv", function (dataset) {
                         .enter()
                         .append("text")
                         .html(function(d,i) {
-                         return "City" + d.t_master.primarycity + "<br> "})
+                         return "City" + d.primarycity + "<br> "})
                         .attr("font","sans-serif")
                         ;
 
