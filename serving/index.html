@@ -24,22 +24,31 @@
     }
 
     </style>
-    <h1> Disaster Dash Board </h1>
+     <h1> Disaster Dash Board </h1>
+        <h2>
+            <form>
+           ZIP Code: <input type="text" id="input_zip">
+                     <button id="button1" type="button">Let do this!</button><br>
+           </form>
+           <div id = "canvas"><br>
+           </div>
+        </h2>
         <p></p>
         <script type="text/javascript">
-
+    
         var margin = {top: 100, right: 0, bottom: 0, left: 0};
         var w = 500 - margin.left - margin.right;
         var h = 500 - margin.top - margin.bottom;
 
+d3.select('#button1').on("click", function() {
+        d3.select("report").remove().transition().delay(100);
+        d3.csv("t_master.csv", function (dataset) {
 
-d3.csv("t_master.csv", function (dataset) {
+        var inputZIP = document.getElementById("input_zip").value
 
-        var inputZIP = "94158"
-
-        var header = d3.select("h1")
-                        .append("text")
-                        .text(inputZIP)
+        //var header = d3.select("h1")
+          //              .append("text")
+            //            .text(inputZIP)
 
         var filteredData = dataset.filter(function(d) {return d.zipcode == inputZIP})
 
@@ -54,7 +63,7 @@ d3.csv("t_master.csv", function (dataset) {
                         .enter()
                         .append("text")
                         .html(function(d,i) {
-                         return "City: " + d.primarycity + "<br>" + "County: " +  d.county
+                         return "ZIP Code: " + d.zipcode + "<br>" +  "City: " + d.primarycity + "<br>" + "County: " +  d.county
 		         + "<br><br>" + "Number of Obsolete Bridges: " + d.obsolete_bridge_count 
                          + "<br>" + "Number of Deficient Bridges: " + d.deficient_bridge_count
                          + "<br><br>" + "Earthquakes on the past 7 days: " + d.num_of_earthquakes_last_7_days
@@ -88,6 +97,7 @@ d3.csv("t_master.csv", function (dataset) {
                         .attr("font","sans-serif")
                         .attr("y", 20);
 
+});
 });
 
         </script>
