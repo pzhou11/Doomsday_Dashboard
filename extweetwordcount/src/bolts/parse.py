@@ -1,5 +1,4 @@
 from __future__ import absolute_import, print_function, unicode_literals
-
 import re
 from streamparse.bolt import Bolt
 
@@ -17,8 +16,22 @@ class ParseTweet(Bolt):
         # Split the tweet into words
         words = tweet.split()
 
-        # Filter out the RT, @ and urls
+	# Change all words to lowercase
+	words = [x.lower() for x in words]
+
+        # Filter out the RT, @, stopwords and urls
         valid_words = []
+	stop_words = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "your", "yours", "yourself", "yourselves", "he", 
+			"him", "his", "himself", "she", "her", "hers", "herself", "it", "its", "itself", "they", "them", "their", "theirs",
+			"themselves", "what", "which", "who", "whom", "this", "that", "these", "those", "am", "is", "are", "was", "were", 
+			"be", "been", "being", "have", "has", "had", "having", "do", "does", "did", "doing", "a", "an", "the", "and", "but", 
+			"if", "or", "because", "as", "until", "while", "of", "at", "by", "for", "with", "about", "against", "between", "into", 
+			"through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", 
+			"under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", 
+			"each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", 
+			"very", "can", "will", "just", "dont", "should", "now", "want", "will", "rt"]
+
+
         for word in words:
 
             # Filter the user mentions
@@ -30,8 +43,11 @@ class ParseTweet(Bolt):
             # Filter out the urls
             if word.startswith("http"): continue
 
-            # Strip leading and lagging punctuations
+	    # Strip leading and lagging punctuations
             aword = word.strip("\"?><#,'.:;)")
+
+	    # Filter out commonly used words
+	    if word in stop_words: continue
 
             # now check if the word contains only ascii
             if len(aword) > 0 and ascii_string(word):
