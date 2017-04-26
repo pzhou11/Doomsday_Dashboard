@@ -91,7 +91,11 @@ LEFT JOIN (
 ) deficient_bridge ON deficient_bridge.zipcode = zip_code_reference_ca.zipcode
 LEFT JOIN (
    SELECT zip_code_reference_ca.zipcode, 
-      COUNT(*) as num_of_earthquakes_last_7_days, 
+      CASE
+         WHEN MAX(t_earthquake.time) IS NULL
+            THEN 0
+            ELSE COUNT(*)
+      END as num_of_earthquakes_last_7_days, 
       MAX(t_earthquake.time) as most_recent_earthquake, 
       MAX(t_earthquake.mag) as max_magnitude_last_7_days
    FROM zip_code_reference_ca LEFT JOIN t_earthquake ON zip_code_reference_ca.zipcode=t_earthquake.zipcode
