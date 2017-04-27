@@ -63,13 +63,20 @@ Instructions for instantiating the project:
 19) Go back to the terminal collecting the tweets, and interrupt the job by typing control-c
 
 20) Run the python programs to export the data into the serving layer
-   
+    $python get_tweets.py (collects 20 most recent tweets from QuakesInCA writes it to a MIDStest.csv)
+    $python tweet_count.py (collects word, count for the tweets involving earthquake AND Trump and writes it to   
+    wordcount_results.csv.
    
 19) Start a simple python HTTP server
    - Change directory to /home/w205/W205_Project/serving
    - Start the python server
    $python -m SimpleHTTPServer 8080
    
+20) open your browser to port 8080 of your EC2 instance ip
+   ip address:8080
+   
+21) Input the ZIP code you are interested into the search box, and click the click me button!
+
 
 
 
