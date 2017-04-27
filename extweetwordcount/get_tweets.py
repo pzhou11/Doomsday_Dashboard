@@ -39,7 +39,7 @@ def get_tweets(user_name):
 	# convert into an array, include time and text
 	csv_tweet = [[post.created_at, post.text.encode("utf-8")] for post in tweet_list]
 	
-	with open('/data/W205_Project/serving/%s.csv' % user_name, 'w') as f:
+	with open('/home/w205/W205_Project/serving/%s.csv' % user_name, 'w') as f:
 		write = csv.writer(f)
 		write.writerow(["time_created", "post"])
 		write.writerows(csv_tweet)

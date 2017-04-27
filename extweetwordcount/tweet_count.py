@@ -13,7 +13,7 @@ sql_query = """SELECT * FROM  wordcount GROUP BY word, count ORDER BY count DESC
 csv_query = "COPY ({0}) TO STDOUT WITH CSV HEADER".format(sql_query)
 
 # write "wordcount" to csv
-with open('/data/W205_Project/serving/wordcount_results.csv', 'w') as f:
+with open('/home/w205/W205_Project/serving/wordcount_results.csv', 'w') as f:
 	cur.copy_expert(csv_query, f)
 
 conn.close()
