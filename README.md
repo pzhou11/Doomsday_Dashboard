@@ -7,14 +7,23 @@ Instructions for instantiating the project:
 
    Use the following secuity configuration
 Type              Protocol    Port Range     Source
+
 HTTP              TCP         80             0.0.0.0/0
+
 Custom TCP Rule   TCP         4040           0.0.0.0/0
+
 Custom TCP Rule   TCP         50070          0.0.0.0/0
+
 Custom TCP Rule   TCP         8080           0.0.0.0/0
+
 SSH               TCP         22             0.0.0.0/0
+
 Custom TCP Rule   TCP         10000          0.0.0.0/0
+
 Custom TCP Rule   TCP         7180           0.0.0.0/0
+
 Custom TCP Rule   TCP         8088           0.0.0.0/0
+
 
 2) Mount your EBS volume to the EC2 instance 
    #mount -t ext4 /dev/xvdf /data
