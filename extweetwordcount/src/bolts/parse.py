@@ -29,7 +29,8 @@ class ParseTweet(Bolt):
 			"through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", 
 			"under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", 
 			"each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", 
-			"very", "can", "will", "just", "dont", "should", "now", "want", "will", "rt"]
+			"very", "can", "will", "just", "dont", "should", "now", "want", "will", "rt", "trump", "president", "donald", "trumps",
+			"trump's", "would", "via", "it's", "its", "got", "get", "dont", "don't", "he's", "hes", "thats", "that's", "potus", "his"]
 
 
         for word in words:
@@ -44,7 +45,7 @@ class ParseTweet(Bolt):
             if word.startswith("http"): continue
 
 	    # Strip leading and lagging punctuations
-            aword = word.strip("\"?><#,'.:;)")
+            aword = word.strip("\"?><#,'&-.:;)")
 
 	    # Filter out commonly used words
 	    if word in stop_words: continue
