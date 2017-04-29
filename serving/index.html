@@ -97,18 +97,13 @@ d3.select('#button1').on("click", function() {
 
         var inputZIP = document.getElementById("input_zip").value
 
-        //var header = d3.select("h1")
-          //              .append("text")
-            //            .text(inputZIP)
-
         var filteredData = dataset.filter(function(d) {return d.zipcode == inputZIP})
 
         var waterSites = dataset.filter(function(d) {return d.most_recent_water_quality != "NULL"})
 
         var report = d3.select("#left_column")
                     .append("report")
-                    .attr("width", 800)
-                    //.attr("transform", "translate("+margin.left + "," + margin.top + ")");           
+                    //.attr("width", 800)
         
         var tweets = d3.select("#middle_column")
                      .append("tweets")
@@ -126,13 +121,13 @@ d3.select('#button1').on("click", function() {
                         .html(function(d,i) {
                          return "<br>ZIP Code Level Data for " + d.zipcode + "<br>" 
                          + "<br>" + "   Leading Causes of Death (1999-2013):<br>   1) "
-                         + d.cause_of_death1 + ", with " + d3.format(".0f")( d.num_of_deaths_of_cause1) + " deaths<br>   2) "
-                         + d.cause_of_death2 + ", with " + d3.format(".0f")( d.num_of_deaths_of_cause2) + " deaths<br>   3) "
-                         + d.cause_of_death3 + ", with " + d3.format(".0f")( d.num_of_deaths_of_cause3) + " deaths<br>"
-		         + "   (HTD = Heart Disease, CAN = Cancer, STK = Stroke,<br>"
-                         + "   CLD = Chronic Respitary Disease, INJ = Injury, PNF = Pneumonia/Flu,<br>"
-                         + "   DIA = Diabetes, ALZ = Alzheimer's, LIV = Chronic Liver Disease,<br>"
-                         + "   SUI = Suicide, HYP = Hypertensive Renal Disease, OTH = other)" 		         
+                         + d.cause_of_death1 + ": " + d3.format(".0f")( d.num_of_deaths_of_cause1) + " deaths    2) "
+                         + d.cause_of_death2 + ": " + d3.format(".0f")( d.num_of_deaths_of_cause2) + " deaths    3) "
+                         + d.cause_of_death3 + ": " + d3.format(".0f")( d.num_of_deaths_of_cause3) + " deaths<br>"
+		         + "<br>(HTD = Heart Disease, CAN = Cancer, STK = Stroke,<br>"
+                         + "CLD = Chronic Respitary Disease, INJ = Injury, PNF = Pneumonia/Flu,<br>"
+                         + "DIA = Diabetes, ALZ = Alzheimer's, LIV = Chronic Liver Disease,<br>"
+                         + "SUI = Suicide, HYP = Hypertensive Renal Disease, OTH = other)" 		         
                          + "<br><br>" + "   Fires in the past 7 days: " + d.fire_last_7_days
                          + "<br><br>City Level Data for " + d.primarycity + "<br>"
 		         + "<br>" + "   Number of Obsolete Bridges: " +  d.obsolete_bridge_count 
@@ -143,9 +138,9 @@ d3.select('#button1').on("click", function() {
                          + "<br><br>" + "   Most Recent Water Quality: " + d.most_recent_water_quality 
                          + "<br>" + "   Average Water Quality Concentration: " + d.avg_water_quality_concentration 
                          + "<br><br>" + "   Storm Deaths: " + d.storm_deaths
-                         + "<br>" + "   Storm Injuries: " + d.storm_injuries
+                         + "   Storm Injuries: " + d.storm_injuries
                          + "<br>" + "   Storm Damages: " + d.storm_damages
-                         + "<br>" + "   Storm Type: " + d.storm_type
+                         + "   Storm Type: " + d.storm_type
 			 + "<br><br>County Level Data for " + d.county + "<br>" 
                          + "<br>" + "   In " + d.aq_annual_year 
 			 + ", the average particulate  matter (<2.5 um) was: " + d3.format(".2f")(+d.aq_annual_value) + " ug/m^3"
@@ -170,7 +165,7 @@ d3.select('#button1').on("click", function() {
                            .style("color","black")
                            .style("font-weight", "normal")
                            .html(function(d,i) {
-                                    if (i <= 100) {
+                                    if (i <= 19) {
                                     var rank = i+1
                                     return "<br><br>" + d.word + "<br>Word Rank: " + rank + "<br>Count: "  + d.count;};});
 
@@ -183,14 +178,6 @@ d3.select('#button1').on("click", function() {
                            .html(function(d) {
                             return "<br>" + d.time_created + "<br>" + d.post + "<br>";});
         
-//       var water_sites = tweets.selectAll("text")
-//                          .data(waterSites)
-//                          .enter()
-//                          .append("text")
-//                          .style("color","black")
-//                          .style("font-weight", "normal")
-//                          .html(function(d) {
-//                          return "<br>" + d.primarycity + d.most_recent_water_quality + " " + d.avg_water_quality_concentration;})
 
 });
 });           
