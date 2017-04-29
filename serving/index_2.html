@@ -12,10 +12,6 @@
             stroke: black;
             background: white;
             }
-            p {
-            visibility: visible;
-            overflow: hidden;
-            }
             img {
             fill: red;
             float: left;
@@ -27,18 +23,28 @@
             #left_column {
             visibility: hidden;
             float: left;
-            width: 60%;
+            width: 38%;
             align: left;
+            color: #EC5D57;
+            font-weight: bold;
+            }
+            #middle_column {
+            visibility: hidden;
+            float: left;
+            width: 23%;
+            overflow-y: hidden;
             color: #EC5D57;
             font-weight: bold;
             }
             #right_column {
             visibility: hidden;
-            float: right;
-            width: 40%;
+            float: left;
+            width: 13%;
             overflow-y: hidden;
             color: #EC5D57;
             font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
             }
           
 
@@ -69,7 +75,8 @@
         </h2>
               <p>
                   <div id="left_column">Hazard Analysis<br></div>
-                  <div id="right_column">Earthquake Tweets<br></div>
+                  <div id="middle_column">Earthquake Tweets<br></div>
+                  <div id="right_column">Trump-O-Meter<br></div>
               </p> 
         <script type="text/javascript">
     
@@ -81,6 +88,8 @@ d3.select('#button1').on("click", function() {
         d3.select("report").remove().transition().delay(100);
         d3.select("#left_column").style("visibility", "visible");
         d3.select("tweets").remove().transition().delay(100);
+        d3.select("#middle_column").style("visibility", "visible");
+        d3.select("words").remove().transition().delay(100);
         d3.select("#right_column").style("visibility", "visible");
         d3.csv("t_master.csv", function (dataset) {
         d3.csv("MIDStest.csv", function(dataset2) {
@@ -94,16 +103,19 @@ d3.select('#button1').on("click", function() {
 
         var filteredData = dataset.filter(function(d) {return d.zipcode == inputZIP})
 
+        var waterSites = dataset.filter(function(d) {return d.most_recent_water_quality != "NULL"})
 
         var report = d3.select("#left_column")
                     .append("report")
                     .attr("width", 800)
                     //.attr("transform", "translate("+margin.left + "," + margin.top + ")");           
         
-        var tweets = d3.select("#right_column")
-                     .append("tweet")
+        var tweets = d3.select("#middle_column")
+                     .append("tweets")
         //var svg = d3.select("report").append("svg")
 
+        var words = d3.select("#right_column")
+                    .append("words")
 
         var dashboard = report.selectAll("text")
                         .data(filteredData)
@@ -151,6 +163,17 @@ d3.select('#button1').on("click", function() {
                          + "<br>" + "   Most Recent Landslide: " + d.latest_landslide})
                         .attr("font","sans-serif")
 
+        var trump_words = words.selectAll("text")
+                           .data(dataset3)
+                           .enter()
+                           .append("text")
+                           .style("color","black")
+                           .style("font-weight", "normal")
+                           .html(function(d,i) {
+                                    if (i <= 100) {
+                                    var rank = i+1
+                                    return "<br><br>" + d.word + "<br>Word Rank: " + rank + "<br>Count: "  + d.count;};});
+
         var quake_tweets = tweets.selectAll("text")
                            .data(dataset2)
                            .enter()
@@ -159,36 +182,15 @@ d3.select('#button1').on("click", function() {
                            .style("font-weight", "normal")
                            .html(function(d) {
                             return "<br>" + d.time_created + "<br>" + d.post + "<br>";});
-
-        var trump_words = tweets.selectAll("text")
-                           .data(dataset3)
-                           .enter()
-                           .append("text")
-                           .style("color","black")
-                           .style("font-weight", "normal")
-                           .html(function(d) {
-                            return "<br>" + d.word + "<br>" + d.count + "<br>";});
-
-
-//var pic = d3.select("svg").append("svg:image").attr("xlink:href","/arrest_icon.svg");
-
-//an example of just appending a random image into an svg element
-// this helped me figure out when you use image or img http://jsfiddle.net/chrisJamesC/wnwfn/
-/*
-  d3.selectAll('svg')
-  .append('image')
-//  .attr('d',path)
-  .attr('xlink:href','WCtrophy/trophy.png')
-  .attr('class', 'pico')
-  .attr('height', '100')
-  .attr('width', '100')
-
-  // while adding an image to an svg these are the coordinates i think of the top left
-  .attr('x', '59')
-  .attr('y', '50')
-  .attr('background', 'red')
-
-  this is just if to show how to append a png to a given svg element*/
+        
+//       var water_sites = tweets.selectAll("text")
+//                          .data(waterSites)
+//                          .enter()
+//                          .append("text")
+//                          .style("color","black")
+//                          .style("font-weight", "normal")
+//                          .html(function(d) {
+//                          return "<br>" + d.primarycity + d.most_recent_water_quality + " " + d.avg_water_quality_concentration;})
 
 });
 });           
