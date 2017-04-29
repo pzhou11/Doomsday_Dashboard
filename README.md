@@ -6,6 +6,7 @@ Instructions for instantiating the project:
 1) Use the following AWS AMI: UCB MIDS W205 EX2-FULL - ami-d4dd4ec3
 
    Use the following secuity configuration
+   
 Type              Protocol    Port Range     Source
 
 HTTP              TCP         80             0.0.0.0/0
