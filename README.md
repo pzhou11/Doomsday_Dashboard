@@ -85,7 +85,9 @@ Custom TCP Rule   TCP         8088           0.0.0.0/0
 20) Go back to the terminal collecting the tweets, and interrupt the job by typing control-c
 
 21) Run the python programs to export the data into the serving layer
+    
     $python get_tweets.py (collects 20 most recent tweets from QuakesInCA writes it to a MIDStest.csv)
+    
     $python tweet_count.py (collects word, count for the tweets involving earthquake AND Trump and writes it to   
     wordcount_results.csv.
    
